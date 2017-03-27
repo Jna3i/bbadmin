@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pifss.bbadmin.CampListItem">
+
+
+    <TextView
+        android:id="@+id/frgCampListItem_txtCampNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="Campaign Name"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:weightSum="1"
+        android:layout_below="@+id/frgCampListItem_txtCampNameID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/frgCampListItem_dateFromID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/frgCampListItem_txtCampNameID"
+            android:layout_weight="0.40"
+            android:gravity="center_horizontal"
+            android:text="From" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frgCampListItem_txtCampNameID"
+            android:layout_toEndOf="@+id/frgCampListItem_dateFromID"
+            android:layout_toRightOf="@+id/frgCampListItem_dateFromID"
+            android:layout_weight="0.20"
+            android:gravity="center_horizontal"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/frgCampListInfo_dateToID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_toEndOf="@+id/textView4"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_weight="0.40"
+            android:gravity="center_horizontal"
+            android:text="To" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
