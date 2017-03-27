@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity  {
 
         final Button login = (Button) findViewById(R.id.email_sign_in_button);
 
-        Setting frag = new Setting();
+        //Setting frag = new Setting();
 
         login.setOnClickListener(new OnClickListener() {
             @Override
@@ -64,7 +64,7 @@ public class LoginActivity extends AppCompatActivity  {
                 Toast.makeText(LoginActivity.this, "login is "+ flag , Toast.LENGTH_SHORT).show();
 
                 if (flag == true) {
-                    Intent i = new Intent(LoginActivity.this, MainActivity.class);
+                    Intent i = new Intent(LoginActivity.this, MainDrawer.class);
                     startActivity(i);
                 }
                 else {

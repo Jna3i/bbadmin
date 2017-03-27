@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout-v21/notification_action_tombstone.xml"
     }
 ]

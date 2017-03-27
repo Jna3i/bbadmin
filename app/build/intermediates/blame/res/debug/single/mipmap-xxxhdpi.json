@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
-        "source": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

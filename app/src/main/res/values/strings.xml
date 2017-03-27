@@ -17,4 +17,21 @@
     <string name="send_email">Send</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_drawer">MainDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+    <!--jna3i-->
+    <string name="action_logout">Logout</string>
+
+    <string name="activity_schedule">Schedule</string>
+    <string name="activity_campaign">Campaign</string>
+    <string name="activity_notificationHistory">Notification History</string>
+    <string name="activity_addOnSiteDonor">add OnSite Donor</string>
+    <string name="activity_addCampaign">add Campaign</string>
+    <string name="activity_sendNotification">send Notification</string>
+    <string name="activity_settings">Settings</string>
 </resources>
