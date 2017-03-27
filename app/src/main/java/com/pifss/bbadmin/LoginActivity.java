@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity  {
 
         final Button login = (Button) findViewById(R.id.email_sign_in_button);
 
-        Setting frag = new Setting();
+
 
         login.setOnClickListener(new OnClickListener() {
             @Override
