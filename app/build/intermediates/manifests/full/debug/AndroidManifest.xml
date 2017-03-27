@@ -8,6 +8,11 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="25" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,13 +20,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.pifss.bbadmin.MainActivity" >
+
+        <!-- Splash screen -->
+
+        <activity android:name="com.pifss.bbadmin.MainActivity" />
+        <activity android:name="com.pifss.bbadmin.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.pifss.bbadmin.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login" />
+        <activity android:name="com.pifss.bbadmin.ForgetPasswordActivity" />
+        <activity
+            android:name="com.pifss.bbadmin.MainDrawer"
+            android:label="@string/title_activity_main_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

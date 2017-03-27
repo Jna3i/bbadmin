@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_b.png",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_b.png"
     },
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
-        "source": "/home/ahmed/AndroidStudioProjects/Bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_l.png",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_l.png"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     }
 ]
