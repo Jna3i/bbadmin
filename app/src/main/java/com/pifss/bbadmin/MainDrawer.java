@@ -12,10 +12,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.mikepenz.entypo_typeface_library.Entypo;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.iconics.IconicsDrawable;
+import com.nightonke.boommenu.BoomButtons.OnBMClickListener;
 import com.nightonke.boommenu.BoomButtons.SimpleCircleButton;
 import com.nightonke.boommenu.BoomMenuButton;
 import com.nightonke.boommenu.ButtonEnum;
@@ -55,15 +57,42 @@ public class MainDrawer extends AppCompatActivity
         for (int i = 0; i < bmb.getPiecePlaceEnum().pieceNumber(); i++) {
             SimpleCircleButton.Builder builder = new SimpleCircleButton.Builder();
             //.normalImageRes(R.drawable.ic_menu_send);
+            /*
+            0 : Send Notification
+            1 : add onsite Donor
+            2 : add Campaign
+             */
             switch (i){
-                case 0: builder.normalImageDrawable(new IconicsDrawable(this).icon(Entypo.Icon.ent_sound));
+                case 0: builder.normalImageDrawable(new IconicsDrawable(this).icon(Entypo.Icon.ent_sound))
+                        .listener(new OnBMClickListener() {
+                            @Override
+                            public void onBoomButtonClick(int index) {
+                                //send notif
+                                Toast.makeText(MainDrawer.this, "Send Notification", Toast.LENGTH_SHORT).show();
+                            }
+                        });
                     break;
 
                 case 1: builder.normalImageDrawable(new IconicsDrawable(this).icon(Entypo.Icon.ent_drop))
-                        .normalColor(Color.rgb(153,0,0));
+                        .normalColor(Color.rgb(153,0,0))
+                        .listener(new OnBMClickListener() {
+                            @Override
+                            public void onBoomButtonClick(int index) {
+                                //onsite Donor
+                                Toast.makeText(MainDrawer.this, "Add onSite Donor", Toast.LENGTH_SHORT).show();
+                            }
+                        });
                     break;
 
-                case 2: builder.normalImageDrawable(new IconicsDrawable(this).icon(Entypo.Icon.ent_blackboard));
+                case 2: builder.normalImageDrawable(new IconicsDrawable(this).icon(Entypo.Icon.ent_blackboard))
+                        .listener(new OnBMClickListener() {
+                            @Override
+                            public void onBoomButtonClick(int index) {
+                                //add campaign
+                                Intent int0 = new Intent(MainDrawer.this,CampaignAdd.class);
+                                startActivity(int0);
+                            }
+                        });
                     break;
 
                 default: builder.normalImageRes(R.drawable.ic_menu_send);
@@ -141,13 +170,15 @@ public class MainDrawer extends AppCompatActivity
         if (id == R.id.nav_schedule) {
             // Handle the camera action
         } else if (id == R.id.nav_campaign) {
-
+            Intent int0 = new Intent(MainDrawer.this,CampaignList.class);
+            startActivity(int0);
         } else if (id == R.id.nav_notificationHistory) {
 
         } else if (id == R.id.nav_addOnSiteDonor) {
 
         } else if (id == R.id.nav_addCampaign) {
-
+            Intent int0 = new Intent(MainDrawer.this,CampaignAdd.class);
+            startActivity(int0);
         } else if (id == R.id.nav_sendNotification) {
 
         } else if (id == R.id.nav_settings) {
