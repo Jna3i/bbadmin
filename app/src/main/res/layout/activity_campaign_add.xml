@@ -7,13 +7,6 @@
     tools:context="com.pifss.bbadmin.CampaignAdd">
 
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/campEdit_mapViewID"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView10" />
-
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
@@ -25,15 +18,16 @@
         android:text="Add Campaign"
         android:textSize="16sp" />
 
+
+
     <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
         android:gravity="center_horizontal"
         android:text="Compaign Name:"
         android:textSize="16sp"
-        android:layout_below="@+id/textView10"
+        android:layout_below="@+id/mapView"
         android:layout_alignParentStart="true" />
 
     <TextView
@@ -136,5 +130,12 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="Add" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
