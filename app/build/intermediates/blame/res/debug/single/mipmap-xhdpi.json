@@ -12,6 +12,10 @@
         "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_l.png"
     },
     {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/navigation_drawer_icon.png",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/navigation_drawer_icon.png"
+    },
+    {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
         "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     }

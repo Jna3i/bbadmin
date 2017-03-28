@@ -54,6 +54,7 @@ public class MainDrawer extends AppCompatActivity
     public void setUpFloatingBoomButtton(){
         BoomMenuButton bmb = (BoomMenuButton) findViewById(R.id.bmb);
         bmb.setButtonEnum(ButtonEnum.SimpleCircle);
+        bmb.setNormalColor(Color.rgb(220,0,0));
         for (int i = 0; i < bmb.getPiecePlaceEnum().pieceNumber(); i++) {
             SimpleCircleButton.Builder builder = new SimpleCircleButton.Builder();
             //.normalImageRes(R.drawable.ic_menu_send);

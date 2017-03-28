@@ -4281,6 +4281,7 @@ containing a value of this type.
         public static final int ic_l=0x7f030001;
         public static final int ic_launcher=0x7f030002;
         public static final int ic_launcher_round=0x7f030003;
+        public static final int navigation_drawer_icon=0x7f030004;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;
