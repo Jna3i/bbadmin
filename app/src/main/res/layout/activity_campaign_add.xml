@@ -8,19 +8,6 @@
 
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal"
-        android:text="Add Campaign"
-        android:textSize="16sp" />
-
-
-
-    <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -135,7 +122,17 @@
         android:id="@+id/mapView"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_below="@+id/textView10"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/campAdd_toolbarID"
+        android:layout_alignParentStart="true" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/campAdd_toolbarID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

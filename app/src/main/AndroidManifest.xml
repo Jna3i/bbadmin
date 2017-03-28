@@ -29,15 +29,25 @@
             android:name=".LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login" />
-        <activity android:name=".ForgetPasswordActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainDrawer"
             android:label="@string/title_activity_main_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppSettings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CampaignList" />
+        <activity android:name=".CampaignAdd" />
+        <activity android:name=".ViewProfile"
+            android:exported="true"/>
+        <activity
+            android:name=".EditProfile"
+            android:exported="true"
+            android:label="@string/title_activity_edit_profile"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".AppSettings"></activity>
-        <activity android:name=".CampaignList"></activity>
-        <activity android:name=".CampaignAdd"></activity>
     </application>
 
 </manifest>
