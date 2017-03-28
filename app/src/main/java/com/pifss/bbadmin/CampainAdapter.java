@@ -52,10 +52,9 @@ public class CampainAdapter extends BaseAdapter {
 
         Campaign campaign = model.get(position);
 
-        // fill it after getting the entity
-//        campName.setText(campaign.);
-//        campDateFrom.setText(campaign.);
-//        campDateTo.setText(campaign.);
+        campName.setText(campaign.getName());
+        campDateFrom.setText(campaign.getStartdate());
+        campDateTo.setText(campaign.getEnddate());
 
 
         return v;

@@ -20,6 +20,10 @@
         "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/layout/activity_campaign_add.xml"
     },
     {
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/layout/activity_maps.xml",
+        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/layout/activity_maps.xml"
+    },
+    {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/Users/ios/.android/build-cache/e786fd08a52f3d2b9b0c796e53e1c13495049414/output/res/layout/design_text_input_password_icon.xml"
     },

@@ -2684,6 +2684,9 @@
     <string name="gmd_zoom_in">gmd_zoom_in</string>
     <string name="gmd_zoom_out">gmd_zoom_out</string>
     <string name="gmd_zoom_out_map">gmd_zoom_out_map</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAnYj4B4vs5Ixa_YYYK_FoitrWbF85Ol8g
+    </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="library_AndroidIconics_author">Mike Penz</string>
     <string name="library_AndroidIconics_authorWebsite">http://mikepenz.com/</string>
@@ -2856,6 +2859,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_main_drawer">MainDrawer</string>
+    <string name="title_activity_maps">Map</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

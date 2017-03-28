@@ -18,14 +18,6 @@
         android:layout_marginTop="58dp" />
 
 
-    <com.google.android.gms.maps.MapView
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:id="@+id/campEdit_mapViewID"
-        android:layout_below="@+id/campEdit_txtCampNameID"
-        android:layout_alignParentStart="true">
-    </com.google.android.gms.maps.MapView>
-
     <TextView
         android:id="@+id/textView13"
         android:layout_width="match_parent"
@@ -71,8 +63,7 @@
         android:gravity="center_horizontal"
         android:text="Location"
         android:id="@+id/textView"
-        android:layout_marginTop="22dp"
-        android:layout_below="@+id/campEdit_mapViewID"
+        android:layout_centerVertical="true"
         android:layout_alignParentStart="true" />
 
     <EditText
