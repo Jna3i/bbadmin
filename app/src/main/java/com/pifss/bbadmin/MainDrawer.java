@@ -1,11 +1,9 @@
 package com.pifss.bbadmin;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -153,6 +151,8 @@ public class MainDrawer extends AppCompatActivity
         } else if (id == R.id.nav_sendNotification) {
 
         } else if (id == R.id.nav_settings) {
+            Intent int0 = new Intent(MainDrawer.this,AppSettings.class);
+            startActivity(int0);
 
         } else if (id == R.id.nav_logout) {
 
