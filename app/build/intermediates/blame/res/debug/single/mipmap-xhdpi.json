@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_b.png",
-        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_b.png"
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_b.png",
+        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xhdpi/ic_b.png"
     },
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_l.png",
-        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_l.png"
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
-        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_l.png",
+        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xhdpi/ic_l.png"
     }
 ]

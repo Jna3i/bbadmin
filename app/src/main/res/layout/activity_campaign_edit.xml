@@ -12,7 +12,10 @@
         android:layout_height="40dp"
         android:gravity="center_horizontal"
         android:text="Campaign Name"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58dp" />
 
 
     <com.google.android.gms.maps.MapView
@@ -107,5 +110,15 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="Save" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/campEdit_toolbarID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
 
 </RelativeLayout>
