@@ -43,7 +43,9 @@
             android:name="com.pifss.bbadmin.LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login" />
-        <activity android:name="com.pifss.bbadmin.ForgetPasswordActivity" />
+        <activity
+            android:name="com.pifss.bbadmin.ForgetPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.pifss.bbadmin.MainDrawer"
             android:label="@string/title_activity_main_drawer"
