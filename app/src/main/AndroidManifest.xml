@@ -29,7 +29,8 @@
             android:name=".LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login" />
-        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".ForgetPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".MainDrawer"
             android:label="@string/title_activity_main_drawer"
