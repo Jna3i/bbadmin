@@ -12,12 +12,24 @@
         "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/content_main_drawer.xml"
     },
     {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
         "source": "/home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/res/layout/design_menu_item_action_area.xml"
     },
     {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/activity_campaign_add.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/activity_campaign_add.xml"
+    },
+    {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/bmb_text_outside_circle_button.xml",
+        "source": "/home/ahmed/.android/build-cache/b60a31f46a5809c786c4a198f531cb7317271216/output/res/layout/bmb_text_outside_circle_button.xml"
     },
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
@@ -32,10 +44,6 @@
         "source": "/home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/res/layout/design_layout_snackbar_include.xml"
     },
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/bmb_text_outside_circle_button.xml",
-        "source": "/home/ahmed/.android/build-cache/b60a31f46a5809c786c4a198f531cb7317271216/output/res/layout/bmb_text_outside_circle_button.xml"
-    },
-    {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/notification_action.xml"
     },
@@ -44,12 +52,12 @@
         "source": "/home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/res/layout/design_navigation_menu.xml"
-    },
-    {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
@@ -78,6 +86,10 @@
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/campaign_list_item.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/campaign_list_item.xml"
     },
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
@@ -126,6 +138,10 @@
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/activity_campaign_list.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/activity_campaign_list.xml"
     },
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
@@ -224,6 +240,10 @@
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/activity_campaign_info.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/activity_campaign_info.xml"
+    },
+    {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/abc_activity_chooser_view.xml"
     },
@@ -238,6 +258,10 @@
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
         "source": "/home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/activity_campaign_edit.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/activity_campaign_edit.xml"
     },
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",

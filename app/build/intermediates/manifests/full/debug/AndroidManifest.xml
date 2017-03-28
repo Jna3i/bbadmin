@@ -40,6 +40,9 @@
             android:name="com.pifss.bbadmin.MainDrawer"
             android:label="@string/title_activity_main_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.pifss.bbadmin.AppSettings" />
+        <activity android:name="com.pifss.bbadmin.CampaignList" />
+        <activity android:name="com.pifss.bbadmin.CampaignAdd" />
     </application>
 
 </manifest>

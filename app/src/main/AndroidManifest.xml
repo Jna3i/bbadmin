@@ -34,6 +34,9 @@
             android:name=".MainDrawer"
             android:label="@string/title_activity_main_drawer"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".AppSettings"></activity>
+        <activity android:name=".CampaignList"></activity>
+        <activity android:name=".CampaignAdd"></activity>
     </application>
 
 </manifest>

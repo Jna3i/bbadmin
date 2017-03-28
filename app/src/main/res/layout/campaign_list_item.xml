@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/campListItem_txtCampNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="Campaign Name"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:weightSum="1"
+        android:layout_below="@+id/campListItem_txtCampNameID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/campListItem_dateFromID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/campListItem_txtCampNameID"
+            android:layout_weight="0.40"
+            android:gravity="center_horizontal"
+            android:text="From" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/campListItem_txtCampNameID"
+            android:layout_toEndOf="@+id/campListItem_dateFromID"
+            android:layout_toRightOf="@+id/campListItem_dateFromID"
+            android:layout_weight="0.20"
+            android:gravity="center_horizontal"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/campListItem_dateToID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_toEndOf="@+id/textView4"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_weight="0.40"
+            android:gravity="center_horizontal"
+            android:text="To" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

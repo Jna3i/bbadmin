@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifes
 	android:name
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:8:22-69
 application
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:10:5-37:19
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:10:5-40:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /home/ahmed/.android/build-cache/3da8540af98d90ae15c4ef931fb03041293f0a8e/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.2.0] /home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] /home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/AndroidManifest.xml:25:5-20
@@ -101,6 +101,18 @@ ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifes
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:36:13-56
 	android:name
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:34:13-39
+activity#com.pifss.bbadmin.AppSettings
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:37:9-58
+	android:name
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:37:19-46
+activity#com.pifss.bbadmin.CampaignList
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:38:9-59
+	android:name
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:38:19-47
+activity#com.pifss.bbadmin.CampaignAdd
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:39:9-58
+	android:name
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:39:19-46
 uses-sdk
 INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /home/ahmed/.android/build-cache/3da8540af98d90ae15c4ef931fb03041293f0a8e/output/AndroidManifest.xml:5:5-7:41
