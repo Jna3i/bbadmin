@@ -54,5 +54,6 @@
     <string name="EditProfile_Email">Email</string>
     <string name="EditProfile_Phone">Phone</string>
     <string name="EditProfile_title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_maps_activityaa">Map</string>
 
 </resources>

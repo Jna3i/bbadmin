@@ -9,9 +9,9 @@ import java.io.Serializable;
 public class Campaign implements Serializable {
 
 
-    private Integer cFDId;
-    private String lLat;
-    private String lLong;
+    private Integer CFDId;
+    private String LLat;
+    private String LLong;
     private String bloodTypes;
     private String enddate;
     private String locationName;
@@ -20,27 +20,27 @@ public class Campaign implements Serializable {
     private String status;
 
     public Integer getCFDId() {
-        return cFDId;
+        return CFDId;
     }
 
     public void setCFDId(Integer cFDId) {
-        this.cFDId = cFDId;
+        this.CFDId = cFDId;
     }
 
     public String getLLat() {
-        return lLat;
+        return LLat;
     }
 
     public void setLLat(String lLat) {
-        this.lLat = lLat;
+        this.LLat = lLat;
     }
 
     public String getLLong() {
-        return lLong;
+        return LLong;
     }
 
     public void setLLong(String lLong) {
-        this.lLong = lLong;
+        this.LLong = lLong;
     }
 
     public String getBloodTypes() {

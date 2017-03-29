@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/ios/Desktop/bbadmin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+        "outputFile": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 121
                 },
                 "from": {
-                    "file": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 192
                 },
                 "from": {
-                    "file": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 262
                 },
                 "from": {
-                    "file": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 400
                 },
                 "from": {
-                    "file": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 468
                 },
                 "from": {
-                    "file": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

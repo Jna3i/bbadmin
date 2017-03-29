@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/navigation_drawer_icon.png",
-        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xhdpi/navigation_drawer_icon.png"
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_l.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_l.png"
     },
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
-        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_b.png",
-        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xhdpi/ic_b.png"
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_b.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_b.png"
     },
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_l.png",
-        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xhdpi/ic_l.png"
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\navigation_drawer_icon.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\navigation_drawer_icon.png"
     }
 ]

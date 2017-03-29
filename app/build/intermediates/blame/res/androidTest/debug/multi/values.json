@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/ios/Desktop/bbadmin/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/ios/.android/build-cache/9a6c1493b26f38d58e6972fa75b8c26bf2366a37/output/res/values/values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\83168895001852d7e3bc5439906e9861d1c2811e\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

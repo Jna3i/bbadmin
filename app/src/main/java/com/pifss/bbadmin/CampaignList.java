@@ -23,10 +23,13 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.util.ArrayList;
-
+// DONE
 public class CampaignList extends AppCompatActivity {
     ArrayList<Campaign>  model;
     Campaign campaign;
+    CampainAdapter adapter;
+    ListView listView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,28 +47,10 @@ public class CampaignList extends AppCompatActivity {
         });
 
 
-        final ListView listView= (ListView) findViewById(R.id.campList_listViewID);
+        listView= (ListView) findViewById(R.id.campList_listViewID);
 
 
-        String url="http://34.196.107.188:8080/mHealthWS/ws/newcallfordonation";
-        final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignList.this);
-
-        final StringRequest stringRequest=new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                model=new Gson().fromJson(response,new TypeToken<ArrayList<Campaign>>(){}.getType());
-
-                CampainAdapter adapter=new CampainAdapter(model,CampaignList.this);
-                listView.setAdapter(adapter);
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Toast.makeText(CampaignList.this, "error", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        queue.add(stringRequest);
+        updateList();
 
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -79,8 +64,6 @@ public class CampaignList extends AppCompatActivity {
         });
 
 
-
-        // complete the delete feature
 
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
@@ -101,15 +84,14 @@ public class CampaignList extends AppCompatActivity {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
-                                String url="http://34.196.107.188:8080/mHealthWS/ws/newcallfordonation/"+campaign.getCFDId();
+                                String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/"+campaign.getCFDId();
                                 final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignList.this);
 
                                 final StringRequest stringRequest=new StringRequest(Request.Method.DELETE, url, new Response.Listener<String>() {
                                     @Override
                                     public void onResponse(String response) {
                                         Toast.makeText(CampaignList.this, "delete done", Toast.LENGTH_SHORT).show();
-                          //              CampaignAdapter.adapter.notifyDataSetChanged();
-
+                                        updateList();
                                     }
                                 }, new Response.ErrorListener() {
                                     @Override
@@ -119,13 +101,8 @@ public class CampaignList extends AppCompatActivity {
                                 });
 
                                 queue.add(stringRequest);
-
-
-
                             }
                         });
-
-
 
                 final Dialog dConfirm=builder.create();
                 dConfirm.show();
@@ -134,8 +111,29 @@ public class CampaignList extends AppCompatActivity {
             }
         });
 
+    }
 
 
+    void updateList(){
+        String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/";
+        final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignList.this);
+
+        final StringRequest stringRequest=new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                model=new Gson().fromJson(response,new TypeToken<ArrayList<Campaign>>(){}.getType());
+
+                adapter=new CampainAdapter(model,CampaignList.this);
+                listView.setAdapter(adapter);
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(CampaignList.this, "error", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        queue.add(stringRequest);
     }
 
 }
