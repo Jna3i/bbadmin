@@ -1,10 +1,12 @@
 package com.pifss.bbadmin;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -63,6 +65,21 @@ public class CampaignInfo extends AppCompatActivity {
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
             }
         });
+
+
+        // button to the other activity
+        Button btnEdit = (Button) findViewById(R.id.campInfo_btnEditID);
+        btnEdit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // ghala6 new? wla shay thani
+                Intent i = new Intent(CampaignInfo.this, CampaignEdit.class);
+                startActivity(i);
+
+            }
+        });
+
 
 
     }
