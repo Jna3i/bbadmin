@@ -56,4 +56,12 @@
     <string name="EditProfile_title_activity_edit_profile">EditProfile</string>
     <string name="title_activity_maps_activityaa">Map</string>
 
+    <!--Monia-->
+    <string name="notificationhistory">Notification History</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="notifidetails">notification Details</string>
+    <string name="description">Description</string>
+    <string name="sendnotify">Send</string>
+    <string name="sendnotification">Send Notification</string>
 </resources>

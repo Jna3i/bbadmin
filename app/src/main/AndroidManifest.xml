@@ -75,6 +75,10 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".CampaignInfo" />
         <activity android:name=".CampaignEdit" />
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Notification_History_List" />
+        <activity android:name=".Notification_Send" />
+        <activity android:name=".Notification_View"></activity>
     </application>
 
 </manifest>
