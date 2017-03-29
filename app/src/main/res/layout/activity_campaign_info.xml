@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context="com.pifss.bbadmin.CampaignInfo">
 
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/campInfo_mapID"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/campInfo_txtCampNameID" />
+
+
     <TextView
         android:id="@+id/campInfo_txtCampNameID"
         android:layout_width="match_parent"
@@ -16,53 +28,43 @@
         android:layout_below="@+id/campInfo_toolbarID"
         android:layout_alignParentStart="true" />
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/campInfo_mapViewID"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_below="@+id/campInfo_txtCampNameID"
-        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/campInfo_txtDateFromID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView13"
         android:gravity="center_horizontal"
-        android:text="TextView" />
+        android:text="TextView"
+        android:layout_above="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="26dp" />
 
     <TextView
-        android:id="@+id/campInfo_locationID"
+        android:id="@+id/campInfo_txtLocationID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="TextView"
-        android:layout_below="@+id/textView2"
+        android:layout_centerVertical="true"
         android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/campInfo_locationID"
-        android:layout_marginTop="25dp"
         android:gravity="center_horizontal"
-        android:text="From" />
+        android:text="From"
+        android:layout_above="@+id/campInfo_txtDateFromID"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/campInfo_txtDateFromID"
-        android:layout_marginTop="15dp"
         android:gravity="center_horizontal"
-        android:text="To" />
+        android:text="To"
+        android:layout_above="@+id/campInfo_txtDateToID"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="match_parent"
@@ -70,41 +72,36 @@
         android:gravity="center_horizontal"
         android:text="Location"
         android:id="@+id/textView2"
-        android:layout_marginTop="37dp"
-        android:layout_below="@+id/campInfo_mapViewID"
+        android:layout_above="@+id/campInfo_txtLocationID"
         android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/campInfo_txtDateToID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView14"
         android:gravity="center_horizontal"
-        android:text="TextView" />
+        android:text="TextView"
+        android:layout_marginBottom="36dp"
+        android:layout_above="@+id/textView17"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/campInfo_txtDateToID"
-        android:layout_marginTop="13dp"
         android:gravity="center_horizontal"
-        android:text="Description" />
+        android:text="Description"
+        android:layout_above="@+id/campInfo_txtDescriptionID"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/campInfo_txtDescriptionID"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/campInfo_txtDateToID"
-        android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
-        android:text="TextView" />
+        android:text="TextView"
+        android:layout_above="@+id/campInfo_btnEditID"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/campInfo_btnEditID"
