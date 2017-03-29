@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.mikepenz.entypo_typeface_library.Entypo;
@@ -49,6 +50,14 @@ public class MainDrawer extends AppCompatActivity
         setUpNavMenuIcons(navigationView.getMenu());
 
         setUpFloatingBoomButtton();
+
+        navigationView.getHeaderView(0).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent int0 = new Intent(MainDrawer.this,ViewProfile.class);
+                startActivity(int0);
+            }
+        });
     }
 
     public void setUpFloatingBoomButtton(){

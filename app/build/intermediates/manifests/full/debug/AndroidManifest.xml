@@ -50,9 +50,19 @@
             android:name="com.pifss.bbadmin.MainDrawer"
             android:label="@string/title_activity_main_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.pifss.bbadmin.AppSettings" />
+        <activity
+            android:name="com.pifss.bbadmin.AppSettings"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.pifss.bbadmin.CampaignList" />
         <activity android:name="com.pifss.bbadmin.CampaignAdd" />
+        <activity
+            android:name="com.pifss.bbadmin.ViewProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.pifss.bbadmin.EditProfile"
+            android:exported="true"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
