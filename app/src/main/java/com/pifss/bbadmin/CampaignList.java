@@ -26,6 +26,7 @@ import java.util.ArrayList;
 
 public class CampaignList extends AppCompatActivity {
     ArrayList<Campaign>  model;
+    Campaign campaign;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,7 +48,7 @@ public class CampaignList extends AppCompatActivity {
 
 
         String url="http://34.196.107.188:8080/mHealthWS/ws/newcallfordonation";
-        final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(this);
+        final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignList.this);
 
         final StringRequest stringRequest=new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
@@ -70,7 +71,7 @@ public class CampaignList extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Campaign campaign= model.get(position);
+                campaign= model.get(position);
                 Intent i = new Intent(CampaignList.this, CampaignInfo.class);
                 i.putExtra("campaign", campaign);
                 startActivity(i);
@@ -99,6 +100,27 @@ public class CampaignList extends AppCompatActivity {
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
+
+                                String url="http://34.196.107.188:8080/mHealthWS/ws/newcallfordonation/"+campaign.getCFDId();
+                                final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignList.this);
+
+                                final StringRequest stringRequest=new StringRequest(Request.Method.DELETE, url, new Response.Listener<String>() {
+                                    @Override
+                                    public void onResponse(String response) {
+                                        Toast.makeText(CampaignList.this, "delete done", Toast.LENGTH_SHORT).show();
+                          //              CampaignAdapter.adapter.notifyDataSetChanged();
+
+                                    }
+                                }, new Response.ErrorListener() {
+                                    @Override
+                                    public void onErrorResponse(VolleyError error) {
+                                        Toast.makeText(CampaignList.this, "error", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+
+                                queue.add(stringRequest);
+
+
 
                             }
                         });
