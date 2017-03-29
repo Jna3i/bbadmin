@@ -48,14 +48,15 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CampaignList" />
         <activity android:name=".CampaignAdd" />
-        <activity android:name=".ViewProfile"
-            android:exported="true"/>
+        <activity
+            android:name=".ViewProfile"
+            android:exported="true" />
         <activity
             android:name=".EditProfile"
             android:exported="true"
             android:label="@string/title_activity_edit_profile"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
             android:theme="@style/AppTheme.NoActionBar" />
+        android:theme="@style/AppTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -70,7 +71,10 @@
 
         <activity
             android:name=".test.MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Notification_History_List" />
+        <activity android:name=".Notification_Send" />
+        <activity android:name=".Notification_View"></activity>
     </application>
 
 </manifest>
