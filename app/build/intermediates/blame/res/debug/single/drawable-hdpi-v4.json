@@ -8,12 +8,12 @@
         "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png",
-        "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/design_ic_visibility.png",
         "source": "/Users/ios/.android/build-cache/e786fd08a52f3d2b9b0c796e53e1c13495049414/output/res/drawable-hdpi-v4/design_ic_visibility.png"
+    },
+    {
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",

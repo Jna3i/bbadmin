@@ -12,12 +12,12 @@
         "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/color/switch_thumb_material_light.xml"
-    },
-    {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
         "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
@@ -36,12 +36,12 @@
         "source": "/Users/ios/.android/build-cache/e786fd08a52f3d2b9b0c796e53e1c13495049414/output/res/color/design_error.xml"
     },
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/color/abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
         "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",

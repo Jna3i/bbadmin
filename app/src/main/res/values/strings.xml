@@ -34,4 +34,25 @@
     <string name="activity_sendNotification">send Notification</string>
     <string name="activity_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
+
+    <!--Yousiff-->
+    <string name="Gender1">Gender</string>
+    <string name="Gender2">Male/female</string>
+    <string name="Date_of_Birth">Birth Date</string>
+    <string name="Branch_Name">Branch Name</string>
+    <string name="Civil_ID">Civil ID</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+
+    <string name="EditProfile_Save">Save</string>
+    <string name="EditProfile_Gender1">Gender</string>
+    <string name="EditProfile_Gender2">Male/female</string>
+    <string name="EditProfile_Date_of_Birth">Birth Date</string>
+    <string name="EditProfile_Branch_Name">Branch Name</string>
+    <string name="EditProfile_Civil_ID">Civil ID</string>
+    <string name="EditProfile_Email">Email</string>
+    <string name="EditProfile_Phone">Phone</string>
+    <string name="EditProfile_title_activity_edit_profile">EditProfile</string>
+
 </resources>

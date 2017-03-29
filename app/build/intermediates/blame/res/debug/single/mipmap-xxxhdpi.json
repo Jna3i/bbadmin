@@ -4,12 +4,12 @@
         "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xxxhdpi/ic_email.png"
     },
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_placeholder.png",
         "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xxxhdpi/ic_placeholder.png"
+    },
+    {
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/ios/Desktop/bbadmin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_phone.png",

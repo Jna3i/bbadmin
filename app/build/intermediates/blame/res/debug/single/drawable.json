@@ -16,12 +16,12 @@
         "source": "/Users/ios/.android/build-cache/5390c2529ea10ea1b6643fcfcacbfb7c67c58296/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/ios/.android/build-cache/f4393e100e502a303acb8993b1227e3569833f71/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
-    },
-    {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/drawable/piece_dot.xml",
         "source": "/Users/ios/.android/build-cache/7e88ed312882982b50636213432b46ae72683d1c/output/res/drawable/piece_dot.xml"
+    },
+    {
+        "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/ios/.android/build-cache/f4393e100e502a303acb8993b1227e3569833f71/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/ios/Desktop/bbadmin/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
