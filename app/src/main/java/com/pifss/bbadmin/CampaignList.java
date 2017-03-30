@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -27,7 +26,7 @@ import java.util.ArrayList;
 public class CampaignList extends AppCompatActivity {
     ArrayList<Campaign>  model;
     Campaign campaign;
-    CampainAdapter adapter;
+    static CampainAdapter adapter;
     ListView listView;
 
     @Override
@@ -35,6 +34,7 @@ public class CampaignList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campaign_list);
 
+        // TOOLBAR
         Toolbar toolbar = (Toolbar) findViewById(R.id.campList_toolbarID);
         toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setTitle("Campaigns");
@@ -47,12 +47,15 @@ public class CampaignList extends AppCompatActivity {
         });
 
 
+        // REFERENCING
         listView= (ListView) findViewById(R.id.campList_listViewID);
 
 
-        updateList();
+        // FILL THE LIST
+        showCampaignList();
 
 
+        // OPEN CAMPAIGN INFO ACTIVITY + SEND CAMPAIGN OBJECT
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -64,11 +67,10 @@ public class CampaignList extends AppCompatActivity {
         });
 
 
-
+        // DELETE ITEM FROM THE CAMPAIGN LIST
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-
+            public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(CampaignList.this);
 
                 builder.setTitle("Delete")
@@ -77,21 +79,19 @@ public class CampaignList extends AppCompatActivity {
                         .setNegativeButton("No", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-
                             }
                         })
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-
                                 String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/"+campaign.getCFDId();
                                 final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignList.this);
-
                                 final StringRequest stringRequest=new StringRequest(Request.Method.DELETE, url, new Response.Listener<String>() {
                                     @Override
                                     public void onResponse(String response) {
                                         Toast.makeText(CampaignList.this, "delete done", Toast.LENGTH_SHORT).show();
-                                        updateList();
+                                        model.remove(position);
+                                        adapter.notifyDataSetChanged();
                                     }
                                 }, new Response.ErrorListener() {
                                     @Override
@@ -99,7 +99,6 @@ public class CampaignList extends AppCompatActivity {
                                         Toast.makeText(CampaignList.this, "error", Toast.LENGTH_SHORT).show();
                                     }
                                 });
-
                                 queue.add(stringRequest);
                             }
                         });
@@ -110,19 +109,19 @@ public class CampaignList extends AppCompatActivity {
                 return false;
             }
         });
-
     }
 
 
-    void updateList(){
-        String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/";
+    // FILL THE LIST WITH CAMPAIGN ITEMS
+     void showCampaignList(){
+
         final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignList.this);
+        String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/";
 
         final StringRequest stringRequest=new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 model=new Gson().fromJson(response,new TypeToken<ArrayList<Campaign>>(){}.getType());
-
                 adapter=new CampainAdapter(model,CampaignList.this);
                 listView.setAdapter(adapter);
             }
@@ -132,8 +131,14 @@ public class CampaignList extends AppCompatActivity {
                 Toast.makeText(CampaignList.this, "error", Toast.LENGTH_SHORT).show();
             }
         });
-
         queue.add(stringRequest);
+
     }
 
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        showCampaignList();
+    }
 }

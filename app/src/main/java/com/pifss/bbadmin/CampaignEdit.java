@@ -34,13 +34,13 @@ import java.util.Map;
 
 public class CampaignEdit extends AppCompatActivity {
     private GoogleMap mMap;
-    //location address geocoder
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campaign_edit);
 
+        // TOOLBAR
         Toolbar toolbar = (Toolbar) findViewById(R.id.campEdit_toolbarID);
         toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setTitle("Edit Campaign");
@@ -52,20 +52,26 @@ public class CampaignEdit extends AppCompatActivity {
             }
         });
 
+
+        // REFERENCING
         final TextView txtCampName = (TextView) findViewById(R.id.campEdit_txtCampNameID);
         final TextView txtDateFrom = (TextView) findViewById(R.id.campEdit_txtDateFromID);
         final TextView txtDateTo = (TextView) findViewById(R.id.campEdit_txtDateToID);
         final TextView txtDescription = (TextView) findViewById(R.id.campEdit_txtDescriptionID);
         final TextView txtLocation = (TextView) findViewById(R.id.campEdit_txtLocationID);
+        Button btnSave = (Button) findViewById(R.id.campEdit_btnSaveID);
 
+
+        // FILL THE UI ELEMENTS
         final Campaign campaign = (Campaign) getIntent().getSerializableExtra("campaign");
-
         txtCampName.setText(campaign.getName());
         txtDateFrom.setText(campaign.getStartdate());
         txtDateTo.setText(campaign.getEnddate());
         txtDescription.setText(campaign.getBloodTypes());
         txtLocation.setText(campaign.getLocationName());
 
+
+        // MAP
         MapView mapFragment = (MapView) findViewById(R.id.campEdit_mapID);
         mapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
@@ -82,9 +88,7 @@ public class CampaignEdit extends AppCompatActivity {
         });
 
 
-
-
-
+        // CHOOSE THE DATES
         txtDateFrom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -114,38 +118,25 @@ public class CampaignEdit extends AppCompatActivity {
         });
 
 
-
-
-
-
-
-
-
-
-
-        Button btnSave = (Button) findViewById(R.id.campEdit_btnSaveID);
-
+        // BUTTON SAVE TO UPDATE THE ITEM
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/"+campaign.getCFDId();
-                System.out.println("URL: "+url);
                 final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignEdit.this);
 
                 JSONObject campaignJson=new JSONObject();
                 try {
                     campaignJson.put("CFDId", campaign.getCFDId() );
-                    campaignJson.put("LLat", campaign.getLLat());  // goecoder
-                    campaignJson.put("LLong", campaign.getLLong());  // goecoder
+                    campaignJson.put("LLat", campaign.getLLat());
+                    campaignJson.put("LLong", campaign.getLLong());
                     campaignJson.put("bloodTypes", txtDescription.getText().toString());
-                    campaignJson.put("enddate", txtDateTo.getText().toString()); //date picker
+                    campaignJson.put("enddate", txtDateTo.getText().toString());
                     campaignJson.put("locationName", txtLocation.getText().toString());
-                    campaignJson.put("name", txtCampName.getText().toString()); // Change to edit text
-                    campaignJson.put("startdate", txtDateFrom.getText().toString()); //date picker
+                    campaignJson.put("name", txtCampName.getText().toString());
+                    campaignJson.put("startdate", txtDateFrom.getText().toString());
                     campaignJson.put("status",campaign.getStatus());
-
-
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -153,12 +144,13 @@ public class CampaignEdit extends AppCompatActivity {
                 JsonObjectRequest request=new JsonObjectRequest(Request.Method.PUT, url, campaignJson, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        Toast.makeText(CampaignEdit.this, "done", Toast.LENGTH_SHORT).show();
+
                     }
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                             Toast.makeText(CampaignEdit.this, "error", Toast.LENGTH_SHORT).show();
+                        //System.out.println(error);
+                        finish();
 
                     }
                 });
