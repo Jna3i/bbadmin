@@ -53,8 +53,8 @@ public class CampainAdapter extends BaseAdapter {
         Campaign campaign = model.get(position);
 
         campName.setText(campaign.getName());
-        campDateFrom.setText(campaign.getStartdate());
-        campDateTo.setText(campaign.getEnddate());
+        campDateFrom.setText("From: " + campaign.getStartdate() );
+        campDateTo.setText("    -    To: " + campaign.getEnddate());
 
 
         return v;

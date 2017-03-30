@@ -1,65 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <TextView
-        android:id="@+id/campListItem_txtCampNameID"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal"
-        android:text="Campaign Name"
-        android:textSize="18sp" />
-
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:weightSum="1"
-        android:layout_below="@+id/campListItem_txtCampNameID"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_height="60dp"
+        android:paddingTop="4dp">
 
         <TextView
-            android:id="@+id/campListItem_dateFromID"
-            android:layout_width="0dp"
+            android:id="@+id/campListItem_txtCampNameID"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:layout_toEndOf="@+id/imageView8"
+            android:gravity="left"
+            android:padding="4dp"
+            android:text="Campaign Name"
+            android:textColor="@color/colorBLACK"
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="320dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/campListItem_txtCampNameID"
+            android:layout_below="@+id/campListItem_txtCampNameID"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/campListItem_dateFromID"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/campListItem_txtCampNameID"
+                android:layout_weight=".50"
+                android:gravity="left"
+                android:text="From"
+                android:textColor="@color/colorBLACK"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/campListItem_dateToID"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_alignBaseline="@+id/textView4"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_toEndOf="@+id/textView4"
+                android:layout_toRightOf="@+id/textView4"
+                android:layout_weight="0.50"
+                android:gravity="center_horizontal"
+                android:text="To"
+                android:textColor="@color/colorBLACK"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/campListItem_txtCampNameID"
-            android:layout_weight="0.40"
-            android:gravity="center_horizontal"
-            android:text="From" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/campListItem_txtCampNameID"
-            android:layout_toEndOf="@+id/campListItem_dateFromID"
-            android:layout_toRightOf="@+id/campListItem_dateFromID"
-            android:layout_weight="0.20"
-            android:gravity="center_horizontal"
-            android:text="-" />
-
-        <TextView
-            android:id="@+id/campListItem_dateToID"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/textView4"
-            android:layout_alignBottom="@+id/textView4"
-            android:layout_toEndOf="@+id/textView4"
-            android:layout_toRightOf="@+id/textView4"
-            android:layout_weight="0.40"
-            android:gravity="center_horizontal"
-            android:text="To" />
-
-
-    </LinearLayout>
-
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            app:srcCompat="@drawable/button_shape" />
+    </RelativeLayout>
 
 </RelativeLayout>
