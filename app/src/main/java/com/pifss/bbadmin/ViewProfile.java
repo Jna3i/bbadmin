@@ -1,13 +1,133 @@
 package com.pifss.bbadmin;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.google.gson.Gson;
 
 public class ViewProfile extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_profile);
+
+        SharedPreferences pref1 = getSharedPreferences("bbadmin_profile", MODE_PRIVATE);
+        String S1 = pref1.getString("profile","error");
+        bbadmin profile= new bbadmin();
+        profile= new Gson().fromJson(S1,bbadmin.class);
+
+
+
+
+
+        Button editB = (Button) findViewById(R.id.button2);
+        editB.setOnClickListener(new View.OnClickListener() {
+
+
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ViewProfile.this,EditProfile.class);
+                startActivity(i);
+            }
+        });
+        TextView name = (TextView) findViewById(R.id.textViewName);
+        TextView gender = (TextView) findViewById(R.id.Gender2);
+        TextView bdate  = (TextView) findViewById(R.id.textViewDate);
+        TextView email = (TextView) findViewById(R.id.textViewEmail);
+        TextView phone = (TextView) findViewById(R.id.textViewPhone);
+        TextView branch = (TextView) findViewById(R.id.textViewBranch);
+        TextView civil = (TextView) findViewById(R.id.textViewID);
+
+
+        //Name
+        name.setText(profile.getFirstName() +" "+profile.getMiddleName()+" "+profile.getLastName());
+        //Gender
+        if(profile.getGender().equals("F")){
+            gender.setText("Female");
+        }
+        else{
+            gender.setText("Male");
+        }
+
+        //bdate
+        bdate.setText(profile.getBirthDate());
+        //email
+        email.setText(profile.getEmail());
+        //phone
+        phone.setText(profile.getPhone());
+        //branch
+        if(profile.getBranchId()== 1){
+            branch.setText("Main Center");
+
+        }
+        else{
+            branch.setText("Hawaly Branch");
+
+        }
+        //civil
+        civil.setText(profile.getCivilId());
+
+
+
     }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        SharedPreferences pref2 = getSharedPreferences("bbadmin_profile", MODE_PRIVATE);
+        String S2 = pref2.getString("profile","error");
+        bbadmin profile= new bbadmin();
+
+        profile= new Gson().fromJson(S2,bbadmin.class);
+
+
+        TextView name = (TextView) findViewById(R.id.textViewName);
+        TextView gender = (TextView) findViewById(R.id.Gender2);
+        TextView bdate  = (TextView) findViewById(R.id.textViewDate);
+        TextView email = (TextView) findViewById(R.id.textViewEmail);
+        TextView phone = (TextView) findViewById(R.id.textViewPhone);
+        TextView branch = (TextView) findViewById(R.id.textViewBranch);
+        TextView civil = (TextView) findViewById(R.id.textViewID);
+
+
+        //Name
+        name.setText(profile.getFirstName() +" "+profile.getMiddleName()+" "+profile.getLastName());
+        //Gender
+        if(profile.getGender().equals("F")){
+            gender.setText("Female");
+        }
+        else{
+            gender.setText("Male");
+        }
+
+        //bdate
+        bdate.setText(profile.getBirthDate());
+        //email
+        email.setText(profile.getEmail());
+        //phone
+        phone.setText(profile.getPhone());
+        //branch
+        if(profile.getBranchId()== 1){
+            branch.setText("Main Center");
+
+        }
+        else{
+            branch.setText("Hawaly Branch");
+
+        }
+        //civil
+        civil.setText(profile.getCivilId());
+
+
+
+    }
+
 }

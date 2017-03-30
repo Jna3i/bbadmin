@@ -4,6 +4,7 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -32,6 +33,18 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.StringRequest;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,28 +62,75 @@ public class LoginActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_login);
 
         TextView forgetPassword = (TextView) findViewById(R.id.textView);
-        final EditText email = (EditText) findViewById(R.id.email);
+        final AutoCompleteTextView email = (AutoCompleteTextView) findViewById(R.id.email);
         final EditText password = (EditText) findViewById(R.id.password);
-
         final Button login = (Button) findViewById(R.id.email_sign_in_button);
+        bbadmin model;
+
+
+
 
         //Setting frag = new Setting();
 
         login.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                boolean flag =true;
-                        flag= login(email.getText().toString(),password.getText().toString());
-                Toast.makeText(LoginActivity.this, "login is "+ flag , Toast.LENGTH_SHORT).show();
+                JSONObject o = new JSONObject();
+                try {
+                    o.put("username",email.getText().toString());
+                    o.put("password",password.getText().toString());
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
 
-                if (flag == true) {
-                    Intent i = new Intent(LoginActivity.this, MainDrawer.class);
-                    startActivity(i);
-                }
-                else {
-                    Intent i = new Intent(LoginActivity.this, LoginActivity.class);
-                    startActivity(i);
-                }
+                String url="http://34.196.107.188:8081/MhealthWeb/webresources/bbadmin/login";
+                RequestQueue queue = NetworkRequest.getInstance().getRequestQueue(LoginActivity.this);
+
+                JsonObjectRequest stringRequest = new JsonObjectRequest(Request.Method.POST, url,o, new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        try {
+                            if(response.getInt("errorCode") == 0){
+                                bbadmin profile = new bbadmin();
+                                profile= new Gson().fromJson(response.getString("items"),bbadmin.class);
+                                SharedPreferences pref1 = getSharedPreferences("bbadmin_profile",MODE_PRIVATE);
+                                SharedPreferences.Editor Ed1 = pref1.edit();
+                                Ed1.putString("profile",profile.toJSONString());
+                                Ed1.commit();
+                                Toast.makeText(LoginActivity.this, "log "+pref1.getString("profile","error"), Toast.LENGTH_SHORT).show();
+                                Intent i = new Intent(LoginActivity.this, MainDrawer.class);
+                                startActivity(i);
+                            }
+                            else{
+                                Toast.makeText(LoginActivity.this, "Username or password is wrong!!" , Toast.LENGTH_LONG).show();
+
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                Toast.makeText(LoginActivity.this, "error "+ error , Toast.LENGTH_SHORT).show();
+
+                    }
+                });
+                        queue.add(stringRequest);
+//                /////////
+//                boolean flag =true;
+//                        flag= login(email.getText().toString(),password.getText().toString());
+//                Toast.makeText(LoginActivity.this, "login is "+ flag , Toast.LENGTH_SHORT).show();
+//
+//                if (flag == true) {
+//                    Intent i = new Intent(LoginActivity.this, MainDrawer.class);
+//                    startActivity(i);
+//                }
+//                else {
+//                    Intent i = new Intent(LoginActivity.this, LoginActivity.class);
+//                    startActivity(i);
+//                }
             }
         });
 

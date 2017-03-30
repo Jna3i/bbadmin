@@ -18,9 +18,6 @@ public class ForgetPasswordActivity extends AppCompatActivity {
         setContentView(R.layout.activity_forget_password);
         Toolbar toolbar = (Toolbar) findViewById(R.id.tb);
 
-////        setSupportActionBar(toolbar);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
 
         toolbar.setNavigationIcon(android.R.drawable.ic_media_previous);
