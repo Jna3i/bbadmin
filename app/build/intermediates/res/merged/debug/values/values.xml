@@ -41,8 +41,9 @@
     <color name="colorBLACK">#000000</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorRED">#AF1717</color>
-    <color name="colorToolBar">#AF1717</color>
+    <color name="colorRED">#BF202F</color>
+    <color name="colorToolBar">#BF202F</color>
+    <color name="colorWHITE">#FFFFFF</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -2883,7 +2884,7 @@
     <string name="title">Title</string>
     <string name="title_activity_edit_profile">EditProfile</string>
     <string name="title_activity_login">Login</string>
-    <string name="title_activity_main_drawer">MainDrawer</string>
+    <string name="title_activity_main_drawer">Schedule</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_maps_activityaa">Map</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

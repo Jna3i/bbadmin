@@ -119,8 +119,9 @@ public class MainDrawer extends AppCompatActivity
         Drawable Schedule = new IconicsDrawable(this).icon(FontAwesome.Icon.faw_calendar);
         menu.getItem(0).setIcon(Schedule);
 
-        Drawable Campaign = new IconicsDrawable(this).icon(FontAwesome.Icon.faw_comments);
+        Drawable Campaign = new IconicsDrawable(this).icon(FontAwesome.Icon.faw_users);//.color(Color.rgb(,,));
         menu.getItem(1).setIcon(Campaign);
+
 
         Drawable notiHistory = new IconicsDrawable(this).icon(FontAwesome.Icon.faw_bell);
         menu.getItem(2).setIcon(notiHistory);
@@ -167,6 +168,7 @@ public class MainDrawer extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_logout) {
+            finish();
             return true;
         }
 
@@ -200,7 +202,7 @@ public class MainDrawer extends AppCompatActivity
             startActivity(int0);
 
         } else if (id == R.id.nav_logout) {
-
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
