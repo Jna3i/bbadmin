@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -116,11 +117,12 @@ public class CampaignAdd extends AppCompatActivity {
                 JsonObjectRequest request=new JsonObjectRequest(Request.Method.POST, url, campaignJson, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-
+                        Toast.makeText(CampaignAdd.this, "YES", Toast.LENGTH_LONG).show();
                     }
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(CampaignAdd.this, "NO", Toast.LENGTH_LONG).show();
 
 
                     }

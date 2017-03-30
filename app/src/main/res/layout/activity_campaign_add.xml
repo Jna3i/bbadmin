@@ -18,7 +18,7 @@
             android:hint="Campaign Name:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal" />
+            />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -33,8 +33,7 @@
         android:id="@+id/campAdd_txtDescriptionID"
         android:hint="Description:"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal" />
+        android:layout_height="wrap_content" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -48,46 +47,19 @@
             android:id="@+id/campAdd_txtLocationID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
             android:hint="Location:" />
 </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textInputLayout5"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textInputLayout6">
-
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textInputLayout5"
-        android:layout_below="@+id/textInputLayout4"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="11dp">
-
-        <TextView
-            android:id="@+id/campAdd_txtDateFromID"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:hint="From:"
-            android:textSize="18sp" />
-    </android.support.design.widget.TextInputLayout>
 
 
     <Button
         android:id="@+id/campAdd_btnAddID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="@color/colorWHITE"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Add"
         android:background="@drawable/button_shape"
-        />
+        android:text="Add" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
@@ -100,11 +72,21 @@
         android:id="@+id/campAdd_toolbarID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorToolBar"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textInputLayout4"
+        android:layout_alignParentStart="true">
 
     <TextView
         android:id="@+id/campAdd_txtDateToID"
@@ -112,9 +94,18 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:hint="To:"
-        android:textSize="18sp"
-        android:layout_below="@+id/textInputLayout6"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="14dp" />
+        android:layout_weight=".50"
+        android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/campAdd_txtDateFromID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:gravity="center_horizontal"
+            android:hint="From:"
+            android:textSize="18sp" />
+    </LinearLayout>
+
 
 </RelativeLayout>

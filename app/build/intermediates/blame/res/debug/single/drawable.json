@@ -40,12 +40,12 @@
         "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
-        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
-    },
-    {
         "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
         "source": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",

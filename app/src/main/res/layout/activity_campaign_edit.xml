@@ -28,7 +28,6 @@
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
         android:text="From"
         android:layout_below="@+id/campEdit_txtLocationID"
         android:layout_alignParentLeft="true"
@@ -47,8 +46,7 @@
         android:id="@+id/textView14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="To"
+         android:text="To"
         android:layout_below="@+id/campEdit_txtDateFromID"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -66,8 +64,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="Location"
+         android:text="Location"
         android:id="@+id/textView"
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true" />
@@ -85,8 +82,7 @@
         android:id="@+id/textView17"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="Description"
+         android:text="Description"
         android:layout_below="@+id/campEdit_txtDateToID"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -95,18 +91,19 @@
         android:id="@+id/campEdit_txtDescriptionID"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:textSize="14sp"
         android:layout_below="@+id/textView17"
-        android:textSize="14sp" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/campEdit_btnSaveID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Save" />
+        android:background="@drawable/button_shape"
+        android:text="Save"
+        android:textColor="@color/colorWHITE" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/campEdit_toolbarID"
@@ -114,7 +111,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorRED"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
 
