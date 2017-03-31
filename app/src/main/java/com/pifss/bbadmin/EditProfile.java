@@ -3,12 +3,14 @@ package com.pifss.bbadmin;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -36,15 +38,19 @@ public class EditProfile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_edit_profile);
 
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         SharedPreferences pref1 = getSharedPreferences("bbadmin_profile", MODE_PRIVATE);
         String S1 = pref1.getString("profile","error");
 
         profile= new Gson().fromJson(S1,bbadmin.class);
         final int id = profile.getBbadminId();
-        setContentView(R.layout.activity_edit_profile);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        toolbar.setNavigationIcon(R.drawable.ic_back);
+        toolbar.setTitle("Edit Profile");
+        toolbar.setTitleTextColor(Color.WHITE);
 
         Button save = (Button) findViewById(R.id.button3);
         final EditText nameText = (EditText) findViewById(R.id.nameText);

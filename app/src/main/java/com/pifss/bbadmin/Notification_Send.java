@@ -1,5 +1,6 @@
 package com.pifss.bbadmin;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -33,7 +34,8 @@ public class Notification_Send extends AppCompatActivity {
         final EditText etTitle = (EditText) findViewById(R.id.Notification_send_title);
         final EditText etDescrip = (EditText) findViewById(R.id.Notification_send_description);
         Button button = (Button) findViewById(R.id.notification_send_button);
-
+        toolbar.setTitle("Send Notification");
+        toolbar.setTitleTextColor(Color.WHITE);
 
         toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {

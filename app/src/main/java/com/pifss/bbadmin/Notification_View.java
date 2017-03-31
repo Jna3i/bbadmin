@@ -1,5 +1,6 @@
 package com.pifss.bbadmin;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -15,7 +16,8 @@ public class Notification_View extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.Notification_Toolbar_View);
 
-
+        toolbar.setTitle("Notification Details");
+        toolbar.setTitleTextColor(Color.WHITE);
         toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
