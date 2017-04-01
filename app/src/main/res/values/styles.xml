@@ -17,4 +17,31 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="CampAddHint" parent="TextAppearance.AppCompat">
+        //hint color And Label Color in False State
+        <item name="android:textColorHint">@color/colorRED</item>
+        <item name="android:textSize">18sp</item>
+
+        //Label color in True State
+        <item name="colorAccent">@color/colorRED</item>
+
+        //Bar Color False And True State
+        <item name="colorControlNormal">@color/colorGREY</item>
+        <item name="colorControlActivated">@color/colorRED</item>
+    </style>
+
+
+    <style name="CampInfoHint" parent="TextAppearance.AppCompat">
+         //Bar Color False And True State
+        <item name="colorControlNormal">@color/colorTRANSPARENT</item>
+        <item name="colorControlActivated">@color/colorTRANSPARENT</item>
+    </style>
+    <style name="CampEditHint" parent="TextAppearance.AppCompat">
+        <item name="colorControlNormal">@color/colorBLACK</item>
+        <item name="colorControlActivated">@color/colorBLACK</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorRED</item>
+    </style>
 </resources>

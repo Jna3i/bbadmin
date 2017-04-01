@@ -4,108 +4,172 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pifss.bbadmin.CampaignAdd">
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/mapView"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textInputLayout2">
-
-        <EditText
-            android:id="@+id/campAdd_txtCampNameID"
-            android:hint="Campaign Name:"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textInputLayout2"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textInputLayout3">
-
-    <EditText
-        android:id="@+id/campAdd_txtDescriptionID"
-        android:hint="Description:"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textInputLayout3"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textInputLayout4">
-
-        <EditText
-            android:id="@+id/campAdd_txtLocationID"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Location:" />
-</android.support.design.widget.TextInputLayout>
-
-
-    <Button
-        android:id="@+id/campAdd_btnAddID"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:textColor="@color/colorWHITE"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/button_shape"
-        android:text="Add" />
-
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_below="@+id/campAdd_toolbarID"
-        android:layout_alignParentStart="true" />
+    tools:context="com.pifss.bbadmin.CampaignAdd"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/campAdd_toolbarID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:background="@color/colorToolBar"
         android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:theme="?attr/actionBarTheme" />
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/campAdd_toolbarID"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/campAdd_toolbarID"
+            android:layout_weight="1" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textInputLayout3"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="1dp"
+            android:theme="@style/CampAddHint">
+
+            <EditText
+                android:id="@+id/campAdd_txtCampNameID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Campaign Name:"
+                android:drawableLeft="@mipmap/campaigning"
+                android:drawablePadding="10dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textInputLayout4"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="1dp"
+            android:theme="@style/CampAddHint">
+
+            <EditText
+                android:id="@+id/campAdd_txtDescriptionID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description:"
+                android:drawableLeft="@mipmap/edit"
+                android:drawablePadding="10dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="1dp"
+            android:theme="@style/CampAddHint">
+
+            <EditText
+                android:id="@+id/campAdd_txtLocationID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Location:"
+                android:drawableLeft="@mipmap/location"
+                android:drawablePadding="10dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/campAdd_btnAddID"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            android:text="Date:"
+            android:textColor="@color/colorRED"
+            android:textSize="18sp"
+            android:drawableLeft="@mipmap/calendargrey"
+            android:drawablePadding="10dp"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout2"
         android:orientation="horizontal"
-        android:weightSum="1"
-        android:layout_marginTop="29dp"
-        android:layout_below="@+id/textInputLayout4"
-        android:layout_alignParentStart="true">
-
-    <TextView
-        android:id="@+id/campAdd_txtDateToID"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:hint="To:"
-        android:layout_weight=".50"
-        android:textSize="18sp" />
+        android:weightSum="1">
 
         <TextView
             android:id="@+id/campAdd_txtDateFromID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
             android:layout_weight=".50"
-            android:gravity="center_horizontal"
-            android:hint="From:"
+            android:height="30dp"
+            android:background="@drawable/text_view_date"
+            android:clickable="false"
+            android:contextClickable="false"
+            android:elevation="0dp"
+            android:foregroundTint="@color/colorWHITE"
+            android:gravity="center"
+            android:hint="From"
+            android:padding="4dp"
+            android:textColor="@color/colorGREY"
             android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/campAdd_txtDateToID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_marginLeft="4dp"
+            android:layout_weight=".50"
+            android:height="30dp"
+            android:background="@drawable/text_view_date"
+            android:elevation="1dp"
+            android:gravity="center"
+            android:hint="To"
+            android:padding="4dp"
+            android:textColor="@color/colorGREY"
+            android:textSize="18sp" />
+
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/campAdd_btnAddID"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_shape"
+        android:text="Add"
+        android:textColor="@color/colorWHITE"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

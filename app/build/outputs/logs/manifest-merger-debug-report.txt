@@ -1,247 +1,247 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:2:1-85:12
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:2:1-85:12
 	package
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:3:5-32
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:6:5-71
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:6:22-68
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:7:5-71
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:7:22-68
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:8:5-72
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:8:22-69
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:8:22-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] /home/ahmed/.android/build-cache/69f0629b2ddd1d0316f1c84431a68549a0db4b55/output/AndroidManifest.xml:20:5-66
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\PIFSS\.android\build-cache\abf385fb2cb98cb25c77db8ed325037f00c2d2f3\output\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:9:22-64
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:9:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:16:5-79
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:16:22-76
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:16:22-76
 application
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:18:5-83:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /home/ahmed/.android/build-cache/3da8540af98d90ae15c4ef931fb03041293f0a8e/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] /home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/ahmed/.android/build-cache/9d0de778563876f098e2afd8f21ef356134a005c/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/ahmed/.android/build-cache/f0992509ae810715e0b041676a2ef6c9b1c0141f/output/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] /home/ahmed/.android/build-cache/7d16a260be03dacf5cff3b95f4f8e057174f7ed8/output/AndroidManifest.xml:22:5-20
-MERGED from [com.mikepenz:google-material-typeface:3.0.1.0.original] /home/ahmed/.android/build-cache/779350ee0e0a76fd07bef5169172426bb1de428d/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.2] /home/ahmed/.android/build-cache/c023b39d76941b1a5f6127252b22901a615a4727/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:octicons-typeface:3.2.0.2] /home/ahmed/.android/build-cache/bd9aa6f2012a1b3791e825d8b1eb6920f5a55b3a/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:meteocons-typeface:1.1.0.2] /home/ahmed/.android/build-cache/7677c2b397b0b3b4ee2d1384bf37b6147008e1a0/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:community-material-typeface:1.8.36.1] /home/ahmed/.android/build-cache/ee15bc0ce8dcdc3c0b70ac81559203a0125f8767/output/AndroidManifest.xml:28:5-20
-MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.2] /home/ahmed/.android/build-cache/44e1fbfb2d26b6f02d1f4e964bc1e0441b203582/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:typeicons-typeface:2.0.7.2] /home/ahmed/.android/build-cache/bd107b57d6e194185529a23581d48bf199a3b4bf/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:entypo-typeface:1.0.0.2] /home/ahmed/.android/build-cache/cbb316521bdd1f6898bed87278a846c5e10eefff/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:devicon-typeface:2.0.0.2] /home/ahmed/.android/build-cache/e6f1830e395296fe48794438687fb2f94e25eca1/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.2] /home/ahmed/.android/build-cache/68b9fed01eb0dd62b9d3210fb5eaa221fcdff0b0/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:ionicons-typeface:2.0.1.2] /home/ahmed/.android/build-cache/e254b636ddb35b626e6d8daada66d1d8fc18a5e1/output/AndroidManifest.xml:27:5-20
-MERGED from [com.nightonke:boommenu:2.0.7] /home/ahmed/.android/build-cache/b60a31f46a5809c786c4a198f531cb7317271216/output/AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.volley:volley:1.0.0] /home/ahmed/.android/build-cache/1ae8ce4c9d4ac7ec01eef779aac0afe527574971/output/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] /home/ahmed/.android/build-cache/69f0629b2ddd1d0316f1c84431a68549a0db4b55/output/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /home/ahmed/.android/build-cache/aa93355491518556f6caa718db94e509695bad49/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /home/ahmed/.android/build-cache/e8c777291c93a3afd768d3b94bd480ec37f961be/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /home/ahmed/.android/build-cache/441d0fdf41ff1331ece02d46f097c59b6968df8e/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.2.0] /home/ahmed/.android/build-cache/86718353ff54a9a75269c3c6c2b0964ef4ed2dd1/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /home/ahmed/.android/build-cache/645ead2ad27bc86b3998b679037b03d5fc1e3fb8/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/ahmed/.android/build-cache/aaed69703ff9efb763ddfdae350d901e70f040ca/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/ahmed/.android/build-cache/46a66dfcfe86fa74260f2c6eca7578d8c56f7807/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/ahmed/.android/build-cache/552d645efe8ffa7f098b2bb0cf968612c14038bd/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /home/ahmed/.android/build-cache/73f1feb0b8b8c7ba0ccc932b01c588ddf6a14d87/output/AndroidManifest.xml:25:5-20
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:18:5-83:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\PIFSS\.android\build-cache\f3e66e65a9dbe2ceb89fa9d54b408d70be69fd8e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\PIFSS\.android\build-cache\c3cbddd7528782d1293aa4841216bcbc65784325\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\PIFSS\.android\build-cache\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\PIFSS\.android\build-cache\c32cf3c597067a2394a18d2b7626d98e9d42672a\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\PIFSS\.android\build-cache\77e1b2fc47b88c080144f2824a607bfee4a10126\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\PIFSS\.android\build-cache\a578cb5b7b1c484e0d571335f03c2ec249b1f86a\output\AndroidManifest.xml:22:5-20
+MERGED from [com.mikepenz:google-material-typeface:3.0.1.0.original] C:\Users\PIFSS\.android\build-cache\8c53d672bab6492af282816652b6e1744da841d2\output\AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.2] C:\Users\PIFSS\.android\build-cache\cecffe070d3068ffd642a437bacee09b6e0ab29a\output\AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:octicons-typeface:3.2.0.2] C:\Users\PIFSS\.android\build-cache\40d6c496b05d7169be679e53c25ac1d8e869ba6e\output\AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:meteocons-typeface:1.1.0.2] C:\Users\PIFSS\.android\build-cache\081efabb4688e2a74afced44101d954908f5dc22\output\AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:community-material-typeface:1.8.36.1] C:\Users\PIFSS\.android\build-cache\011371aac9815f1b0a0319c0687946c791790c24\output\AndroidManifest.xml:28:5-20
+MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.2] C:\Users\PIFSS\.android\build-cache\31201069b91fdca7e5b7801b873c6f2e9cf88b03\output\AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:typeicons-typeface:2.0.7.2] C:\Users\PIFSS\.android\build-cache\37ade7a0003ae7adc716590b4f3cb6690b0436c7\output\AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:entypo-typeface:1.0.0.2] C:\Users\PIFSS\.android\build-cache\2ac1b4c7374f615658aa4dc837bed09245db287a\output\AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:devicon-typeface:2.0.0.2] C:\Users\PIFSS\.android\build-cache\d40de4c9528b0cb93819e2c0e6ebd3d39f249999\output\AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.2] C:\Users\PIFSS\.android\build-cache\459c559881d1cff1c9e45441563bf4125f3b3e81\output\AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:ionicons-typeface:2.0.1.2] C:\Users\PIFSS\.android\build-cache\a4a96010a02d98cf52bbebcf3a57cc8f12ab8c22\output\AndroidManifest.xml:27:5-20
+MERGED from [com.nightonke:boommenu:2.0.7] C:\Users\PIFSS\.android\build-cache\e9c7552fb3a7e3d622d3ca3cfef232293e980dbd\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\PIFSS\.android\build-cache\2f96446482475062594fff0681057c5d080c1203\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\PIFSS\.android\build-cache\abf385fb2cb98cb25c77db8ed325037f00c2d2f3\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\PIFSS\.android\build-cache\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\PIFSS\.android\build-cache\a2f29aa8d90180722fd68d704bf144b823e72fdd\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\PIFSS\.android\build-cache\b45c4030c9c6c67046608e94c880fb000894b62b\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\PIFSS\.android\build-cache\9a7230332854fda8558191dc6de961fa71fc6d85\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\PIFSS\.android\build-cache\c3bf2fbbb5f1f2c3d54818e25ca18396521320bb\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\0ae256a6f0456949d63d3c9830628b883ea4727b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\PIFSS\.android\build-cache\1093e45124d651357ab0bed9922d627daf1106ca\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\PIFSS\.android\build-cache\60e2862f75490172c78ad0ebba0810bc036fc7bb\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\dd05c48f5b3b879d8fe750a8cd4c005900907230\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:21:9-41
 	android:supportsRtl
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:23:9-35
 	android:roundIcon
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:22:9-54
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:22:9-54
 	android:allowBackup
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:19:9-35
 	android:icon
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:20:9-43
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:20:9-43
 	android:theme
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:24:9-40
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:24:9-40
 activity#com.pifss.bbadmin.MainActivity
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:28:9-50
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:28:9-50
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:28:19-47
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:28:19-47
 activity#com.pifss.bbadmin.SplashActivity
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:29:9-35:20
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:29:9-35:20
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:29:19-49
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:29:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:30:13-34:29
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:31:17-69
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:31:25-66
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:33:17-77
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:33:27-74
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:33:27-74
 activity#com.pifss.bbadmin.LoginActivity
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:36:9-39:60
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:36:9-39:60
 	android:label
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:39:13-57
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:39:13-57
 	android:exported
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:38:13-36
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:37:13-42
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:37:13-42
 activity#com.pifss.bbadmin.ForgetPasswordActivity
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:40:9-42:59
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:40:9-42:59
 	android:theme
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:42:13-56
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:42:13-56
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:41:13-51
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:41:13-51
 activity#com.pifss.bbadmin.MainDrawer
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:43:9-46:59
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:43:9-46:59
 	android:label
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:45:13-63
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:45:13-63
 	android:theme
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:46:13-56
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:46:13-56
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:44:13-39
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:44:13-39
 activity#com.pifss.bbadmin.AppSettings
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:47:9-49:59
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:47:9-49:59
 	android:theme
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:49:13-56
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:48:13-40
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:48:13-40
 activity#com.pifss.bbadmin.CampaignList
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:51:9-50
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:51:9-50
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:51:19-47
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:51:19-47
 activity#com.pifss.bbadmin.CampaignAdd
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:52:9-49
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:52:9-49
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:52:19-46
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:52:19-46
 activity#com.pifss.bbadmin.ViewProfile
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:53:9-55:39
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:53:9-55:39
 	android:exported
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:55:13-36
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:55:13-36
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:54:13-40
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:54:13-40
 activity#com.pifss.bbadmin.EditProfile
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:56:9-60:59
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:56:9-60:59
 	android:label
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:59:13-64
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:59:13-64
 	android:exported
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:58:13-36
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:58:13-36
 	android:theme
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:60:13-56
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:60:13-56
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:57:13-40
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:57:13-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:70:9-72:55
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:70:9-72:55
 	android:value
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:72:13-52
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:72:13-52
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:71:13-58
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:71:13-58
 activity#com.pifss.bbadmin.test.MapsActivity
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:74:9-76:59
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:74:9-76:59
 	android:label
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:76:13-56
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:76:13-56
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:75:13-46
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:75:13-46
 activity#com.pifss.bbadmin.CampaignInfo
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:77:9-50
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:77:9-50
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:77:19-47
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:77:19-47
 activity#com.pifss.bbadmin.CampaignEdit
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:78:9-50
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:78:9-50
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:78:19-47
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:78:19-47
 activity#com.pifss.bbadmin.Notification_History_List
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:80:9-63
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:80:9-63
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:80:19-60
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:80:19-60
 activity#com.pifss.bbadmin.Notification_Send
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:81:9-55
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:81:9-55
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:81:19-52
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:81:19-52
 activity#com.pifss.bbadmin.Notification_View
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:82:9-64
+ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:82:9-64
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:82:19-52
+		ADDED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml:82:19-52
 uses-sdk
-INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /home/ahmed/.android/build-cache/3da8540af98d90ae15c4ef931fb03041293f0a8e/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.2.0] /home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/ahmed/.android/build-cache/9d0de778563876f098e2afd8f21ef356134a005c/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/ahmed/.android/build-cache/f0992509ae810715e0b041676a2ef6c9b1c0141f/output/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/ahmed/.android/build-cache/f428f9ab3ffadbab1724a301a9a64b8167d9d140/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] /home/ahmed/.android/build-cache/7d16a260be03dacf5cff3b95f4f8e057174f7ed8/output/AndroidManifest.xml:20:5-44
-MERGED from [com.mikepenz:iconics-core:2.8.2] /home/ahmed/.android/build-cache/57e202a61b614f6273bb5692c3388158b816179d/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:google-material-typeface:3.0.1.0.original] /home/ahmed/.android/build-cache/779350ee0e0a76fd07bef5169172426bb1de428d/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.2] /home/ahmed/.android/build-cache/c023b39d76941b1a5f6127252b22901a615a4727/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:fontawesome-typeface:4.7.0.0] /home/ahmed/.android/build-cache/e5508766d0ee3d9723296b25726c9ba6a9e54824/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:octicons-typeface:3.2.0.2] /home/ahmed/.android/build-cache/bd9aa6f2012a1b3791e825d8b1eb6920f5a55b3a/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:meteocons-typeface:1.1.0.2] /home/ahmed/.android/build-cache/7677c2b397b0b3b4ee2d1384bf37b6147008e1a0/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:community-material-typeface:1.8.36.1] /home/ahmed/.android/build-cache/ee15bc0ce8dcdc3c0b70ac81559203a0125f8767/output/AndroidManifest.xml:24:5-26:41
-MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.2] /home/ahmed/.android/build-cache/44e1fbfb2d26b6f02d1f4e964bc1e0441b203582/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:typeicons-typeface:2.0.7.2] /home/ahmed/.android/build-cache/bd107b57d6e194185529a23581d48bf199a3b4bf/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:entypo-typeface:1.0.0.2] /home/ahmed/.android/build-cache/cbb316521bdd1f6898bed87278a846c5e10eefff/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:devicon-typeface:2.0.0.2] /home/ahmed/.android/build-cache/e6f1830e395296fe48794438687fb2f94e25eca1/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.2] /home/ahmed/.android/build-cache/68b9fed01eb0dd62b9d3210fb5eaa221fcdff0b0/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:ionicons-typeface:2.0.1.2] /home/ahmed/.android/build-cache/e254b636ddb35b626e6d8daada66d1d8fc18a5e1/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.nightonke:boommenu:2.0.7] /home/ahmed/.android/build-cache/b60a31f46a5809c786c4a198f531cb7317271216/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.volley:volley:1.0.0] /home/ahmed/.android/build-cache/1ae8ce4c9d4ac7ec01eef779aac0afe527574971/output/AndroidManifest.xml:7:5-43
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] /home/ahmed/.android/build-cache/69f0629b2ddd1d0316f1c84431a68549a0db4b55/output/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /home/ahmed/.android/build-cache/aa93355491518556f6caa718db94e509695bad49/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /home/ahmed/.android/build-cache/e8c777291c93a3afd768d3b94bd480ec37f961be/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /home/ahmed/.android/build-cache/441d0fdf41ff1331ece02d46f097c59b6968df8e/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.2.0] /home/ahmed/.android/build-cache/86718353ff54a9a75269c3c6c2b0964ef4ed2dd1/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /home/ahmed/.android/build-cache/645ead2ad27bc86b3998b679037b03d5fc1e3fb8/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/ahmed/.android/build-cache/aaed69703ff9efb763ddfdae350d901e70f040ca/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/ahmed/.android/build-cache/46a66dfcfe86fa74260f2c6eca7578d8c56f7807/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/ahmed/.android/build-cache/552d645efe8ffa7f098b2bb0cf968612c14038bd/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /home/ahmed/.android/build-cache/73f1feb0b8b8c7ba0ccc932b01c588ddf6a14d87/output/AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\PIFSS\.android\build-cache\f3e66e65a9dbe2ceb89fa9d54b408d70be69fd8e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\PIFSS\.android\build-cache\c3cbddd7528782d1293aa4841216bcbc65784325\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\PIFSS\.android\build-cache\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\PIFSS\.android\build-cache\c32cf3c597067a2394a18d2b7626d98e9d42672a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\PIFSS\.android\build-cache\77e1b2fc47b88c080144f2824a607bfee4a10126\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\PIFSS\.android\build-cache\dee1f950c00d34717c6ec834b4ffee4074696d2a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\PIFSS\.android\build-cache\a578cb5b7b1c484e0d571335f03c2ec249b1f86a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:iconics-core:2.8.2] C:\Users\PIFSS\.android\build-cache\4180d7ce5b41235cbfa0d3f8fbccb878b9fb6ec0\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:google-material-typeface:3.0.1.0.original] C:\Users\PIFSS\.android\build-cache\8c53d672bab6492af282816652b6e1744da841d2\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.2] C:\Users\PIFSS\.android\build-cache\cecffe070d3068ffd642a437bacee09b6e0ab29a\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:fontawesome-typeface:4.7.0.0] C:\Users\PIFSS\.android\build-cache\30fffe31877e5d44f838a7b2af4c9515e2eb41f6\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:octicons-typeface:3.2.0.2] C:\Users\PIFSS\.android\build-cache\40d6c496b05d7169be679e53c25ac1d8e869ba6e\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:meteocons-typeface:1.1.0.2] C:\Users\PIFSS\.android\build-cache\081efabb4688e2a74afced44101d954908f5dc22\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:community-material-typeface:1.8.36.1] C:\Users\PIFSS\.android\build-cache\011371aac9815f1b0a0319c0687946c791790c24\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.2] C:\Users\PIFSS\.android\build-cache\31201069b91fdca7e5b7801b873c6f2e9cf88b03\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:typeicons-typeface:2.0.7.2] C:\Users\PIFSS\.android\build-cache\37ade7a0003ae7adc716590b4f3cb6690b0436c7\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:entypo-typeface:1.0.0.2] C:\Users\PIFSS\.android\build-cache\2ac1b4c7374f615658aa4dc837bed09245db287a\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:devicon-typeface:2.0.0.2] C:\Users\PIFSS\.android\build-cache\d40de4c9528b0cb93819e2c0e6ebd3d39f249999\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.2] C:\Users\PIFSS\.android\build-cache\459c559881d1cff1c9e45441563bf4125f3b3e81\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:ionicons-typeface:2.0.1.2] C:\Users\PIFSS\.android\build-cache\a4a96010a02d98cf52bbebcf3a57cc8f12ab8c22\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.nightonke:boommenu:2.0.7] C:\Users\PIFSS\.android\build-cache\e9c7552fb3a7e3d622d3ca3cfef232293e980dbd\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\PIFSS\.android\build-cache\2f96446482475062594fff0681057c5d080c1203\output\AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\PIFSS\.android\build-cache\abf385fb2cb98cb25c77db8ed325037f00c2d2f3\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\PIFSS\.android\build-cache\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\PIFSS\.android\build-cache\a2f29aa8d90180722fd68d704bf144b823e72fdd\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\PIFSS\.android\build-cache\b45c4030c9c6c67046608e94c880fb000894b62b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\PIFSS\.android\build-cache\9a7230332854fda8558191dc6de961fa71fc6d85\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\PIFSS\.android\build-cache\c3bf2fbbb5f1f2c3d54818e25ca18396521320bb\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\0ae256a6f0456949d63d3c9830628b883ea4727b\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\PIFSS\.android\build-cache\1093e45124d651357ab0bed9922d627daf1106ca\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\PIFSS\.android\build-cache\60e2862f75490172c78ad0ebba0810bc036fc7bb\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\dd05c48f5b3b879d8fe750a8cd4c005900907230\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] /home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] C:\Users\PIFSS\.android\build-cache\c3cbddd7528782d1293aa4841216bcbc65784325\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\StudioProjects\bbadmin\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:10.2.0] /home/ahmed/.android/build-cache/69f0629b2ddd1d0316f1c84431a68549a0db4b55/output/AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\PIFSS\.android\build-cache\abf385fb2cb98cb25c77db8ed325037f00c2d2f3\output\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:10.2.0] /home/ahmed/.android/build-cache/69f0629b2ddd1d0316f1c84431a68549a0db4b55/output/AndroidManifest.xml:19:22-76
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\PIFSS\.android\build-cache\abf385fb2cb98cb25c77db8ed325037f00c2d2f3\output\AndroidManifest.xml:19:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:10.2.0] /home/ahmed/.android/build-cache/69f0629b2ddd1d0316f1c84431a68549a0db4b55/output/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\PIFSS\.android\build-cache\abf385fb2cb98cb25c77db8ed325037f00c2d2f3\output\AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:10.2.0] /home/ahmed/.android/build-cache/69f0629b2ddd1d0316f1c84431a68549a0db4b55/output/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\PIFSS\.android\build-cache\abf385fb2cb98cb25c77db8ed325037f00c2d2f3\output\AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:10.2.0] /home/ahmed/.android/build-cache/69f0629b2ddd1d0316f1c84431a68549a0db4b55/output/AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\PIFSS\.android\build-cache\abf385fb2cb98cb25c77db8ed325037f00c2d2f3\output\AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/ahmed/.android/build-cache/aa93355491518556f6caa718db94e509695bad49/output/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\PIFSS\.android\build-cache\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/ahmed/.android/build-cache/aa93355491518556f6caa718db94e509695bad49/output/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\PIFSS\.android\build-cache\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/ahmed/.android/build-cache/aa93355491518556f6caa718db94e509695bad49/output/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\PIFSS\.android\build-cache\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/ahmed/.android/build-cache/aa93355491518556f6caa718db94e509695bad49/output/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\PIFSS\.android\build-cache\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\output\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.0] /home/ahmed/.android/build-cache/441d0fdf41ff1331ece02d46f097c59b6968df8e/output/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\PIFSS\.android\build-cache\b45c4030c9c6c67046608e94c880fb000894b62b\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /home/ahmed/.android/build-cache/441d0fdf41ff1331ece02d46f097c59b6968df8e/output/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\PIFSS\.android\build-cache\b45c4030c9c6c67046608e94c880fb000894b62b\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /home/ahmed/.android/build-cache/441d0fdf41ff1331ece02d46f097c59b6968df8e/output/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\PIFSS\.android\build-cache\b45c4030c9c6c67046608e94c880fb000894b62b\output\AndroidManifest.xml:20:20-65

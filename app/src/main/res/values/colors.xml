@@ -6,6 +6,9 @@
     <color name="colorRED">#BF202F</color>
     <color name="colorBLACK">#000000</color>
     <color name="colorWHITE">#FFFFFF</color>
+    <color name="colorGREY">#7e7e7e</color>
+    <color name="colorDATE">#c1c1c1</color>
+    <color name="colorTRANSPARENT">#00ffffff</color>
     <color name="colorToolBar">#BF202F</color>
     <color name="colorlanguage">#f9d5d8</color>
 </resources>

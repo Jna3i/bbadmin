@@ -4,96 +4,203 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pifss.bbadmin.CampaignEdit">
+    tools:context="com.pifss.bbadmin.CampaignEdit"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
 
-    <EditText
-        android:id="@+id/campEdit_txtCampNameID"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:gravity="center_horizontal"
-        android:text="Campaign Name"
-        android:textSize="18sp"
-        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="58dp" />
+        android:layout_below="@+id/campEdit_toolbarID"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/campEdit_mapID"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_below="@+id/campEdit_txtCampNameID"
-        android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Campaign Name"
+            android:textColor="@color/colorRED"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:drawableLeft="@mipmap/campaigning"
+            android:drawablePadding="10dp"/>
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="From"
-        android:layout_below="@+id/campEdit_txtLocationID"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:theme="@style/CampEditHint">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:layout_below="@+id/textView14"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/campEdit_txtDateToID" />
+            <EditText
+                android:id="@+id/campEdit_txtCampNameID"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="22dp"
+                android:text="Campaign Name"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-         android:text="To"
-        android:layout_below="@+id/campEdit_txtDateFromID"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:id="@+id/campEdit_txtDateFromID"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView13"
-        android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-         android:text="Location"
-        android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/campEdit_mapID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/campEdit_txtCampNameID"
+            android:layout_marginBottom="12dp"/>
 
-    <EditText
-        android:id="@+id/campEdit_txtLocationID"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView"
-        android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-         android:text="Description"
-        android:layout_below="@+id/campEdit_txtDateToID"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/campInfo_txtDescriptionID"
+            android:layout_alignParentStart="true"
+            android:text="Description"
+            android:textColor="@color/colorRED"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:drawableLeft="@mipmap/edit"
+            android:drawablePadding="10dp"/>
 
-    <EditText
-        android:id="@+id/campEdit_txtDescriptionID"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:textSize="14sp"
-        android:layout_below="@+id/textView17"
-        android:layout_alignParentStart="true" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-16dp"
+            android:theme="@style/CampEditHint">
+
+            <EditText
+                android:id="@+id/campEdit_txtDescriptionID"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView17"
+                android:layout_marginLeft="22dp"
+                android:gravity="top"
+                android:lines="3"
+                android:scrollbars="vertical"
+                android:textColor="@color/colorBLACK"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/campInfo_mapID"
+            android:layout_marginTop="5dp"
+             android:text="Location"
+            android:textColor="@color/colorRED"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:drawableLeft="@mipmap/location"
+            android:drawablePadding="10dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:theme="@style/CampEditHint">
+
+            <EditText
+                android:id="@+id/campEdit_txtLocationID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView"
+                android:layout_marginLeft="22dp"
+                android:textColor="@color/colorBLACK"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="5dp"
+                android:layout_weight=".5"
+                android:text="From"
+                android:textColor="@color/colorRED"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:drawableLeft="@mipmap/calendargrey"
+                android:drawablePadding="10dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight=".5"
+                android:text="To"
+                android:textColor="@color/colorRED"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+        <TextView
+            android:id="@+id/campEdit_txtDateFromID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView13"
+            android:layout_weight=".5"
+            android:layout_marginRight="4dp"
+            android:height="30dp"
+            android:background="@drawable/text_view_date"
+            android:elevation="10dp"
+            android:foregroundTint="@color/colorWHITE"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/colorBLACK"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/campEdit_txtDateToID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView14"
+            android:layout_marginLeft="4dp"
+            android:layout_weight=".50"
+            android:height="30dp"
+            android:background="@drawable/text_view_date"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/colorBLACK"
+            android:textSize="18sp"/>
+        </LinearLayout>
+    </LinearLayout>
 
     <Button
         android:id="@+id/campEdit_btnSaveID"
@@ -101,9 +208,12 @@
         android:layout_height="45dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
         android:background="@drawable/button_shape"
         android:text="Save"
-        android:textColor="@color/colorWHITE" />
+        android:textColor="@color/colorWHITE"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/campEdit_toolbarID"

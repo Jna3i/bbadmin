@@ -54,7 +54,7 @@ public class CampainAdapter extends BaseAdapter {
 
         campName.setText(campaign.getName());
         campDateFrom.setText("From: " + campaign.getStartdate() );
-        campDateTo.setText("    -    To: " + campaign.getEnddate());
+        campDateTo.setText("-    To: " + campaign.getEnddate());
 
 
         return v;

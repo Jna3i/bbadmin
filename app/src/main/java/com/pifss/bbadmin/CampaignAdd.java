@@ -2,6 +2,7 @@ package com.pifss.bbadmin;
 
 import android.app.DatePickerDialog;
 import android.graphics.Color;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -30,6 +31,12 @@ import org.json.JSONObject;
 public class CampaignAdd extends AppCompatActivity {
     private GoogleMap mMap;
 
+    EditText txtCampName;
+    TextView txtDateFrom;
+    TextView txtDateTo;
+    EditText txtDescription;
+    EditText txtLocation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,11 +55,11 @@ public class CampaignAdd extends AppCompatActivity {
 
 
         // REFERENCING
-        final EditText txtCampName = (EditText) findViewById(R.id.campAdd_txtCampNameID);
-        final TextView txtDateFrom = (TextView) findViewById(R.id.campAdd_txtDateFromID);
-        final TextView txtDateTo = (TextView) findViewById(R.id.campAdd_txtDateToID);
-        final EditText txtDescription = (EditText) findViewById(R.id.campAdd_txtDescriptionID);
-        final EditText txtLocation = (EditText) findViewById(R.id.campAdd_txtLocationID);
+       txtCampName = (EditText) findViewById(R.id.campAdd_txtCampNameID);
+       txtDateFrom = (TextView) findViewById(R.id.campAdd_txtDateFromID);
+       txtDateTo = (TextView) findViewById(R.id.campAdd_txtDateToID);
+       txtDescription = (EditText) findViewById(R.id.campAdd_txtDescriptionID);
+       txtLocation = (EditText) findViewById(R.id.campAdd_txtLocationID);
         Button btnAdd = (Button) findViewById(R.id.campAdd_btnAddID);
 
 
@@ -60,7 +67,7 @@ public class CampaignAdd extends AppCompatActivity {
         txtDateFrom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DatePickerDialog d=new DatePickerDialog(CampaignAdd.this, new DatePickerDialog.OnDateSetListener() {
+                DatePickerDialog d=new DatePickerDialog(CampaignAdd.this, R.style.DialogTheme, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
                         txtDateFrom.setText(year+"-"+month+"-"+dayOfMonth);
@@ -74,7 +81,7 @@ public class CampaignAdd extends AppCompatActivity {
         txtDateTo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DatePickerDialog d=new DatePickerDialog(CampaignAdd.this, new DatePickerDialog.OnDateSetListener() {
+                DatePickerDialog d=new DatePickerDialog(CampaignAdd.this, R.style.DialogTheme, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
                         txtDateTo.setText(year+"-"+month+"-"+dayOfMonth);
@@ -117,13 +124,14 @@ public class CampaignAdd extends AppCompatActivity {
                 JsonObjectRequest request=new JsonObjectRequest(Request.Method.POST, url, campaignJson, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        Toast.makeText(CampaignAdd.this, "YES", Toast.LENGTH_LONG).show();
+                        Toast.makeText(CampaignAdd.this, "Campaign Added Successfuly!", Toast.LENGTH_LONG).show();
                     }
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(CampaignAdd.this, "NO", Toast.LENGTH_LONG).show();
-
+                        Toast.makeText(CampaignAdd.this, "NO, but added", Toast.LENGTH_LONG).show();
+                        clearAll();
+                        finish();
 
                     }
                 });
@@ -134,4 +142,14 @@ public class CampaignAdd extends AppCompatActivity {
         });
 
     }
+
+    void clearAll(){
+         txtCampName.setText("");
+         txtDateFrom.setText("From");
+         txtDateTo.setText("To");
+         txtDescription.setText("");
+         txtLocation.setText("");
+
+    }
+
 }

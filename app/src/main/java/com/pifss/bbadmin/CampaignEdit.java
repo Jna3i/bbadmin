@@ -92,7 +92,7 @@ public class CampaignEdit extends AppCompatActivity {
         txtDateFrom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DatePickerDialog d=new DatePickerDialog(CampaignEdit.this, new DatePickerDialog.OnDateSetListener() {
+                DatePickerDialog d=new DatePickerDialog(CampaignEdit.this, R.style.DialogTheme, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
                         txtDateFrom.setText(year+"-"+month+"-"+dayOfMonth);
@@ -106,7 +106,7 @@ public class CampaignEdit extends AppCompatActivity {
         txtDateTo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DatePickerDialog d=new DatePickerDialog(CampaignEdit.this, new DatePickerDialog.OnDateSetListener() {
+                DatePickerDialog d=new DatePickerDialog(CampaignEdit.this, R.style.DialogTheme, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
                         txtDateTo.setText(year+"-"+month+"-"+dayOfMonth);
@@ -144,13 +144,12 @@ public class CampaignEdit extends AppCompatActivity {
                 JsonObjectRequest request=new JsonObjectRequest(Request.Method.PUT, url, campaignJson, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
+                        finish();
 
                     }
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        //System.out.println(error);
-                        finish();
 
                     }
                 });
