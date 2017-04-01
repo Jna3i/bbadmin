@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.mikepenz.entypo_typeface_library.Entypo;
@@ -58,6 +59,14 @@ public class MainDrawer extends AppCompatActivity
                 startActivity(int0);
             }
         });
+
+        ScheduleList();
+    }
+
+    public void ScheduleList(){
+        ListView listView1 = (ListView) findViewById(R.id.schedule_list);
+        PeriodAdapter adap = new PeriodAdapter(MainDrawer.this);
+        listView1.setAdapter(adap);
     }
 
     public void setUpFloatingBoomButtton(){

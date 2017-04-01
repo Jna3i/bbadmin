@@ -15,7 +15,7 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textInputLayout"
+        android:id="@+id/textInputLayout_Notification_send_1"
         android:layout_marginTop="54dp"
         android:layout_below="@+id/toolbar"
         android:layout_alignParentStart="true"
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textInputLayout"
+            android:layout_below="@+id/textInputLayout_Notification_send_1"
             android:layout_marginTop="15dp"
             android:ems="10"
             android:padding="20sp"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/textInputLayout6"
         android:layout_marginTop="13dp"
-        android:layout_below="@+id/textInputLayout"
+        android:layout_below="@+id/textInputLayout_Notification_send_1"
         android:layout_alignParentStart="true">
 
 
@@ -67,13 +67,16 @@
 
     <Button
         android:id="@+id/notification_send_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#eefacaca"
         android:layout_margin="20sp"
+        android:layout_marginTop="84dp"
         android:text="@string/sendnotify"
         android:layout_below="@+id/textInputLayout6"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="84dp" />
+        android:background="@drawable/button_shape"
+        android:textColor="@color/colorWHITE"
+        android:textSize="18sp"
+        />
 
 </RelativeLayout>

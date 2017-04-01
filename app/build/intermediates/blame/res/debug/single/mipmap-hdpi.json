@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\handbloodlogo.png",
+        "source": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\handbloodlogo.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\inactive.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\inactive.png"
+        "merged": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\inactive.png",
+        "source": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\inactive.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\active.png",
+        "source": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\active.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\handbloodlogo.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\handbloodlogo.png"
+        "merged": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\active.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\active.png"
+        "merged": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

@@ -92,6 +92,8 @@
         <activity android:name="com.pifss.bbadmin.Notification_History_List" />
         <activity android:name="com.pifss.bbadmin.Notification_Send" />
         <activity android:name="com.pifss.bbadmin.Notification_View" />
+        <activity android:name="com.pifss.bbadmin.PeriodInfo" />
+        <activity android:name="com.pifss.bbadmin.DonorInfo" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

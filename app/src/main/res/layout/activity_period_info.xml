@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pifss.bbadmin.PeriodInfo">
+
+
+    <TextView
+        android:id="@+id/txtPeriodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="19dp"
+        android:text="period #" />
+
+    <ImageView
+        android:id="@+id/imgPeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/txtPeriodName"
+        android:layout_marginStart="19dp"
+        app:srcCompat="@mipmap/ic_clock" />
+
+    <ImageView
+        android:id="@+id/imgTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        app:srcCompat="@mipmap/ic_person"
+        android:layout_above="@+id/lstPeriodInfo"
+        android:layout_toStartOf="@+id/txtTotal" />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/5"
+        android:layout_alignTop="@+id/imgTotal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="29dp" />
+
+    <ListView
+        android:id="@+id/lstPeriodInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgPeriod"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+</RelativeLayout>

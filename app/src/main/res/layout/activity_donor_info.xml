@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pifss.bbadmin.DonorInfo">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:text="TextView"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/txtCivilID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+
+
+    <TextView
+        android:id="@+id/txtBloodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtCivilID"
+        android:layout_below="@+id/txtCivilID"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtBloodType"
+        android:layout_below="@+id/txtBloodType"
+        android:layout_marginTop="21dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtGender"
+        android:layout_below="@+id/txtGender"
+        android:layout_marginTop="16dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtPhone"
+        android:layout_below="@+id/txtPhone"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>

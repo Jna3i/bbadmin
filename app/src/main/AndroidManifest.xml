@@ -80,6 +80,9 @@
         <activity android:name=".Notification_History_List" />
         <activity android:name=".Notification_Send" />
         <activity android:name=".Notification_View"></activity>
+
+        <activity android:name=".PeriodInfo" />
+        <activity android:name=".DonorInfo"></activity>
     </application>
 
 </manifest>
