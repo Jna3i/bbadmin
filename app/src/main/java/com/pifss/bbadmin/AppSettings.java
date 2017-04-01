@@ -21,7 +21,7 @@ public class AppSettings extends AppCompatActivity {
 
 
 
-        toolbar.setNavigationIcon(android.R.drawable.ic_media_previous);
+        toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -14,17 +14,6 @@
 
 
     <TextView
-        android:id="@+id/notification_details_toolbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/notifidetails"
-        android:textColor="#ffffff"
-        android:textSize="18sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
-
-    <TextView
         android:id="@+id/notification_details_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

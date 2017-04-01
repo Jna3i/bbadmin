@@ -6,15 +6,30 @@
     android:layout_height="match_parent"
     tools:context="com.pifss.bbadmin.ViewProfile">
 
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/viewProfile_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorToolBar"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:srcCompat="@mipmap/ic_launcher_round"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="36dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginStart="29dp"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
 
     <TextView
         android:id="@+id/textViewName"
@@ -33,6 +48,8 @@
         android:layout_alignEnd="@+id/textViewName"
         android:layout_alignStart="@+id/textViewName"
         android:layout_alignTop="@+id/imageView3"
+        android:textColor="@color/colorWHITE"
+        android:background="@drawable/button_shape"
         android:text="Edit Profile" />
 
     <LinearLayout
