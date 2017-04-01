@@ -107,7 +107,8 @@ public class LoginActivity extends AppCompatActivity  {
                                 SharedPreferences.Editor Ed1 = pref1.edit();
                                 Ed1.putString("profile",profile.toJSONString());
                                 Ed1.commit();
-                                Toast.makeText(LoginActivity.this, "log "+pref1.getString("profile","error"), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
+                                //Toast.makeText(LoginActivity.this, "log "+pref1.getString("profile","error"), Toast.LENGTH_SHORT).show();
                                 Intent i = new Intent(LoginActivity.this, MainDrawer.class);
                                 startActivity(i);
                             }

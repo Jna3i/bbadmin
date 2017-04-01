@@ -1,6 +1,7 @@
 package com.pifss.bbadmin;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -14,8 +15,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.mikepenz.entypo_typeface_library.Entypo;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.iconics.IconicsDrawable;
@@ -60,7 +63,26 @@ public class MainDrawer extends AppCompatActivity
             }
         });
 
+
+        getProfileInfo(navigationView);
+
         ScheduleList();
+    }
+
+    public void getProfileInfo(NavigationView menu){
+        Drawable DrawerIcon = new IconicsDrawable(this).icon(Entypo.Icon.ent_drop).color(Color.WHITE);
+        menu.getHeaderView(0).findViewById(R.id.imageView).setBackground(DrawerIcon);
+
+        TextView adminEmail = (TextView) menu.getHeaderView(0).findViewById(R.id.MainDrawer_Admin_Email);
+        TextView adminName = (TextView) menu.getHeaderView(0).findViewById(R.id.MainDrawer_Admin_Name);
+
+        SharedPreferences pref1 = getSharedPreferences("bbadmin_profile", MODE_PRIVATE);
+        String S1 = pref1.getString("profile","error");
+        bbadmin profile= new Gson().fromJson(S1,bbadmin.class);
+
+        adminEmail.setText(profile.getEmail());
+        adminName.setText(profile.getFirstName()+" "+profile.getLastName());
+
     }
 
     public void ScheduleList(){
