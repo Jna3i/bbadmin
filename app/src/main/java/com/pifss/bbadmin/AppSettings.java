@@ -32,14 +32,25 @@ public class AppSettings extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Resources res = getResources();
-
                 DisplayMetrics dm = res.getDisplayMetrics();
                 android.content.res.Configuration conf = res.getConfiguration();
-                conf.setLocale(new Locale("ar"));
-                res.updateConfiguration(conf,dm);
-                //Intent i = getIntent();
-                finish();
-                //startActivity(i);
+                if(tab.getSelectedTabPosition() == 1) {
+                    conf.setLocale(new Locale("ar"));
+                    res.updateConfiguration(conf, dm);
+                    Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
+                    startActivity(refresh);
+                    finish();
+                    //startActivity(i);
+                }
+                else{
+                    conf.setLocale(new Locale("en"));
+
+                    res.updateConfiguration(conf, dm);
+                    Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
+                    startActivity(refresh);
+                    finish();
+                }
+
             }
         });
 
