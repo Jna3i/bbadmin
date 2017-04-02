@@ -24,6 +24,7 @@ import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.json.JSONException;
@@ -32,6 +33,9 @@ import org.json.JSONObject;
 public class CampaignAdd extends AppCompatActivity {
     private GoogleMap mMap;
     MarkerOptions markerOptions;
+
+    Double llat;
+    Double llong;
 
     EditText txtCampName;
     TextView txtDateFrom;
@@ -106,10 +110,27 @@ public class CampaignAdd extends AppCompatActivity {
                 markerOptions = new MarkerOptions().position(location).title("Kuwait").draggable(true);
                 mMap.addMarker(markerOptions);
                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10.0f));
+
+                mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
+
+                    @Override
+                    public void onMarkerDragStart(Marker marker) {
+                    }
+                    @Override
+                    public void onMarkerDrag(Marker marker) {
+                    }
+                    @Override
+                    public void onMarkerDragEnd(Marker marker) {
+
+                        llat = marker.getPosition().latitude;
+                        llong = marker.getPosition().longitude;
+
+                    }
+                });
+
             }
         });
 
-        // add onMarkerDrag
 
 
 
@@ -124,8 +145,8 @@ public class CampaignAdd extends AppCompatActivity {
                 JSONObject campaignJson=new JSONObject();
                 try {
                     campaignJson.put("CFDId", 0);
-                    campaignJson.put("LLat", "24.093798");
-                    campaignJson.put("LLong", "32.886887");
+                    campaignJson.put("LLat", llat);
+                    campaignJson.put("LLong", llong);
                     campaignJson.put("bloodTypes", txtDescription.getText().toString());
                     campaignJson.put("enddate", txtDateTo.getText().toString());
                     campaignJson.put("locationName", txtLocation.getText().toString());

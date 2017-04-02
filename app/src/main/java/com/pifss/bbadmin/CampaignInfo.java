@@ -39,6 +39,8 @@ public class CampaignInfo extends AppCompatActivity {
     TextView txtLocation;
     Button btnEdit;
 
+    Double llat;
+    Double llong;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,8 +85,8 @@ public class CampaignInfo extends AppCompatActivity {
             public void onMapReady(GoogleMap googleMap) {
                 mMap = googleMap;
 
-                Double llat = Double.parseDouble(campaign.getLLat());
-                Double llong = Double.parseDouble(campaign.getLLong());
+                 llat = Double.parseDouble(campaign.getLLat());
+                 llong = Double.parseDouble(campaign.getLLong());
 
                 LatLng location = new LatLng(llat, llong );
                 mMap.addMarker(new MarkerOptions().position(location).title(campaign.getLocationName()));
@@ -122,6 +124,8 @@ public class CampaignInfo extends AppCompatActivity {
                 txtDateTo.setText(campaign.getEnddate());
                 txtDescription.setText(campaign.getBloodTypes());
                 txtLocation.setText(campaign.getLocationName());
+//                llat = Double.parseDouble(campaign.getLLat());
+//                llong = Double.parseDouble(campaign.getLLong());
 
 
             }
