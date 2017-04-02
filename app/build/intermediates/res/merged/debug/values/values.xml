@@ -2718,7 +2718,9 @@
     <string name="gmd_zoom_in">gmd_zoom_in</string>
     <string name="gmd_zoom_out">gmd_zoom_out</string>
     <string name="gmd_zoom_out_map">gmd_zoom_out_map</string>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCqmzbUV2LRHYvml-T4oyZKgDlNqn-1UKw</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyANk4PKdKCeYLuLbxqPnVHLRueImci0t1o
+    </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="info_Edit">Edit</string>
     <string name="library_AndroidIconics_author">Mike Penz</string>

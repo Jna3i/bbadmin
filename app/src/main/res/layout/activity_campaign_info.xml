@@ -60,7 +60,7 @@
         </android.support.design.widget.TextInputLayout>
 
 
-        <com.google.android.gms.maps.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:map="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/campInfo_mapID"

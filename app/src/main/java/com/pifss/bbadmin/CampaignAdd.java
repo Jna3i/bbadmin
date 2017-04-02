@@ -22,7 +22,9 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.json.JSONException;
@@ -30,6 +32,10 @@ import org.json.JSONObject;
 
 public class CampaignAdd extends AppCompatActivity {
     private GoogleMap mMap;
+    MarkerOptions markerOptions;
+
+    Double llat;
+    Double llong;
 
     EditText txtCampName;
     TextView txtDateFrom;
@@ -94,6 +100,36 @@ public class CampaignAdd extends AppCompatActivity {
 
 
         // MAP
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.campAdd_mapID);
+        mapFragment.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(GoogleMap googleMap) {
+                mMap = googleMap;
+
+                LatLng location = new LatLng(29.3117, 47.4818);
+                markerOptions = new MarkerOptions().position(location).title("Kuwait").draggable(true);
+                mMap.addMarker(markerOptions);
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10.0f));
+
+                mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
+
+                    @Override
+                    public void onMarkerDragStart(Marker marker) {
+                    }
+                    @Override
+                    public void onMarkerDrag(Marker marker) {
+                    }
+                    @Override
+                    public void onMarkerDragEnd(Marker marker) {
+
+                        llat = marker.getPosition().latitude;
+                        llong = marker.getPosition().longitude;
+
+                    }
+                });
+
+            }
+        });
 
 
 
@@ -109,14 +145,19 @@ public class CampaignAdd extends AppCompatActivity {
                 JSONObject campaignJson=new JSONObject();
                 try {
                     campaignJson.put("CFDId", 0);
-                    campaignJson.put("LLat", "24.093798");
-                    campaignJson.put("LLong", "32.886887");
+                    campaignJson.put("LLat", llat);
+                    campaignJson.put("LLong", llong);
                     campaignJson.put("bloodTypes", txtDescription.getText().toString());
                     campaignJson.put("enddate", txtDateTo.getText().toString());
                     campaignJson.put("locationName", txtLocation.getText().toString());
                     campaignJson.put("name", txtCampName.getText().toString());
                     campaignJson.put("startdate", txtDateFrom.getText().toString());
+
+// needs if statement for langauge
                     campaignJson.put("status", "Active");
+
+
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -131,7 +172,7 @@ public class CampaignAdd extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(CampaignAdd.this, "NO, but added", Toast.LENGTH_LONG).show();
                         clearAll();
-                        finish();
+                         finish();
 
                     }
                 });

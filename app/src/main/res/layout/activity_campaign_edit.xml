@@ -50,13 +50,17 @@
         </android.support.design.widget.TextInputLayout>
 
 
-        <com.google.android.gms.maps.MapView
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/campEdit_mapID"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/campEdit_txtCampNameID"
-            android:layout_marginBottom="12dp"/>
+            android:layout_below="@+id/campInfo_txtCampNameID"
+            android:layout_marginBottom="12dp" />
+
 
 
         <TextView
@@ -89,7 +93,8 @@
                 android:lines="3"
                 android:scrollbars="vertical"
                 android:textColor="@color/colorBLACK"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:isScrollContainer="false"/>
         </android.support.design.widget.TextInputLayout>
 
         <TextView
