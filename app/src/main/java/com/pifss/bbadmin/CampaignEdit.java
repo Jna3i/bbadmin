@@ -24,6 +24,7 @@ import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.json.JSONException;
@@ -34,6 +35,7 @@ import java.util.Map;
 
 public class CampaignEdit extends AppCompatActivity {
     private GoogleMap mMap;
+    MarkerOptions markerOptions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +74,7 @@ public class CampaignEdit extends AppCompatActivity {
 
 
         // MAP
-        MapView mapFragment = (MapView) findViewById(R.id.campEdit_mapID);
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.campEdit_mapID);
         mapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
@@ -81,12 +83,32 @@ public class CampaignEdit extends AppCompatActivity {
                 Double llat = Double.parseDouble(campaign.getLLat());
                 Double llong = Double.parseDouble(campaign.getLLong());
 
+                String campName = campaign.getLocationName();
                 LatLng location = new LatLng(llat, llong );
-                mMap.addMarker(new MarkerOptions().position(location).title(campaign.getLocationName()));
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
+                markerOptions = new MarkerOptions().position(location).title(campName).draggable(true);
+                mMap.addMarker(markerOptions);
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10.0f));
             }
         });
 
+        // app crashes!
+//        mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
+//            @Override
+//            public void onMarkerDragStart(Marker marker) {
+//
+//            }
+//
+//            @Override
+//            public void onMarkerDrag(Marker marker) {
+//
+//            }
+//
+//            @Override
+//            public void onMarkerDragEnd(Marker marker) {
+//                 Toast.makeText(CampaignEdit.this,""+marker.getPosition(),Toast.LENGTH_LONG).show();
+//
+//            }
+//        });
 
         // CHOOSE THE DATES
         txtDateFrom.setOnClickListener(new View.OnClickListener() {
@@ -122,6 +144,7 @@ public class CampaignEdit extends AppCompatActivity {
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
 
                 String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/"+campaign.getCFDId();
                 final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignEdit.this);

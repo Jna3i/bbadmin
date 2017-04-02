@@ -22,6 +22,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -30,6 +31,7 @@ import org.json.JSONObject;
 
 public class CampaignAdd extends AppCompatActivity {
     private GoogleMap mMap;
+    MarkerOptions markerOptions;
 
     EditText txtCampName;
     TextView txtDateFrom;
@@ -94,7 +96,20 @@ public class CampaignAdd extends AppCompatActivity {
 
 
         // MAP
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.campAdd_mapID);
+        mapFragment.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(GoogleMap googleMap) {
+                mMap = googleMap;
 
+                LatLng location = new LatLng(29.3117, 47.4818);
+                markerOptions = new MarkerOptions().position(location).title("Kuwait").draggable(true);
+                mMap.addMarker(markerOptions);
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10.0f));
+            }
+        });
+
+        // add onMarkerDrag
 
 
 
@@ -116,7 +131,12 @@ public class CampaignAdd extends AppCompatActivity {
                     campaignJson.put("locationName", txtLocation.getText().toString());
                     campaignJson.put("name", txtCampName.getText().toString());
                     campaignJson.put("startdate", txtDateFrom.getText().toString());
+
+// needs if statement for langauge
                     campaignJson.put("status", "Active");
+
+
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -131,7 +151,7 @@ public class CampaignAdd extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(CampaignAdd.this, "NO, but added", Toast.LENGTH_LONG).show();
                         clearAll();
-                        finish();
+                         finish();
 
                     }
                 });

@@ -77,18 +77,18 @@ public class CampaignInfo extends AppCompatActivity {
 
 
         // MAP VIEW
-        MapView mapFragment = (MapView) findViewById(R.id.campInfo_mapID);
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.campInfo_mapID);
         mapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
                 mMap = googleMap;
 
-                Double llat = Double.parseDouble("23.123");
-                Double llong = Double.parseDouble("22.123");
+                Double llat = Double.parseDouble(campaign.getLLat());
+                Double llong = Double.parseDouble(campaign.getLLong());
 
                 LatLng location = new LatLng(llat, llong );
-                mMap.addMarker(new MarkerOptions().position(location).title("test test"));
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
+                mMap.addMarker(new MarkerOptions().position(location).title(campaign.getLocationName()));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10.0f));
             }
         });
 
