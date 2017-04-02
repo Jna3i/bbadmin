@@ -50,7 +50,7 @@
         android:layout_alignTop="@+id/imageView3"
         android:textColor="@color/colorWHITE"
         android:background="@drawable/button_shape"
-        android:text="Edit Profile" />
+        android:text="@string/view_Editprofile" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -77,7 +77,7 @@
         android:layout_marginLeft="10dp"
 
 
-        android:text="Gender"
+        android:text="@string/view_Gender1"
         android:textSize="16sp" />
 </android.support.v7.widget.FitWindowsLinearLayout>
     <TextView
@@ -88,7 +88,7 @@
         android:layout_toEndOf="@+id/Gender1"
         android:text="male"
         android:layout_marginLeft="50dp"
-        android:transitionName="@string/Gender2" />
+        android:transitionName="@string/faw_male" />
 
 <android.support.v7.widget.FitWindowsLinearLayout
     android:layout_width="match_parent"
@@ -111,9 +111,9 @@
         android:layout_alignStart="@+id/Gender1"
         android:layout_below="@+id/Gender2"
         android:layout_marginLeft="10dp"
-        android:text="@string/Date_of_Birth"
+        android:text="@string/view_Date_of_Birth"
         android:textSize="16sp"
-        android:transitionName="@string/Date_of_Birth" />
+        android:transitionName="@string/view_Date_of_Birth" />
 </android.support.v7.widget.FitWindowsLinearLayout>
 
         <TextView
@@ -146,10 +146,10 @@
                 android:layout_alignStart="@+id/textView35"
                 android:layout_below="@+id/textViewDate"
                 android:layout_marginLeft="10dp"
-                android:text="@string/Email"
+                android:text="@string/view_Email"
 
                 android:textSize="16sp"
-                android:transitionName="@string/Email" />
+                android:transitionName="@string/view_Email" />
         </android.support.v7.widget.FitWindowsLinearLayout>
 
         <TextView
@@ -180,9 +180,9 @@
                 android:layout_alignStart="@+id/textView37"
                 android:layout_below="@+id/textViewEmail"
                 android:layout_marginLeft="10dp"
-                android:text="@string/Phone"
+                android:text="@string/view_Phone"
                 android:textSize="16sp"
-                android:transitionName="@string/Phone" />
+                android:transitionName="@string/view_Phone" />
 
 
         </android.support.v7.widget.FitWindowsLinearLayout>
@@ -215,10 +215,10 @@
                 android:layout_alignStart="@+id/textView39"
                 android:layout_below="@+id/textViewPhone"
                 android:layout_marginLeft="10dp"
-                android:text="@string/Branch_Name"
+                android:text="@string/view_Branch_Name"
 
                 android:textSize="16sp"
-                android:transitionName="@string/Branch_Name" />
+                android:transitionName="@string/view_Branch_Name" />
         </android.support.v7.widget.FitWindowsLinearLayout>
 
         <TextView
@@ -249,9 +249,9 @@
                 android:layout_alignStart="@+id/textView41"
                 android:layout_below="@+id/textViewBranch"
                 android:layout_marginLeft="10dp"
-                android:text="@string/Civil_ID"
+                android:text="@string/view_ID"
                 android:textSize="16sp"
-                android:transitionName="@string/Civil_ID" />
+                android:transitionName="@string/view_ID" />
         </android.support.v7.widget.FitWindowsLinearLayout>
 
         <TextView

@@ -106,7 +106,7 @@
                 android:layout_marginLeft="10dp"
                 android:text="@string/EditProfile_Date_of_Birth"
                 android:textSize="16sp"
-                android:transitionName="@string/Date_of_Birth" />
+                 />
 
 
             <EditText
@@ -114,7 +114,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Choose date"
+                android:hint="@string/EditProfile_Choose_Date_of_Birth"
                 android:inputType="textPersonName"
                 android:textAlignment="center" />
         </android.support.v7.widget.FitWindowsLinearLayout>
@@ -142,7 +142,7 @@
                 android:text="@string/EditProfile_Email"
 
                 android:textSize="16sp"
-                android:transitionName="@string/Email" />
+                 />
         </android.support.v7.widget.FitWindowsLinearLayout>
 
         <EditText
@@ -174,7 +174,7 @@
                 android:layout_marginLeft="10dp"
                 android:text="@string/EditProfile_Phone"
                 android:textSize="16sp"
-                android:transitionName="@string/Phone" />
+                />
 
 
         </android.support.v7.widget.FitWindowsLinearLayout>
@@ -209,7 +209,7 @@
                 android:text="@string/EditProfile_Branch_Name"
 
                 android:textSize="16sp"
-                android:transitionName="@string/Branch_Name" />
+                 />
         </android.support.v7.widget.FitWindowsLinearLayout>
 
         <Spinner
@@ -238,7 +238,7 @@
                 android:layout_marginLeft="10dp"
                 android:text="@string/EditProfile_Civil_ID"
                 android:textSize="16sp"
-                android:transitionName="@string/Civil_ID" />
+                 />
         </android.support.v7.widget.FitWindowsLinearLayout>
 
         <EditText

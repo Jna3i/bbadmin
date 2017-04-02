@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "outputFile": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "C:\\Users\\AHMED\\.android\\build-cache\\8bda4a36c0abfd83b1acaf5f75bcbbaa6f2f0491\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/values-v18/values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
