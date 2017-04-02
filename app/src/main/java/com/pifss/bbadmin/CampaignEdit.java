@@ -74,6 +74,9 @@ public class CampaignEdit extends AppCompatActivity {
         txtDescription.setText(campaign.getBloodTypes());
         txtLocation.setText(campaign.getLocationName());
 
+        llat = Double.parseDouble(campaign.getLLat());
+        llong = Double.parseDouble(campaign.getLLong());
+
 
         // MAP
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.campEdit_mapID);
@@ -81,9 +84,6 @@ public class CampaignEdit extends AppCompatActivity {
             @Override
             public void onMapReady(GoogleMap googleMap) {
                 mMap = googleMap;
-
-                llat = Double.parseDouble(campaign.getLLat());
-                llong = Double.parseDouble(campaign.getLLong());
 
                 String campName = campaign.getLocationName();
                 LatLng location = new LatLng(llat, llong );
@@ -177,7 +177,7 @@ public class CampaignEdit extends AppCompatActivity {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-
+                        Toast.makeText(CampaignEdit.this,"error",Toast.LENGTH_LONG).show();
                     }
                 });
 

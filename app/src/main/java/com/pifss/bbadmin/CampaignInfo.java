@@ -76,23 +76,11 @@ public class CampaignInfo extends AppCompatActivity {
         txtDateTo.setText(campaign.getEnddate());
         txtDescription.setText(campaign.getBloodTypes());
         txtLocation.setText(campaign.getLocationName());
+        llat = Double.parseDouble(campaign.getLLat());
+        llong = Double.parseDouble(campaign.getLLong());
 
 
-        // MAP VIEW
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.campInfo_mapID);
-        mapFragment.getMapAsync(new OnMapReadyCallback() {
-            @Override
-            public void onMapReady(GoogleMap googleMap) {
-                mMap = googleMap;
-
-                 llat = Double.parseDouble(campaign.getLLat());
-                 llong = Double.parseDouble(campaign.getLLong());
-
-                LatLng location = new LatLng(llat, llong );
-                mMap.addMarker(new MarkerOptions().position(location).title(campaign.getLocationName()));
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10.0f));
-            }
-        });
+       showMap();
 
 
         // OPEN CAMPAIGN EDIT ACTIVITY + SEND CAMPAIGN OBJECT
@@ -124,10 +112,9 @@ public class CampaignInfo extends AppCompatActivity {
                 txtDateTo.setText(campaign.getEnddate());
                 txtDescription.setText(campaign.getBloodTypes());
                 txtLocation.setText(campaign.getLocationName());
-//                llat = Double.parseDouble(campaign.getLLat());
-//                llong = Double.parseDouble(campaign.getLLong());
-
-
+                llat = Double.parseDouble(campaign.getLLat());
+                llong = Double.parseDouble(campaign.getLLong());
+                showMap();
             }
         }, new Response.ErrorListener() {
             @Override
@@ -141,4 +128,20 @@ public class CampaignInfo extends AppCompatActivity {
 
     }
 
+
+    void showMap(){
+        // MAP VIEW
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.campInfo_mapID);
+        mapFragment.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(GoogleMap googleMap) {
+                mMap = googleMap;
+                mMap.clear();
+                LatLng location = new LatLng(llat, llong);
+                mMap.addMarker(new MarkerOptions().position(location).title(campaign.getLocationName()));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10.0f));
+            }
+        });
+
+    }
 }
