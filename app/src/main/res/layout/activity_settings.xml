@@ -20,11 +20,11 @@
         android:layout_marginTop="47dp"
         android:text="Switch Language"
         android:textSize="30sp"
-        android:layout_below="@+id/imageView4"
+        android:layout_below="@+id/a_plus"
         android:layout_centerHorizontal="true" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/a_plus"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_alignParentTop="true"

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pifss.bbadmin.AddOnsiteDonor">
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:text="Fname Lname"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/test"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="69dp"-->
+         <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:drawableStart="@mipmap/a_minus"/>-->
+
+
+    <EditText
+        android:id="@+id/txtCivilID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtName"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="19dp"
+        android:text="civil ID" />
+
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone "
+        android:layout_below="@+id/txtCivilID"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name@example.com"
+        android:layout_below="@+id/txtPhone"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/a_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        app:srcCompat="@mipmap/a_minus"
+        android:layout_above="@+id/o_minus"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp" />
+
+    <ImageView
+        android:id="@+id/a_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/a_minus"
+        android:layout_marginStart="43dp"
+        android:layout_toEndOf="@+id/a_minus"
+        app:srcCompat="@mipmap/a_plus" />
+
+    <ImageView
+        android:id="@+id/ab_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/a_plus"
+        android:layout_marginStart="38dp"
+        android:layout_toEndOf="@+id/a_plus"
+        app:srcCompat="@mipmap/ab_minus" />
+
+    <ImageView
+        android:id="@+id/ab_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ab_minus"
+        android:layout_marginStart="37dp"
+        android:layout_toEndOf="@+id/ab_minus"
+        app:srcCompat="@mipmap/ab_plus" />
+
+    <ImageView
+        android:id="@+id/b_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/b_minus"
+        android:layout_above="@+id/btnNext"
+        android:layout_alignStart="@+id/a_minus" />
+
+    <ImageView
+        android:id="@+id/b_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/b_plus"
+        android:layout_alignTop="@+id/b_minus"
+        android:layout_alignStart="@+id/a_plus" />
+
+    <ImageView
+        android:id="@+id/o_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/o_minus"
+        android:layout_alignBottom="@+id/o_plus"
+        android:layout_alignStart="@+id/ab_minus" />
+
+    <ImageView
+        android:id="@+id/o_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/o_plus"
+        android:layout_alignTop="@+id/b_plus"
+        android:layout_alignEnd="@+id/ab_plus" />
+
+    <RadioGroup
+        android:id="@+id/radioGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_toStartOf="@+id/b_plus"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/radFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:layout_alignBaseline="@+id/radMale"
+        android:layout_alignBottom="@+id/radMale"
+        android:layout_alignEnd="@+id/o_minus" />
+
+    <RadioButton
+        android:id="@+id/radMale"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/radioGender"
+        android:layout_toStartOf="@+id/ab_minus"
+        android:checked="true"
+        android:text="Male" />
+
+
+</RelativeLayout>

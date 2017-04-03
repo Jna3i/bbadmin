@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\AHMED\\StudioProjects\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "outputFile": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "C:\\Users\\AHMED\\.android\\build-cache\\8bda4a36c0abfd83b1acaf5f75bcbbaa6f2f0491\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

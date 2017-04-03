@@ -39,7 +39,7 @@ public class DonorInfo extends AppCompatActivity {
         if (Gender == "m" || Gender == "M"){
             txtGender.setText("Male");
         }
-        else{
+        else if (Gender == "f" || Gender == "F"){
             txtGender.setText("Female");
         }
 

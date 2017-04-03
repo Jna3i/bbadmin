@@ -152,21 +152,68 @@ public class PeriodAdapter extends BaseAdapter {
 
 
 
-                RelativeLayout group1 = (RelativeLayout) v.findViewById(R.id.group2);
+                RelativeLayout group1 = (RelativeLayout) v.findViewById(R.id.group1);
+                RelativeLayout group2 = (RelativeLayout) v.findViewById(R.id.group2);
+                RelativeLayout group3 = (RelativeLayout) v.findViewById(R.id.group3);
+                RelativeLayout group4 = (RelativeLayout) v.findViewById(R.id.group4);
+                RelativeLayout group5 = (RelativeLayout) v.findViewById(R.id.group5);
+
 
                 group1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent i = new Intent(v.getContext(), PeriodInfo.class);
-
-                        String s=new Gson().toJson(day.get(1));
-
+                        String s=new Gson().toJson(day.get(0));
                         System.out.println(s);
                         i.putExtra("period",s);
                         v.getContext().startActivity(i);
-
                     }
                 });
+
+                group2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(v.getContext(), PeriodInfo.class);
+                        String s=new Gson().toJson(day.get(1));
+                        System.out.println(s);
+                        i.putExtra("period",s);
+                        v.getContext().startActivity(i);
+                    }
+                });
+
+                group3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(v.getContext(), PeriodInfo.class);
+                        String s=new Gson().toJson(day.get(2));
+                        System.out.println(s);
+                        i.putExtra("period",s);
+                        v.getContext().startActivity(i);
+                    }
+                });
+
+                group4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(v.getContext(), PeriodInfo.class);
+                        String s=new Gson().toJson(day.get(3));
+                        System.out.println(s);
+                        i.putExtra("period",s);
+                        v.getContext().startActivity(i);
+                    }
+                });
+
+                group5.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(v.getContext(), PeriodInfo.class);
+                        String s=new Gson().toJson(day.get(4));
+                        System.out.println(s);
+                        i.putExtra("period",s);
+                        v.getContext().startActivity(i);
+                    }
+                });
+
             }
         }, new Response.ErrorListener() {
             @Override
@@ -174,12 +221,7 @@ public class PeriodAdapter extends BaseAdapter {
                 System.out.println("hello JError"+error.toString());
             }
         });
-
         queue.add(stringRequest);
-
-
-
-
         return v;
     }
 }

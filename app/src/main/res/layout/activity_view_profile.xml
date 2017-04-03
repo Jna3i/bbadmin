@@ -22,7 +22,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/a_minus"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:srcCompat="@mipmap/handbloodlogo"
@@ -38,7 +38,7 @@
         android:layout_marginEnd="21dp"
         android:text="Khaled Hossni"
         android:textSize="30sp"
-        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignBottom="@+id/a_minus"
         android:layout_alignParentEnd="true" />
 
     <Button
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textViewName"
         android:layout_alignStart="@+id/textViewName"
-        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignTop="@+id/a_minus"
         android:textColor="@color/colorWHITE"
         android:background="@drawable/button_shape"
         android:text="Edit Profile" />
@@ -57,7 +57,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
         android:orientation="vertical"
-        android:layout_below="@id/imageView3">
+        android:layout_below="@id/a_minus">
 <android.support.v7.widget.FitWindowsLinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -72,8 +72,8 @@
         android:id="@+id/Gender1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView3"
-        android:layout_below="@+id/imageView3"
+        android:layout_alignStart="@+id/a_minus"
+        android:layout_below="@+id/a_minus"
         android:layout_marginLeft="10dp"
 
 
@@ -97,7 +97,7 @@
     >
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/ab_plus"
             android:layout_width="15dp"
             android:layout_height="15dp"
             android:layout_marginLeft="10dp"
@@ -133,7 +133,7 @@
             android:layout_marginTop="10dp">
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/b_minus"
                 android:layout_width="15dp"
                 android:layout_height="15dp"
                 android:layout_marginLeft="10dp"
@@ -167,7 +167,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
             <ImageView
-                android:id="@+id/imageView10"
+                android:id="@+id/o_minus"
                 android:layout_width="15dp"
                 android:layout_height="15dp"
                 android:layout_marginLeft="10dp"

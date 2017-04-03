@@ -2,7 +2,9 @@
 package com.pifss.bbadmin;
 
 
-public class OnSiteDonor {
+import java.io.Serializable;
+
+public class OnSiteDonor implements Serializable {
 
     private String birthDate;
     private String bloodType;
