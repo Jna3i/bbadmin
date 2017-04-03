@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -45,6 +46,17 @@ public class AddOnsiteDonor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_onsite_donor);
 
+            Toolbar toolbar = (Toolbar) findViewById(R.id.onsiteAdd_toolbarID);
+            toolbar.setNavigationIcon(R.drawable.ic_back);
+            toolbar.setTitle("Add Donor");
+            toolbar.setTitleTextColor(Color.WHITE);
+            toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    finish();
+                }
+            });
+
             final ImageView img_aPlus = (ImageView) findViewById(R.id.a_plus);
             final ImageView img_aMinus = (ImageView) findViewById(R.id.a_minus);
             final ImageView img_bPlus = (ImageView) findViewById(R.id.b_plus);
@@ -76,6 +88,16 @@ public class AddOnsiteDonor extends AppCompatActivity {
                     img_bMinus.setBackgroundColor(Color.WHITE);
                     img_oPlus.setBackgroundColor(Color.WHITE);
                     img_oMinus.setBackgroundColor(Color.WHITE);
+
+                    img_aPlus.setImageAlpha(255);
+                    img_aMinus.setImageAlpha(127);
+                    img_abPlus.setImageAlpha(127);
+                    img_abMinus.setImageAlpha(127);
+                    img_bPlus.setImageAlpha(127);
+                    img_bMinus.setImageAlpha(127);
+                    img_oPlus.setImageAlpha(127);
+                    img_oMinus.setImageAlpha(127);
+
                 }
             });
 
@@ -84,12 +106,22 @@ public class AddOnsiteDonor extends AppCompatActivity {
                 public void onClick(View v) {
                     img_aPlus.setBackgroundColor(Color.WHITE);
                     img_aMinus.setBackgroundColor(Color.GRAY);
-                    img_abPlus.setBackgroundColor(Color.WHITE);
+                     img_abPlus.setBackgroundColor(Color.WHITE);
                     img_abMinus.setBackgroundColor(Color.WHITE);
                     img_bPlus.setBackgroundColor(Color.WHITE);
                     img_bMinus.setBackgroundColor(Color.WHITE);
                     img_oPlus.setBackgroundColor(Color.WHITE);
                     img_oMinus.setBackgroundColor(Color.WHITE);
+
+                    img_aPlus.setImageAlpha(127);
+                    img_aMinus.setImageAlpha(255);
+                    img_abPlus.setImageAlpha(127);
+                    img_abMinus.setImageAlpha(127);
+                    img_bPlus.setImageAlpha(127);
+                    img_bMinus.setImageAlpha(127);
+                    img_oPlus.setImageAlpha(127);
+                    img_oMinus.setImageAlpha(127);
+
                 }
             });
 
@@ -104,22 +136,19 @@ public class AddOnsiteDonor extends AppCompatActivity {
                     img_bMinus.setBackgroundColor(Color.WHITE);
                     img_oPlus.setBackgroundColor(Color.WHITE);
                     img_oMinus.setBackgroundColor(Color.WHITE);
+
+                    img_aPlus.setImageAlpha(127);
+                    img_aMinus.setImageAlpha(127);
+                    img_abPlus.setImageAlpha(255);
+                    img_abMinus.setImageAlpha(127);
+                    img_bPlus.setImageAlpha(127);
+                    img_bMinus.setImageAlpha(127);
+                    img_oPlus.setImageAlpha(127);
+                    img_oMinus.setImageAlpha(127);
+
                 }
             });
 
-            img_abPlus.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    img_aPlus.setBackgroundColor(Color.WHITE);
-                    img_aMinus.setBackgroundColor(Color.WHITE);
-                    img_abPlus.setBackgroundColor(Color.GRAY);
-                    img_abMinus.setBackgroundColor(Color.WHITE);
-                    img_bPlus.setBackgroundColor(Color.WHITE);
-                    img_bMinus.setBackgroundColor(Color.WHITE);
-                    img_oPlus.setBackgroundColor(Color.WHITE);
-                    img_oMinus.setBackgroundColor(Color.WHITE);
-                }
-            });
 
             img_abMinus.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -128,10 +157,20 @@ public class AddOnsiteDonor extends AppCompatActivity {
                     img_aMinus.setBackgroundColor(Color.WHITE);
                     img_abPlus.setBackgroundColor(Color.WHITE);
                     img_abMinus.setBackgroundColor(Color.GRAY);
-                    img_bPlus.setBackgroundColor(Color.WHITE);
+                     img_bPlus.setBackgroundColor(Color.WHITE);
                     img_bMinus.setBackgroundColor(Color.WHITE);
                     img_oPlus.setBackgroundColor(Color.WHITE);
                     img_oMinus.setBackgroundColor(Color.WHITE);
+
+                    img_aPlus.setImageAlpha(127);
+                    img_aMinus.setImageAlpha(127);
+                    img_abPlus.setImageAlpha(127);
+                    img_abMinus.setImageAlpha(255);
+                    img_bPlus.setImageAlpha(127);
+                    img_bMinus.setImageAlpha(127);
+                    img_oPlus.setImageAlpha(127);
+                    img_oMinus.setImageAlpha(127);
+
                 }
             });
 
@@ -146,6 +185,16 @@ public class AddOnsiteDonor extends AppCompatActivity {
                     img_bMinus.setBackgroundColor(Color.WHITE);
                     img_oPlus.setBackgroundColor(Color.WHITE);
                     img_oMinus.setBackgroundColor(Color.WHITE);
+
+                    img_aPlus.setImageAlpha(127);
+                    img_aMinus.setImageAlpha(127);
+                    img_abPlus.setImageAlpha(127);
+                    img_abMinus.setImageAlpha(127);
+                    img_bPlus.setImageAlpha(255);
+                    img_bMinus.setImageAlpha(127);
+                    img_oPlus.setImageAlpha(127);
+                    img_oMinus.setImageAlpha(127);
+
                 }
             });
 
@@ -160,6 +209,16 @@ public class AddOnsiteDonor extends AppCompatActivity {
                     img_bMinus.setBackgroundColor(Color.GRAY);
                     img_oPlus.setBackgroundColor(Color.WHITE);
                     img_oMinus.setBackgroundColor(Color.WHITE);
+
+                    img_aPlus.setImageAlpha(127);
+                    img_aMinus.setImageAlpha(127);
+                    img_abPlus.setImageAlpha(127);
+                    img_abMinus.setImageAlpha(127);
+                    img_bPlus.setImageAlpha(127);
+                    img_bMinus.setImageAlpha(255);
+                    img_oPlus.setImageAlpha(127);
+                    img_oMinus.setImageAlpha(127);
+
                 }
             });
 
@@ -174,6 +233,16 @@ public class AddOnsiteDonor extends AppCompatActivity {
                     img_bMinus.setBackgroundColor(Color.WHITE);
                     img_oPlus.setBackgroundColor(Color.GRAY);
                     img_oMinus.setBackgroundColor(Color.WHITE);
+
+                    img_aPlus.setImageAlpha(127);
+                    img_aMinus.setImageAlpha(127);
+                    img_abPlus.setImageAlpha(127);
+                    img_abMinus.setImageAlpha(127);
+                    img_bPlus.setImageAlpha(127);
+                    img_bMinus.setImageAlpha(127);
+                    img_oPlus.setImageAlpha(255);
+                    img_oMinus.setImageAlpha(127);
+
                 }
             });
 
@@ -188,7 +257,16 @@ public class AddOnsiteDonor extends AppCompatActivity {
                     img_bMinus.setBackgroundColor(Color.WHITE);
                     img_oPlus.setBackgroundColor(Color.WHITE);
                     img_oMinus.setBackgroundColor(Color.GRAY);
-                }
+
+                    img_aPlus.setImageAlpha(127);
+                    img_aMinus.setImageAlpha(127);
+                    img_abPlus.setImageAlpha(127);
+                    img_abMinus.setImageAlpha(127);
+                    img_bPlus.setImageAlpha(127);
+                    img_bMinus.setImageAlpha(127);
+                    img_oPlus.setImageAlpha(127);
+                    img_oMinus.setImageAlpha(255);
+                 }
             });
 
 
@@ -266,8 +344,8 @@ public class AddOnsiteDonor extends AppCompatActivity {
 
                         Intent i = new Intent(AddOnsiteDonor.this, AddOnsiteDonor2.class);
                         i.putExtra("id", onsiteDonorInfo.getId());
-                        startActivity(i);
                         Toast.makeText(AddOnsiteDonor.this, "Donor  Successfuly! id = " +onsiteDonorInfo.getId(), Toast.LENGTH_LONG).show();
+                        startActivity(i);
 
 
                         System.out.print(response);
