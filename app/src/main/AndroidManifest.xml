@@ -57,8 +57,7 @@
             android:exported="true"
             android:label="@string/title_activity_edit_profile"
             android:theme="@style/AppTheme.NoActionBar" />
-        android:theme="@style/AppTheme.NoActionBar" />
-        <!--
+         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
              Note that the API key is linked to the encryption key used to sign the APK.
@@ -70,13 +69,10 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".test.MapsActivity"
-            android:label="@string/title_activity_maps" />
+
         <activity android:name=".CampaignInfo" />
         <activity android:name=".CampaignEdit" />
-        android:label="@string/title_activity_maps" />
-        <activity android:name=".Notification_History_List" />
+         <activity android:name=".Notification_History_List" />
         <activity android:name=".Notification_Send" />
         <activity android:name=".Notification_View" />
         <activity android:name=".PeriodInfo" />

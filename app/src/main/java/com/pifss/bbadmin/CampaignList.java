@@ -84,18 +84,22 @@ public class CampaignList extends AppCompatActivity {
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
+                                campaign= model.get(position);
+
                                 String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/"+campaign.getCFDId();
                                 final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignList.this);
                                 final StringRequest stringRequest=new StringRequest(Request.Method.DELETE, url, new Response.Listener<String>() {
                                     @Override
                                     public void onResponse(String response) {
-                                        Toast.makeText(CampaignList.this, "delete done", Toast.LENGTH_SHORT).show();
+                                        System.out.println(response);
                                         model.remove(position);
                                         adapter.notifyDataSetChanged();
+                                        Toast.makeText(CampaignList.this, "delete done", Toast.LENGTH_SHORT).show();
                                     }
                                 }, new Response.ErrorListener() {
                                     @Override
                                     public void onErrorResponse(VolleyError error) {
+                                        System.out.println(error);
                                         Toast.makeText(CampaignList.this, "error", Toast.LENGTH_SHORT).show();
                                     }
                                 });
@@ -106,14 +110,14 @@ public class CampaignList extends AppCompatActivity {
                 final Dialog dConfirm=builder.create();
                 dConfirm.show();
 
-                return false;
+                return true;
             }
         });
     }
 
 
     // FILL THE LIST WITH CAMPAIGN ITEMS
-     void showCampaignList(){
+       void showCampaignList(){
 
         final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignList.this);
         String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/";

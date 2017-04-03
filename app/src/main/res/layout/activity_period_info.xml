@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="62dp"
         android:layout_marginTop="19dp"
-        android:text="period #" />
+        android:text="@string/period_info" />
 
     <ImageView
         android:id="@+id/imgPeriod"

@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:text="Campaign Name"
+            android:text="@string/add_campaignName"
             android:textColor="@color/colorRED"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -44,19 +44,23 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="22dp"
-                android:text="Campaign Name"
+                android:text="@string/edit_campaignName"
                 android:textSize="18sp" />
 
         </android.support.design.widget.TextInputLayout>
 
 
-        <com.google.android.gms.maps.MapView
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/campEdit_mapID"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/campEdit_txtCampNameID"
-            android:layout_marginBottom="12dp"/>
+            android:layout_below="@+id/campInfo_txtCampNameID"
+            android:layout_marginBottom="12dp" />
+
 
 
         <TextView
@@ -65,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/campInfo_txtDescriptionID"
             android:layout_alignParentStart="true"
-            android:text="Description"
+            android:text="@string/edit_Description"
             android:textColor="@color/colorRED"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -89,7 +93,8 @@
                 android:lines="3"
                 android:scrollbars="vertical"
                 android:textColor="@color/colorBLACK"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:isScrollContainer="false"/>
         </android.support.design.widget.TextInputLayout>
 
         <TextView
@@ -99,7 +104,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/campInfo_mapID"
             android:layout_marginTop="5dp"
-             android:text="Location"
+             android:text="@string/edit_Location"
             android:textColor="@color/colorRED"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -138,7 +143,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginBottom="5dp"
                 android:layout_weight=".5"
-                android:text="From"
+                android:text="@string/add_from"
                 android:textColor="@color/colorRED"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -153,7 +158,7 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="4dp"
                 android:layout_weight=".5"
-                android:text="To"
+                android:text="@string/add_To"
                 android:textColor="@color/colorRED"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -210,7 +215,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
         android:background="@drawable/button_shape"
-        android:text="Save"
+        android:text="@string/edit_save"
         android:textColor="@color/colorWHITE"
         android:textSize="18sp"
         android:textStyle="bold" />

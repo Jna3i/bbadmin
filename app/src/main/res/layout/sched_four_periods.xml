@@ -80,7 +80,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ClockPeriod1"
-                    android:text="Periond 1" />
+                    android:text="@string/sched_period1" />
 
 
                 <ImageView
@@ -118,7 +118,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ImgPerson2"
-                    android:text="Periond 2" />
+                    android:text="@string/sched_period1" />
 
                 <ImageView
                     android:id="@+id/ImgClock2"
@@ -154,7 +154,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ImgPerson3"
-                    android:text="Periond 3" />
+                    android:text="@string/sched_period3" />
 
                 <ImageView
                     android:id="@+id/ImgClock3"
@@ -205,7 +205,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ImgPerson4"
-                    android:text="Periond 4" />
+                    android:text="@string/sched_period4" />
 
                 <ImageView
                     android:id="@+id/ImgClock4"

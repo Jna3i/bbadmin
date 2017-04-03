@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="61dp"
         android:layout_marginTop="35dp"
-        android:text="type"
+        android:text="@string/one_cell_period_info_type"
         android:textSize="12sp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
@@ -39,7 +39,7 @@
         android:id="@+id/txtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FName LName"
+        android:text="@string/one_cell_period_info_fnameLname"
         android:layout_alignBottom="@+id/txtDonorType"
         android:layout_toEndOf="@+id/imgBloodType"
         android:layout_marginStart="15dp" />

@@ -22,7 +22,7 @@
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp"
-        android:text="Blood Bank"
+        android:text="@string/splash_bloodbank"
         android:textSize="50sp"
         android:textColor="@color/colorGREY"/>
 </RelativeLayout>
