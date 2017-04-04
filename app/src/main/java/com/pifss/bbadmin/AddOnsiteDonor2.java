@@ -1,7 +1,6 @@
 package com.pifss.bbadmin;
 
 import android.app.DatePickerDialog;
-import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,11 +18,9 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.google.gson.Gson;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
@@ -36,7 +33,7 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_onsite_donor2);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.onsiteAdd_toolbarID);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.onsiteAdd2_toolbarID);
         toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setTitle("Add Donor");
         toolbar.setTitleTextColor(Color.WHITE);

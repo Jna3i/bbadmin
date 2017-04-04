@@ -5,259 +5,270 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    //   1. Date and Total
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.15"
-        android:orientation="horizontal"
-        android:id="@+id/linearLayout"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        // 1. Date and Total
 
-        <ImageView
-            app:srcCompat="@mipmap/ic_calender"
-            android:id="@+id/imgCalender"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_weight="0"/>
-
-        <TextView
-            android:id="@+id/txtDate"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/imgCalender"
-            android:layout_weight="0.84"
-            android:text="dd/mm/yy" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.15"
+            android:orientation="horizontal">
 
-        <ImageView
-            app:srcCompat="@mipmap/ic_person"
-            android:id="@+id/imgTotalRegistered"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/imgCalender"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@mipmap/ic_calender" />
 
-        <TextView
-            android:id="@+id/txtTotalRegistered"
-            android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/imgCalender"
+                android:layout_weight="0.84"
+                android:text="dd/mm/yy" />
+
+            <ImageView
+                android:id="@+id/imgTotalRegistered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_person" />
+
+            <TextView
+                android:id="@+id/txtTotalRegistered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.08"
+                android:text="13/20" />
+
+        </LinearLayout>
+
+        // 2. First Row
+
+        <LinearLayout
+            android:id="@+id/A"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="13/20"
-            android:layout_weight="0.08" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:gravity="center"
+            android:orientation="horizontal">
 
+
+            <RelativeLayout
+                android:id="@+id/group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ClockPeriod1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_clock"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txtPeriod1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ClockPeriod1"
+                    android:text="@string/sched_period1" />
+
+
+                <ImageView
+                    android:id="@+id/personImgPeriod1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ClockPeriod1"
+                    android:src="@mipmap/ic_person" />
+
+                <TextView
+                    android:id="@+id/txtTotal1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtPeriod1"
+                    android:layout_toRightOf="@id/personImgPeriod1"
+                    android:text="3/5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/group2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ImgPerson2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ImgClock2"
+                    android:src="@mipmap/ic_person" />
+
+                <TextView
+                    android:id="@+id/txtPeriod2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ImgPerson2"
+                    android:text="@string/sched_period2" />
+
+                <ImageView
+                    android:id="@+id/ImgClock2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_clock" />
+
+                <TextView
+                    android:id="@+id/txtTotal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtPeriod2"
+                    android:layout_toRightOf="@id/ImgPerson2"
+                    android:text="0/5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/group3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ImgPerson3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ImgClock3"
+                    android:src="@mipmap/ic_person" />
+
+                <TextView
+                    android:id="@+id/txtPeriod3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ImgPerson3"
+                    android:text="@string/sched_period3" />
+
+                <ImageView
+                    android:id="@+id/ImgClock3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_clock" />
+
+                <TextView
+                    android:id="@+id/txtTotal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtPeriod3"
+                    android:layout_toRightOf="@id/ImgPerson3"
+                    android:text="1/5" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        //3. Second Row
+
+        <LinearLayout
+            android:id="@+id/secondRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/A"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:id="@+id/group4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ImgPerson4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ImgClock4"
+                    android:src="@mipmap/ic_person" />
+
+                <TextView
+                    android:id="@+id/txtPeriod4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ImgPerson4"
+                    android:text="@string/sched_period4" />
+
+                <ImageView
+                    android:id="@+id/ImgClock4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_clock" />
+
+                <TextView
+                    android:id="@+id/txtTotal4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtPeriod4"
+                    android:layout_toRightOf="@id/ImgPerson4"
+                    android:text="4/5" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/group5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ImgPerson5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ImgClock5"
+                    android:src="@mipmap/ic_person" />
+
+                <TextView
+                    android:id="@+id/txtPeriod5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ImgPerson5"
+                    android:text="@string/sched_period5" />
+
+                <ImageView
+                    android:id="@+id/ImgClock5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_clock" />
+
+                <TextView
+                    android:id="@+id/txtTotal5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtPeriod5"
+                    android:layout_toRightOf="@id/ImgPerson5"
+                    android:text="5/5" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
     </LinearLayout>
-
-    // 2. First Row
-
-    <LinearLayout
-        android:id="@+id/A"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_below="@+id/linearLayout"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-
-        <RelativeLayout
-            android:id="@+id/group1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/ClockPeriod1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/ic_clock"
-
-                />
-
-            <TextView
-                android:id="@+id/txtPeriod1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/ClockPeriod1"
-                android:text="@string/sched_period1" />
-
-
-            <ImageView
-                android:id="@+id/personImgPeriod1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/ClockPeriod1"
-                android:src="@mipmap/ic_person" />
-
-            <TextView
-                android:id="@+id/txtTotal1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/txtPeriod1"
-                android:layout_toRightOf="@id/personImgPeriod1"
-                android:text="3/5" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/group2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/ImgPerson2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ImgClock2"
-                android:src="@mipmap/ic_person" />
-
-            <TextView
-                android:id="@+id/txtPeriod2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/ImgPerson2"
-                android:text="@string/sched_period2" />
-
-            <ImageView
-                android:id="@+id/ImgClock2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/ic_clock" />
-
-            <TextView
-                android:id="@+id/txtTotal2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/txtPeriod2"
-                android:layout_toRightOf="@id/ImgPerson2"
-                android:text="0/5" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/group3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/ImgPerson3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ImgClock3"
-                android:src="@mipmap/ic_person" />
-
-            <TextView
-                android:id="@+id/txtPeriod3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/ImgPerson3"
-                android:text="@string/sched_period3" />
-
-            <ImageView
-                android:id="@+id/ImgClock3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/ic_clock" />
-
-            <TextView
-                android:id="@+id/txtTotal3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/txtPeriod3"
-                android:layout_toRightOf="@id/ImgPerson3"
-                android:text="1/5" />
-
-        </RelativeLayout>
-
-
-    </LinearLayout>
-
-    //3. Second Row
-
-    <LinearLayout
-        android:id="@+id/secondRow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_below="@+id/A"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-
-        <RelativeLayout
-            android:id="@+id/group4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/ImgPerson4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ImgClock4"
-                android:src="@mipmap/ic_person" />
-
-            <TextView
-                android:id="@+id/txtPeriod4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/ImgPerson4"
-                android:text="@string/sched_period4" />
-
-            <ImageView
-                android:id="@+id/ImgClock4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/ic_clock" />
-
-            <TextView
-                android:id="@+id/txtTotal4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/txtPeriod4"
-                android:layout_toRightOf="@id/ImgPerson4"
-                android:text="4/5" />
-
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/group5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/ImgPerson5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ImgClock5"
-                android:src="@mipmap/ic_person" />
-
-            <TextView
-                android:id="@+id/txtPeriod5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/ImgPerson5"
-                android:text="@string/sched_period5" />
-
-            <ImageView
-                android:id="@+id/ImgClock5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/ic_clock" />
-
-            <TextView
-                android:id="@+id/txtTotal5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/txtPeriod5"
-                android:layout_toRightOf="@id/ImgPerson5"
-                android:text="5/5" />
-
-
-        </RelativeLayout>
-    </LinearLayout>
-
 </RelativeLayout>

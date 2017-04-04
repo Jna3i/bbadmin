@@ -20,10 +20,6 @@
         "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\menu.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_b.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_b.png"
-    },
-    {
         "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_male.png",
         "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_male.png"
     },
@@ -36,20 +32,8 @@
         "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_clock.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_calender.png",
         "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_calender.png"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ab_plus.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ab_plus.png"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\a_plus.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\a_plus.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\b_plus.png",
@@ -80,12 +64,32 @@
         "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\b_minus.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\o_minus.png",
-        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\o_minus.png"
-    },
-    {
         "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\navigation_drawer_icon.png",
         "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\navigation_drawer_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_b.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_b.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\internet.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\internet.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ab_plus.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ab_plus.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\a_plus.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\a_plus.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\o_minus.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\o_minus.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\back.png",

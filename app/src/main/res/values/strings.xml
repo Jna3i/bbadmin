@@ -15,7 +15,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="send_email">Send</string>
+    <string name="send_email">Submit</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_main_drawer">Schedule</string>
@@ -51,7 +51,7 @@
     <string name="EditProfile_Gender2">Male/female</string>
     <string name="EditProfile_Date_of_Birth">Birth Date</string>
     <string name="EditProfile_Choose_Date_of_Birth">Choose a Date</string>
-    <string name="ForgetP_please_enter">Please Enter your Email here</string>
+    <string name="ForgetP_please_enter">Please Enter your Email</string>
 
 
     <string name="EditProfile_Branch_Name">Branch Name</string>
@@ -61,7 +61,7 @@
     <string name="EditProfile_title_activity_edit_profile">EditProfile</string>
     <string name="title_activity_maps_activityaa">Map</string>
 
-    <string name="setting_switchLangauge">Switch Language</string>
+    <string name="setting_switchLangauge">Choose Language</string>
 
     <!--Monia-->
     <string name="notificationhistory">Notification History</string>

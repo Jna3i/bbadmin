@@ -14,7 +14,7 @@ public class DonorInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donor_info);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.campAdd_toolbarID);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.donorInfo_toolbarID);
         toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setTitle("Donor Information");
         toolbar.setTitleTextColor(Color.WHITE);

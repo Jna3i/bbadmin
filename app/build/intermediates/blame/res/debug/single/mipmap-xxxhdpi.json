@@ -20,6 +20,10 @@
         "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xxxhdpi\\phone.png"
     },
     {
+        "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\period.png",
+        "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xxxhdpi\\period.png"
+    },
+    {
         "merged": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\note.png",
         "source": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\mipmap-xxxhdpi\\note.png"
     },

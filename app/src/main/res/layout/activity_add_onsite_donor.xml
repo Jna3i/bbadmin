@@ -21,12 +21,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:layout_alignParentStart="true"
         android:layout_below="@+id/onsiteAdd_toolbarID"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
         android:orientation="vertical">
 
         <android.support.design.widget.TextInputLayout
@@ -109,13 +107,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Gender:"
-            android:textColor="@color/colorRED"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
             android:drawableLeft="@mipmap/genders"
             android:drawablePadding="10dp"
-            android:textSize="18dp"
-            android:layout_marginLeft="2dp"
-            android:layout_marginTop="10dp"/>
+            android:text="Gender:"
+            android:textColor="@color/colorRED"
+            android:textSize="18dp" />
 
 
         <RadioGroup
@@ -123,11 +121,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txtEmail"
-            android:layout_marginBottom="10dp"
             android:layout_toStartOf="@+id/b_plus"
             android:gravity="center"
-            android:orientation="horizontal"
-             >
+            android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/radFemale"
