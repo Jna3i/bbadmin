@@ -6,61 +6,219 @@
     android:layout_height="match_parent"
     tools:context="com.pifss.bbadmin.DonorInfo">
 
-    <TextView
-        android:id="@+id/txtName"
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/campInfo_toolbarID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="87dp"
-        android:text="TextView"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorRED"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
 
-    <TextView
-        android:id="@+id/txtCivilID"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/txtName"
-        android:layout_marginTop="20dp"
-        android:text="TextView" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/campInfo_toolbarID"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+             android:layout_marginTop="5dp"
+            android:text="Name"
+            android:textColor="@color/colorRED"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:drawableLeft="@mipmap/avatar"
+            android:drawablePadding="10dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:clickable="false"
+            android:theme="@style/CampInfoHint">
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="22dp"
+                android:editable="false"
+                android:textColor="@color/colorBLACK"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/lblbloodtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@mipmap/drop"
+            android:drawablePadding="10dp"
+            android:text="Blood Type"
+            android:textColor="@color/colorRED"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:clickable="false"
+            android:theme="@style/CampInfoHint">
+
+            <EditText
+                android:id="@+id/txtBloodType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="22dp"
+                android:editable="false"
+                android:textColor="@color/colorBLACK"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
 
 
+        <TextView
+            android:id="@+id/lblgender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="Gender"
+            android:textColor="@color/colorRED"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:drawableLeft="@mipmap/genders"
+            android:drawablePadding="10dp"/>
 
-    <TextView
-        android:id="@+id/txtBloodType"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/txtCivilID"
-        android:layout_below="@+id/txtCivilID"
-        android:layout_marginTop="20dp"
-        android:text="TextView" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:clickable="false"
+            android:theme="@style/CampInfoHint">
+
+            <EditText
+                android:id="@+id/txtGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="22dp"
+                android:editable="false"
+                android:textColor="@color/colorBLACK"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
 
 
-    <TextView
-        android:id="@+id/txtGender"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/txtBloodType"
-        android:layout_below="@+id/txtBloodType"
-        android:layout_marginTop="21dp"
-        android:text="TextView" />
+        <TextView
+            android:id="@+id/lblCivilID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@mipmap/id"
+            android:drawablePadding="10dp"
+            android:text="Civil ID"
+            android:textColor="@color/colorRED"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/txtPhone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/txtGender"
-        android:layout_below="@+id/txtGender"
-        android:layout_marginTop="16dp"
-        android:text="TextView" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:clickable="false"
+            android:theme="@style/CampInfoHint">
 
-    <TextView
-        android:id="@+id/txtEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/txtPhone"
-        android:layout_below="@+id/txtPhone"
-        android:layout_marginTop="20dp"
-        android:text="TextView" />
+            <EditText
+                android:id="@+id/txtCivilID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="22dp"
+                android:editable="false"
+                android:textColor="@color/colorBLACK"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
 
+        <TextView
+            android:id="@+id/lblphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="Phone Number"
+            android:textColor="@color/colorRED"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:drawableLeft="@mipmap/phone"
+            android:drawablePadding="10dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:clickable="false"
+            android:theme="@style/CampInfoHint">
+
+            <EditText
+                android:id="@+id/txtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="22dp"
+                android:editable="false"
+                android:textColor="@color/colorBLACK"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/lblemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="Email"
+            android:textColor="@color/colorRED"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:drawableLeft="@mipmap/phone"
+            android:drawablePadding="10dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:clickable="false"
+            android:theme="@style/CampInfoHint">
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="22dp"
+                android:editable="false"
+                android:textColor="@color/colorBLACK"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>

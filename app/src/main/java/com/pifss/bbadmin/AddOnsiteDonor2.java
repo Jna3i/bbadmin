@@ -70,6 +70,7 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
         });
 
         ArrayList<String> spinnerArr = new ArrayList<>();
+        spinnerArr.add("Select Period");
         spinnerArr.add("Period 1");
         spinnerArr.add("Period 2");
         spinnerArr.add("Period 3");

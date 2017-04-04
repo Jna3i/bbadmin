@@ -7,251 +7,256 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.pifss.bbadmin.EditProfile"
     tools:showIn="@layout/activity_edit_profile">
+
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <ImageView
-        android:id="@+id/ab_minus"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="10dp"
-        app:srcCompat="@mipmap/handbloodlogo" />
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
 
-    <EditText
-        android:id="@+id/nameText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/ab_minus"
-        android:layout_marginStart="12dp"
-        android:layout_toEndOf="@+id/ab_minus"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:text="Khaled Hossni" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorWHITE"
-        android:layout_alignEnd="@+id/nameText"
-        android:layout_alignStart="@+id/nameText"
-        android:layout_alignTop="@+id/ab_minus"
-        android:background="@drawable/button_shape"
-        android:text="@string/EditProfile_Save" />
-
-    <android.support.v7.widget.FitWindowsLinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="vertical"
-        android:layout_below="@id/ab_minus"
-        android:id="@+id/fitWindowsLinearLayout">
-
-
-        <android.support.v7.widget.FitWindowsLinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:id="@+id/imageButton"
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:layout_marginLeft="10dp"
-                app:srcCompat="@mipmap/ic_genders1" />
-
-            <TextView
-                android:id="@+id/Gender1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/a_minus"
-                android:layout_below="@+id/a_minus"
-                android:layout_marginLeft="10dp"
-                android:text="@string/EditProfile_Gender1"
-                android:textSize="16sp" />
-
-        </android.support.v7.widget.FitWindowsLinearLayout>
-
-
-        <Spinner
-            android:id="@+id/spinner3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp" />
-
-        <android.support.v7.widget.FitWindowsLinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/ab_minus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
             android:layout_marginTop="10dp"
-            >
+            app:srcCompat="@mipmap/handbloodlogo" />
 
-            <ImageView
-                android:id="@+id/ab_plus"
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:layout_marginLeft="10dp"
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ab_minus"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/ab_minus"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="Khaled Hossni" />
 
-                app:srcCompat="@mipmap/ic_calendar" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignEnd="@+id/nameText"
+            android:layout_alignStart="@+id/nameText"
+            android:layout_alignTop="@+id/ab_minus"
+            android:background="@drawable/button_grey"
+            android:text="@string/EditProfile_Save"
+            android:textColor="@color/colorWHITE"
 
-            <TextView
-                android:id="@+id/textView35"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/Gender1"
-                android:layout_below="@+id/Gender2"
-                android:layout_marginLeft="10dp"
-                android:text="@string/EditProfile_Date_of_Birth"
-                android:textSize="16sp"
-                 />
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.FitWindowsLinearLayout
+            android:id="@+id/fitWindowsLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ab_minus"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
 
 
-            <EditText
-                android:id="@+id/chooseDate"
+            <android.support.v7.widget.FitWindowsLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageButton"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@mipmap/ic_genders1" />
+
+                <TextView
+                    android:id="@+id/Gender1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/a_minus"
+                    android:layout_below="@+id/a_minus"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/EditProfile_Gender1"
+                    android:textSize="16sp" />
+
+            </android.support.v7.widget.FitWindowsLinearLayout>
+
+
+            <Spinner
+                android:id="@+id/spinner3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp" />
+
+            <android.support.v7.widget.FitWindowsLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ab_plus"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+
+                    app:srcCompat="@mipmap/ic_calendar" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/Gender1"
+                    android:layout_below="@+id/Gender2"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/EditProfile_Date_of_Birth"
+                    android:textSize="16sp" />
+
+
+                <EditText
+                    android:id="@+id/chooseDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/EditProfile_Choose_Date_of_Birth"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center" />
+            </android.support.v7.widget.FitWindowsLinearLayout>
+
+
+            <android.support.v7.widget.FitWindowsLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/b_minus"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@mipmap/ic_email" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView35"
+                    android:layout_below="@+id/textViewDate"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/EditProfile_Email"
+
+                    android:textSize="16sp" />
+            </android.support.v7.widget.FitWindowsLinearLayout>
+
+            <EditText
+                android:id="@+id/emailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
                 android:ems="10"
-                android:hint="@string/EditProfile_Choose_Date_of_Birth"
-                android:inputType="textPersonName"
-                android:textAlignment="center" />
-        </android.support.v7.widget.FitWindowsLinearLayout>
 
+                android:inputType="textEmailAddress" />
 
-        <android.support.v7.widget.FitWindowsLinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
-
-            <ImageView
-                android:id="@+id/b_minus"
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:layout_marginLeft="10dp"
-                app:srcCompat="@mipmap/ic_email" />
-
-            <TextView
-                android:id="@+id/textView37"
-                android:layout_width="wrap_content"
+            <android.support.v7.widget.FitWindowsLinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/textView35"
-                android:layout_below="@+id/textViewDate"
-                android:layout_marginLeft="10dp"
-                android:text="@string/EditProfile_Email"
+                android:layout_marginTop="10dp">
 
-                android:textSize="16sp"
-                 />
-        </android.support.v7.widget.FitWindowsLinearLayout>
+                <ImageView
+                    android:id="@+id/o_minus"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@mipmap/ic_phone" />
 
-        <EditText
-            android:id="@+id/emailText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:ems="10"
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView37"
+                    android:layout_below="@+id/textViewEmail"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/EditProfile_Phone"
+                    android:textSize="16sp" />
 
-            android:inputType="textEmailAddress" />
 
-        <android.support.v7.widget.FitWindowsLinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
-            <ImageView
-                android:id="@+id/o_minus"
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:layout_marginLeft="10dp"
-                app:srcCompat="@mipmap/ic_phone" />
+            </android.support.v7.widget.FitWindowsLinearLayout>
 
-            <TextView
-                android:id="@+id/textView39"
-                android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/phoneText"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/textView37"
-                android:layout_below="@+id/textViewEmail"
-                android:layout_marginLeft="10dp"
-                android:text="@string/EditProfile_Phone"
-                android:textSize="16sp"
-                />
+                android:layout_marginLeft="40dp"
+                android:ems="10"
 
+                android:inputType="textEmailAddress" />
 
-        </android.support.v7.widget.FitWindowsLinearLayout>
-
-        <EditText
-            android:id="@+id/phoneText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:ems="10"
-
-            android:inputType="textEmailAddress" />
-
-        <android.support.v7.widget.FitWindowsLinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:layout_marginLeft="10dp"
-                app:srcCompat="@mipmap/ic_placeholder" />
-
-            <TextView
-                android:id="@+id/textView41"
-                android:layout_width="wrap_content"
+            <android.support.v7.widget.FitWindowsLinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/textView39"
-                android:layout_below="@+id/textViewPhone"
-                android:layout_marginLeft="10dp"
-                android:text="@string/EditProfile_Branch_Name"
+                android:layout_marginTop="10dp">
 
-                android:textSize="16sp"
-                 />
-        </android.support.v7.widget.FitWindowsLinearLayout>
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@mipmap/ic_placeholder" />
 
-        <Spinner
-            android:id="@+id/spinner4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp" />
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView39"
+                    android:layout_below="@+id/textViewPhone"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/EditProfile_Branch_Name"
 
-        <android.support.v7.widget.FitWindowsLinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
-            <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:layout_marginLeft="10dp"
-                app:srcCompat="@mipmap/ic_id" />
+                    android:textSize="16sp" />
+            </android.support.v7.widget.FitWindowsLinearLayout>
 
-            <TextView
-                android:id="@+id/textView43"
-                android:layout_width="wrap_content"
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/textView41"
-                android:layout_below="@+id/textViewBranch"
-                android:layout_marginLeft="10dp"
-                android:text="@string/EditProfile_Civil_ID"
-                android:textSize="16sp"
-                 />
+                android:layout_marginLeft="40dp" />
+
+            <android.support.v7.widget.FitWindowsLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@mipmap/ic_id" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView41"
+                    android:layout_below="@+id/textViewBranch"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/EditProfile_Civil_ID"
+                    android:textSize="16sp" />
+            </android.support.v7.widget.FitWindowsLinearLayout>
+
+            <EditText
+                android:id="@+id/civilText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:ems="10"
+
+                android:inputType="textEmailAddress" />
+
+
         </android.support.v7.widget.FitWindowsLinearLayout>
-
-        <EditText
-            android:id="@+id/civilText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:ems="10"
-
-            android:inputType="textEmailAddress" />
-
-
-    </android.support.v7.widget.FitWindowsLinearLayout>
 
     </RelativeLayout>
 </ScrollView>
