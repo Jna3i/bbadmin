@@ -2,8 +2,10 @@ package com.pifss.bbadmin;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -33,6 +35,18 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_onsite_donor2);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.onsiteAdd_toolbarID);
+        toolbar.setNavigationIcon(R.drawable.ic_back);
+        toolbar.setTitle("Add Donor");
+        toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
 
         Button btnAdd = (Button) findViewById(R.id.btnAdd);
 
