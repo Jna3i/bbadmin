@@ -7,40 +7,54 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:id="@+id/linearLayout4"
+        android:orientation="horizontal"
+        android:weightSum="1">
 
-        <TextView
-            android:id="@+id/notification_details_title"
-            android:layout_width="320dp"
+        <LinearLayout
+            android:layout_width="400dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:clickable="false"
-            android:fontFamily="sans-serif"
-            android:gravity="left"
-            android:padding="4dp"
-            android:text="@string/title"
-            android:textColor="@color/colorBLACK"
-            android:textSize="18sp" />
+            android:layout_weight="0.78"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/notification_details_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:clickable="false"
+                android:fontFamily="sans-serif"
+                android:gravity="left"
+                android:padding="4dp"
+                android:text="@string/title"
+                android:textColor="@color/colorBLACK"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/notification_details_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/linearLayout4"
+                android:layout_below="@+id/linearLayout4"
+                android:text="@string/date"
+                android:textSize="16sp"
+                android:padding="4dp"
+                />
+
+        </LinearLayout>
 
 
-        <TextView
-            android:id="@+id/notification_details_date"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/ab_minus"
-            android:layout_toEndOf="@+id/ab_minus"
-            android:text="@string/date"
-            android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            app:srcCompat="@mipmap/right" />
+
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="27dp"
-        android:layout_marginRight="27dp"
-        app:srcCompat="@mipmap/right"
-         android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

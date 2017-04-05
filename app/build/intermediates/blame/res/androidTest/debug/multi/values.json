@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/ahmed/.android/build-cache/e0e03fb7454475f8d1daaf5e8b75d8edb6c23d94/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/ahmed/AndroidStudioProjects/bbadmin/C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "/home/ahmed/AndroidStudioProjects/bbadmin/C:\\Users\\PIFSS\\.android\\build-cache\\83168895001852d7e3bc5439906e9861d1c2811e\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\83168895001852d7e3bc5439906e9861d1c2811e\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
