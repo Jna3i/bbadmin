@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blood Bank Admin</string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">الايميل</string>
+    <string name="prompt_password">الرقم السري </string>
+    <string name="action_sign_in">تسجيل الدخول </string>
+    <string name="action_forget_password">هل نسيت الرم السري؟ </string>
+    <string name="action_sign_in_short">Login </string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="send_email">ارسال</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_drawer">جدول المواعيد</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--jna3i-->
+    <string name="action_logout">تسجيل الخروج</string>
+
+    <string name="activity_schedule">جدول المواعيد</string>
+    <string name="activity_campaign">حملات التبرع</string>
+    <string name="activity_notificationHistory">التنبيهات السابقة</string>
+    <string name="activity_addOnSiteDonor">إضافة متبرع على الموقع</string>
+    <string name="activity_addCampaign">اضافة حملة</string>
+    <string name="activity_sendNotification">ارسال التنبيهات</string>
+    <string name="activity_settings">الاعدادات</string>
+    <string name="title_activity_maps">الخريطة</string>
+
+    <!--Yousiff-->
+    <string name="view_Gender1">الجنس</string>
+    <string name="view_Editprofile">تعديل الملف الشخصي</string>
+    <string name="view_Date_of_Birth">تاريخ الميلاد</string>
+    <string name="view_Branch_Name">اسم الفرع</string>
+    <string name="view_ID">الرقم المدني</string>
+    <string name="view_Email">الايميل</string>
+    <string name="view_Phone">رقم الهاتف</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+
+    <string name="EditProfile_Save">حفظ</string>
+    <string name="EditProfile_Gender1">الجنس</string>
+    <string name="EditProfile_Gender2">Male/female</string>
+    <string name="EditProfile_Date_of_Birth">تاريخ الميلاد</string>
+    <string name="EditProfile_Choose_Date_of_Birth">اختر التاريخ</string>
+    <string name="ForgetP_please_enter">من فضلك قم بكتابة ايميلك هنا..</string>
+
+
+    <string name="EditProfile_Branch_Name">اسم الفرع</string>
+    <string name="EditProfile_Civil_ID">الرقم المدني</string>
+    <string name="EditProfile_Email">الايميل</string>
+    <string name="EditProfile_Phone">رقم الهاتف</string>
+    <string name="EditProfile_title_activity_edit_profile">تعديل الملف الشخصي</string>
+    <string name="title_activity_maps_activityaa">الخريطة</string>
+
+    <string name="setting_switchLangauge">تبديل اللغة</string>
+
+    <!--Monia-->
+    <string name="notificationhistory">التنبيهات السابقة</string>
+    <string name="title">العنوان</string>
+    <string name="date">التاريخ</string>
+    <string name="notifidetails">تفاصيل التنبيهات</string>
+    <string name="description">الوصف</string>
+    <string name="sendnotify">ارسال</string>
+    <string name="sendnotification">ارسال التنبيهات</string>
+
+    <!--Camp-->
+    <string name="add_campaignName">اسم الحملة:</string>
+    <string name="add_Description">الوصف:</string>
+    <string name="add_Location">الموقع:</string>
+    <string name="add_Date">التاريخ:</string>
+    <string name="add_from">من</string>
+    <string name="add_To">الى</string>
+    <string name="add_ADD">إضافة</string>
+    <string name="edit_campaignName">اسم الحملة</string>
+    <string name="edit_Description">الوصف</string>
+    <string name="edit_Location">الموقع</string>
+    <string name="edit_Date">التاريخ</string>
+    <string name="edit_save">حفظ</string>
+    <string name="info_Edit">تعديل</string>
+
+    <!--others-->
+    <string name="period_info">الفترة #</string>
+    <string name="splash_bloodbank">بنك الدم</string>
+    <string name="one_cell_period_info_type">النوع</string>
+    <string name="one_cell_period_info_fnameLname">الاسم الاول والاسم الاخير</string>
+
+    <string name="sched_period1"> الفترة ١</string>
+    <string name="sched_period2">الفترة ٢</string>
+    <string name="sched_period3">الفترة ٣</string>
+    <string name="sched_period4">الفترة ٤</string>
+    <string name="sched_period5">الفترة ٥</string>
+
+</resources>

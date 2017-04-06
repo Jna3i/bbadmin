@@ -31,29 +31,59 @@ public class AppSettings extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Resources res = getResources();
-                DisplayMetrics dm = res.getDisplayMetrics();
-                android.content.res.Configuration conf = res.getConfiguration();
-                if(tab.getSelectedTabPosition() == 1) {
-                    conf.setLocale(new Locale("ar"));
-                    res.updateConfiguration(conf, dm);
-                    Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
-                    startActivity(refresh);
+//                Resources res = getResources();
+//                DisplayMetrics dm = res.getDisplayMetrics();
+//                android.content.res.Configuration conf = res.getConfiguration();
+//                if(tab.getSelectedTabPosition() == 1) {
+//                    conf.setLocale(new Locale("ar"));
+//                    res.updateConfiguration(conf, dm);
+//                    Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
+//                    Toast.makeText(AppSettings.this, "htnin", Toast.LENGTH_SHORT).show();
                     finish();
-                    //startActivity(i);
-                }
-                else{
-                    conf.setLocale(new Locale("en"));
-
-                    res.updateConfiguration(conf, dm);
-                    Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
-                    startActivity(refresh);
-                    finish();
-                }
+//                    startActivity(refresh);
+//                    //startActivity(i);
+//                }
+//                else{
+//                    conf.setLocale(new Locale("en"));
+//
+//                    res.updateConfiguration(conf, dm);
+//                    Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
+//                    finish();
+//                    startActivity(refresh);
+//
+//                }
 
             }
         });
 
+    tab.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Toast.makeText(AppSettings.this, "htnin2", Toast.LENGTH_SHORT).show();
+            Resources res = getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            android.content.res.Configuration conf = res.getConfiguration();
+            if(tab.getSelectedTabPosition() == 1) {
+                conf.setLocale(new Locale("ar"));
+                res.updateConfiguration(conf, dm);
+                Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
+                Toast.makeText(AppSettings.this, "htnin", Toast.LENGTH_SHORT).show();
+                finish();
+                startActivity(refresh);
+                //startActivity(i);
+            }
+            else{
+                conf.setLocale(new Locale("en"));
+
+                res.updateConfiguration(conf, dm);
+                Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
+                finish();
+                startActivity(refresh);
+
+            }
+
+        }
+    });
 
     }
 
