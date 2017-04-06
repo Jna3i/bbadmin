@@ -26,7 +26,7 @@ public class ViewProfile extends AppCompatActivity {
         profile= new Gson().fromJson(S1,bbadmin.class);
         Toolbar toolbar = (Toolbar) findViewById(R.id.viewProfile_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_back);
-        toolbar.setTitle("Proifle");
+        toolbar.setTitle(getString(R.string.activity_Profile));
         toolbar.setTitleTextColor(Color.WHITE);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

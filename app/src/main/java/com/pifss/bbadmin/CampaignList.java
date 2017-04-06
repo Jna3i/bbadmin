@@ -37,7 +37,7 @@ public class CampaignList extends AppCompatActivity {
         // TOOLBAR
         Toolbar toolbar = (Toolbar) findViewById(R.id.campList_toolbarID);
         toolbar.setNavigationIcon(R.drawable.ic_back);
-        toolbar.setTitle("Campaigns");
+        toolbar.setTitle(getString(R.string.activity_campaign));
         toolbar.setTitleTextColor(Color.WHITE);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

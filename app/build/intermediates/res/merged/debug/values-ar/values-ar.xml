@@ -33,7 +33,8 @@
     <string name="action_forget_password">هل نسيت الرم السري؟ </string>
     <string name="action_logout">تسجيل الخروج</string>
     <string name="action_sign_in">تسجيل الدخول </string>
-    <string name="action_sign_in_short">Login </string>
+    <string name="action_sign_in_short">"تسجيل الدخول "</string>
+    <string name="activity_Profile">الملف الشخصي</string>
     <string name="activity_addCampaign">اضافة حملة</string>
     <string name="activity_addOnSiteDonor">إضافة متبرع على الموقع</string>
     <string name="activity_campaign">حملات التبرع</string>
@@ -95,7 +96,7 @@
     <string name="sched_period2">الفترة ٢</string>
     <string name="sched_period3">الفترة ٣</string>
     <string name="sched_period4">الفترة ٤</string>
-    <string name="sched_period5">الفترة ٥</string>
+    <string name="sched_period5">الفترة 5</string>
     <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
     <string name="send_email">ارسال</string>
     <string name="sendnotification">ارسال التنبيهات</string>
@@ -104,7 +105,6 @@
     <string name="splash_bloodbank">بنك الدم</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string name="title">العنوان</string>
-    <string name="title_activity_edit_profile">EditProfile</string>
     <string name="title_activity_login">تسجيل الدخول</string>
     <string name="title_activity_main_drawer">جدول المواعيد</string>
     <string name="title_activity_maps">الخريطة</string>

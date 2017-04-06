@@ -56,34 +56,85 @@ public class AppSettings extends AppCompatActivity {
             }
         });
 
-    tab.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Toast.makeText(AppSettings.this, "htnin2", Toast.LENGTH_SHORT).show();
-            Resources res = getResources();
-            DisplayMetrics dm = res.getDisplayMetrics();
-            android.content.res.Configuration conf = res.getConfiguration();
-            if(tab.getSelectedTabPosition() == 1) {
-                conf.setLocale(new Locale("ar"));
-                res.updateConfiguration(conf, dm);
-                Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
-                Toast.makeText(AppSettings.this, "htnin", Toast.LENGTH_SHORT).show();
-                finish();
-                startActivity(refresh);
-                //startActivity(i);
-            }
-            else{
-                conf.setLocale(new Locale("en"));
+//    tab.setOnClickListener(new View.OnClickListener() {
+//        @Override
+//        public void onClick(View v) {
+//            Toast.makeText(AppSettings.this, "htnin2", Toast.LENGTH_SHORT).show();
+//            Resources res = getResources();
+//            DisplayMetrics dm = res.getDisplayMetrics();
+//            android.content.res.Configuration conf = res.getConfiguration();
+//            if(tab.getSelectedTabPosition() == 1) {
+//                conf.setLocale(new Locale("ar"));
+//                res.updateConfiguration(conf, dm);
+//                Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
+//                Toast.makeText(AppSettings.this, "htnin", Toast.LENGTH_SHORT).show();
+//                finish();
+//                startActivity(refresh);
+//                //startActivity(i);
+//            }
+//            else{
+//                conf.setLocale(new Locale("en"));
+//
+//                res.updateConfiguration(conf, dm);
+//                Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
+//                finish();
+//                startActivity(refresh);
+//
+//            }
+//
+//        }
+//    });
+        //set tablayout to current language
+        String selectedLang= Locale.getDefault().getDisplayLanguage();
 
-                res.updateConfiguration(conf, dm);
-                Intent refresh = new Intent(AppSettings.this, MainDrawer.class);
-                finish();
-                startActivity(refresh);
-
-            }
+        if (selectedLang.equalsIgnoreCase("العربية")){
+            TabLayout.Tab selectTab= tab.getTabAt(1);
+            selectTab.select();
 
         }
-    });
+        
+
+
+
+        tab.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+
+                Resources res = getResources();
+                DisplayMetrics dm = res.getDisplayMetrics();
+                android.content.res.Configuration conf = res.getConfiguration();
+                if(tab.getPosition() == 1) {
+                    conf.setLocale(new Locale("ar"));
+                    res.updateConfiguration(conf, dm);
+                    Intent refresh = new Intent(AppSettings.this, SplashActivity.class);
+                    refresh.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    Toast.makeText(AppSettings.this, "Arabic", Toast.LENGTH_SHORT).show();
+                    finish();
+                    startActivity(refresh);
+                    //startActivity(i);
+                }
+                else{
+                    conf.setLocale(new Locale("en"));
+                    Toast.makeText(AppSettings.this, "English", Toast.LENGTH_SHORT).show();
+                    res.updateConfiguration(conf, dm);
+                    Intent refresh = new Intent(AppSettings.this, SplashActivity.class);
+                    refresh.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    finish();
+                    startActivity(refresh);
+
+                }
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
 
     }
 

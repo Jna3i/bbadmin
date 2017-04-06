@@ -9,7 +9,7 @@
     <string name="prompt_password">الرقم السري </string>
     <string name="action_sign_in">تسجيل الدخول </string>
     <string name="action_forget_password">هل نسيت الرم السري؟ </string>
-    <string name="action_sign_in_short">Login </string>
+    <string name="action_sign_in_short">"تسجيل الدخول "</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
@@ -46,7 +46,6 @@
     <string name="view_ID">الرقم المدني</string>
     <string name="view_Email">الايميل</string>
     <string name="view_Phone">رقم الهاتف</string>
-    <string name="title_activity_edit_profile">EditProfile</string>
 
     <string name="EditProfile_Save">حفظ</string>
     <string name="EditProfile_Gender1">الجنس</string>
@@ -99,6 +98,8 @@
     <string name="sched_period2">الفترة ٢</string>
     <string name="sched_period3">الفترة ٣</string>
     <string name="sched_period4">الفترة ٤</string>
-    <string name="sched_period5">الفترة ٥</string>
+    <string name="sched_period5">الفترة 5</string>
+    <string name="activity_Profile">الملف الشخصي</string>
+
 
 </resources>

@@ -34,7 +34,7 @@ public class Notification_History_List extends AppCompatActivity {
         setContentView(R.layout.activity_notification__history__list);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.Notification_Toolbar_List);
-        toolbar.setTitle("Notifications");
+        toolbar.setTitle(getString(R.string.activity_notificationHistory));
         toolbar.setTitleTextColor(Color.WHITE);
 
         toolbar.setNavigationIcon(R.drawable.ic_back);

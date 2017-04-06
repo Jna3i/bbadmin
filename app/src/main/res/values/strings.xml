@@ -44,7 +44,7 @@
     <string name="view_ID">Civil ID</string>
     <string name="view_Email">Email</string>
     <string name="view_Phone">Phone</string>
-    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
 
     <string name="EditProfile_Save">Save</string>
     <string name="EditProfile_Gender1">Gender</string>
@@ -58,7 +58,7 @@
     <string name="EditProfile_Civil_ID">Civil ID</string>
     <string name="EditProfile_Email">Email</string>
     <string name="EditProfile_Phone">Phone</string>
-    <string name="EditProfile_title_activity_edit_profile">EditProfile</string>
+    <string name="EditProfile_title_activity_edit_profile">Edit Profile</string>
     <string name="title_activity_maps_activityaa">Map</string>
 
     <string name="setting_switchLangauge">Choose Language</string>
@@ -98,6 +98,7 @@
     <string name="sched_period3">period 3</string>
     <string name="sched_period4">period 4</string>
     <string name="sched_period5">period 5</string>
+    <string name="activity_Profile">Profile</string>
 
 
 </resources>

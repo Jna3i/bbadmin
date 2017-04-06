@@ -50,8 +50,15 @@ public class EditProfile extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_back);
-        toolbar.setTitle("Edit Profile");
+        toolbar.setTitle(getString(R.string.EditProfile_title_activity_edit_profile));
         toolbar.setTitleTextColor(Color.WHITE);
+
+        toolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         Button save = (Button) findViewById(R.id.button3);
         final EditText nameText = (EditText) findViewById(R.id.nameText);
