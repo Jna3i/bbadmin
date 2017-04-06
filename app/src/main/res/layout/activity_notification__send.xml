@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pifss.bbadmin.Notification_Send">
+    tools:context="com.pifss.bbadmin.Notification_Send"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
@@ -12,71 +14,75 @@
         android:background="@color/colorToolBar"
         android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
 
-    <android.support.design.widget.TextInputLayout
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textInputLayout_Notification_send_1"
-        android:layout_marginTop="54dp"
-        android:layout_below="@+id/toolbar"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true">
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/Notification_send_title"
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutNot1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textInputLayout_Notification_send_1"
-            android:layout_marginTop="15dp"
-            android:ems="10"
-            android:padding="20sp"
-            android:textSize="14sp"
-            android:layout_margin="20sp"
-            android:hint="@string/title"
-            android:inputType="textPersonName" />
+            android:layout_marginBottom="1dp"
+            android:theme="@style/CampAddHint">
+
+            <EditText
+                android:id="@+id/Notification_send_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/campaigning"
+                android:drawablePadding="10dp"
+                android:hint="@string/title" />
+
+        </android.support.design.widget.TextInputLayout>
 
 
-    </android.support.design.widget.TextInputLayout>
-
-
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textInputLayout6"
-        android:layout_marginTop="13dp"
-        android:layout_below="@+id/textInputLayout_Notification_send_1"
-        android:layout_alignParentStart="true">
-
-
-        <EditText
-            android:id="@+id/Notification_send_description"
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:layout_alignParentLeft="true"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textInputLayout4"
             android:layout_alignParentStart="true"
-            android:ems="10"
-            android:textSize="14sp"
-            android:layout_margin="20sp"
-            android:padding="20sp"
-            android:hint="@string/description"
-            android:inputType="textMultiLine" />
-    </android.support.design.widget.TextInputLayout>
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="20dp"
+            android:theme="@style/CampAddHint">
 
+            <EditText
+                android:id="@+id/Notification_send_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/edit"
+                android:drawablePadding="10dp"
+                android:hint="@string/description"
+                android:inputType="textMultiLine"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical" />
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/notification_send_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
-        android:layout_marginTop="84dp"
-        android:text="@string/sendnotify"
-        android:layout_below="@+id/textInputLayout6"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button_shape"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_grey"
+        android:text="@string/sendnotify"
         android:textColor="@color/colorWHITE"
         android:textSize="18sp"
-        />
+        android:textStyle="bold" />
 
 </RelativeLayout>

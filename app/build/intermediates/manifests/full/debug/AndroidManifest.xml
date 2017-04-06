@@ -89,6 +89,8 @@
         <activity android:name="com.pifss.bbadmin.Notification_View" />
         <activity android:name="com.pifss.bbadmin.PeriodInfo" />
         <activity android:name="com.pifss.bbadmin.DonorInfo" />
+        <activity android:name="com.pifss.bbadmin.AddOnsiteDonor" />
+        <activity android:name="com.pifss.bbadmin.AddOnsiteDonor2" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

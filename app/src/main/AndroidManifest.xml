@@ -47,7 +47,6 @@
         <activity
             android:name=".AppSettings"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity android:name=".CampaignList" />
         <activity android:name=".CampaignAdd" />
         <activity
@@ -75,10 +74,11 @@
         <activity android:name=".CampaignEdit" />
          <activity android:name=".Notification_History_List" />
         <activity android:name=".Notification_Send" />
-        <activity android:name=".Notification_View"></activity>
-
+        <activity android:name=".Notification_View" />
         <activity android:name=".PeriodInfo" />
-        <activity android:name=".DonorInfo"></activity>
+        <activity android:name=".DonorInfo" />
+        <activity android:name=".AddOnsiteDonor" />
+        <activity android:name=".AddOnsiteDonor2"></activity>
     </application>
 
 </manifest>

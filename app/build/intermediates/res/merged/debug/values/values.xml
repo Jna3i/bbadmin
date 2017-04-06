@@ -39,8 +39,9 @@
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorBLACK">#000000</color>
-    <color name="colorDATE">#c1c1c1</color>
-    <color name="colorGREY">#7e7e7e</color>
+    <color name="colorDARKGREY">#a1a1a1</color>
+    <color name="colorDATE">#c6c6c6</color>
+    <color name="colorGREY">#adadad</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorRED">#BF202F</color>
@@ -1003,7 +1004,7 @@
     <string name="EditProfile_Phone">Phone</string>
     <string name="EditProfile_Save">Save</string>
     <string name="EditProfile_title_activity_edit_profile">EditProfile</string>
-    <string name="ForgetP_please_enter">Please Enter your Email here</string>
+    <string name="ForgetP_please_enter">Please Enter your Email</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -2900,10 +2901,10 @@
     <string name="sched_period4">period 4</string>
     <string name="sched_period5">period 5</string>
     <string name="search_menu_title">Search</string>
-    <string name="send_email">Send</string>
+    <string name="send_email">Submit</string>
     <string name="sendnotification">Send Notification</string>
     <string name="sendnotify">Send</string>
-    <string name="setting_switchLangauge">Switch Language</string>
+    <string name="setting_switchLangauge">Choose Language</string>
     <string name="splash_bloodbank">Blood Bank</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title">Title</string>

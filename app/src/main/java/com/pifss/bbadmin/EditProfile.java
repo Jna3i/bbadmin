@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -80,7 +81,7 @@ public class EditProfile extends AppCompatActivity {
 
 
 
-        final EditText chooseDate = (EditText) findViewById(R.id.chooseDate);
+        final TextView chooseDate = (TextView) findViewById(R.id.chooseDate);
         chooseDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

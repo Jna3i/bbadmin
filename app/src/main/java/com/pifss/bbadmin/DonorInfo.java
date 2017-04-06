@@ -1,7 +1,10 @@
 package com.pifss.bbadmin;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.TextView;
 
 public class DonorInfo extends AppCompatActivity {
@@ -10,6 +13,17 @@ public class DonorInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donor_info);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.donorInfo_toolbarID);
+        toolbar.setNavigationIcon(R.drawable.ic_back);
+        toolbar.setTitle("Donor Information");
+        toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         String Name = getIntent().getStringExtra("name");
         String CivilID = getIntent().getStringExtra("civilID");
@@ -39,7 +53,7 @@ public class DonorInfo extends AppCompatActivity {
         if (Gender == "m" || Gender == "M"){
             txtGender.setText("Male");
         }
-        else{
+        else if (Gender == "f" || Gender == "F"){
             txtGender.setText("Female");
         }
 

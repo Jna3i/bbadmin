@@ -55,9 +55,9 @@
                 android:id="@+id/campAdd_txtCampNameID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/add_campaignName"
                 android:drawableLeft="@mipmap/campaigning"
-                android:drawablePadding="10dp"/>
+                android:drawablePadding="10dp"
+                android:hint="@string/add_campaignName" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -172,7 +172,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        android:background="@drawable/button_shape"
+        android:background="@drawable/button_grey"
         android:text="@string/add_ADD"
         android:textColor="@color/colorWHITE"
         android:textSize="18sp"

@@ -122,10 +122,13 @@ public class MainDrawer extends AppCompatActivity
                             @Override
                             public void onBoomButtonClick(int index) {
                                 //onsite Donor
+                                Intent int0 = new Intent(MainDrawer.this,AddOnsiteDonor.class);
+                                startActivity(int0);
                                 Toast.makeText(MainDrawer.this, "Add onSite Donor", Toast.LENGTH_SHORT).show();
                             }
                         });
                     break;
+
 
                 case 2: builder.normalImageDrawable(new IconicsDrawable(this).icon(Entypo.Icon.ent_blackboard))
                         .listener(new OnBMClickListener() {
