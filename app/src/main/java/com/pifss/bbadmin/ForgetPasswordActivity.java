@@ -10,6 +10,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class ForgetPasswordActivity extends AppCompatActivity {
 
     @Override
@@ -18,9 +27,12 @@ public class ForgetPasswordActivity extends AppCompatActivity {
         setContentView(R.layout.activity_forget_password);
         Toolbar toolbar = (Toolbar) findViewById(R.id.tb);
 
+        EditText forget_email = (EditText) findViewById(R.id.insertEmail);
+        EditText forget_civil = (EditText) findViewById(R.id.forget_insertCivilId);
+        forget_email.setText("z@z.com");
+        forget_civil.setText("294011302209");
 
-
-        toolbar.setNavigationIcon(android.R.drawable.ic_media_previous);
+        toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,9 +47,7 @@ public class ForgetPasswordActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(ForgetPasswordActivity.this, "sent to "+ forgetpassword.getText().toString(), Toast.LENGTH_SHORT).show();
-                Intent i = new Intent(ForgetPasswordActivity.this,LoginActivity.class);
-                startActivity(i);
+                forgetRequest();
             }
         });
     }
@@ -46,5 +56,59 @@ public class ForgetPasswordActivity extends AppCompatActivity {
     public boolean onSupportNavigateUp() {
         onBackPressed();
         return true;
+    }
+
+    public JSONObject createObjectToSend(){
+        EditText forget_email = (EditText) findViewById(R.id.insertEmail);
+        EditText forget_civil = (EditText) findViewById(R.id.forget_insertCivilId);
+
+        JSONObject objSend = new JSONObject();
+        try {
+            objSend.put("username",forget_email.getText().toString());
+            objSend.put("civilid",forget_civil.getText().toString());
+
+
+            return objSend;
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return objSend;
+    }
+
+    //Send
+    public void forgetRequest(){
+
+        String url = Links.BBADMIN_RESET;
+        RequestQueue queue = NetworkRequest.getInstance().getRequestQueue(ForgetPasswordActivity.this);
+
+        JSONObject objSend = createObjectToSend();
+
+        JsonObjectRequest JsonRequest = new JsonObjectRequest(Request.Method.POST, url,objSend, new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                try {
+                    if (response.getInt("errorCode") == 0){
+                        Toast.makeText(ForgetPasswordActivity.this, "new password sent to your email", Toast.LENGTH_SHORT).show();
+                        finish();
+                    } else {
+                        Toast.makeText(ForgetPasswordActivity.this, "wrong information", Toast.LENGTH_SHORT).show();
+                    }
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+        queue.add(JsonRequest);
+
+
     }
 }

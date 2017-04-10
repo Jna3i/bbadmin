@@ -99,6 +99,7 @@
     <string name="sched_period4">period 4</string>
     <string name="sched_period5">period 5</string>
     <string name="activity_Profile">Profile</string>
+    <string name="ForgetP_please_enter_civilId">Civil ID</string>
 
 
 </resources>

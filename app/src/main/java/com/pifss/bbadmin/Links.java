@@ -10,6 +10,7 @@ public class Links {
     public static String BASE = "http://34.196.107.188:8081/MhealthWeb/webresources";
     public static String BBADMIN = BASE + "/bbadmin";
     public static String BBADMIN_LOGIN = BBADMIN + "/login";
+    public static String BBADMIN_RESET = BBADMIN + "/reset";
 
     //Campaign (callfordonation)
     public static String CAMPAIGN = BASE + "/callfordonation";

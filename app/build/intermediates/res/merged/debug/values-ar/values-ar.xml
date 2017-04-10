@@ -11,6 +11,7 @@
     <string name="EditProfile_Save">حفظ</string>
     <string name="EditProfile_title_activity_edit_profile">تعديل الملف الشخصي</string>
     <string name="ForgetP_please_enter">من فضلك قم بكتابة ايميلك هنا..</string>
+    <string name="ForgetP_please_enter_civilId">الرقم المدني</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
