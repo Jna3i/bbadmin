@@ -122,9 +122,7 @@ public class MainDrawer extends AppCompatActivity
                             @Override
                             public void onBoomButtonClick(int index) {
                                 //onsite Donor
-                                Intent int0 = new Intent(MainDrawer.this,AddOnsiteDonor.class);
-                                startActivity(int0);
-                                Toast.makeText(MainDrawer.this, "Add onSite Donor", Toast.LENGTH_SHORT).show();
+                                addOnSiteDonor();
                             }
                         });
                     break;
@@ -202,6 +200,7 @@ public class MainDrawer extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_logout) {
+            loggeingOut();
             finish();
             return true;
         }
@@ -224,7 +223,7 @@ public class MainDrawer extends AppCompatActivity
             Intent int0 = new Intent(MainDrawer.this,Notification_History_List.class);
             startActivity(int0);
         } else if (id == R.id.nav_addOnSiteDonor) {
-
+            addOnSiteDonor();
         } else if (id == R.id.nav_addCampaign) {
             Intent int0 = new Intent(MainDrawer.this,CampaignAdd.class);
             startActivity(int0);
@@ -236,11 +235,27 @@ public class MainDrawer extends AppCompatActivity
             startActivity(int0);
 
         } else if (id == R.id.nav_logout) {
+            loggeingOut();
             finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    //logout clear user profile data
+    public void loggeingOut(){
+        SharedPreferences pref1 = getSharedPreferences("bbadmin_profile",MODE_PRIVATE);
+        SharedPreferences.Editor Ed1 = pref1.edit();
+        Ed1.clear();
+        Ed1.commit();
+    }
+
+    //add onSite Donor screen
+    public void addOnSiteDonor(){
+        Intent int0 = new Intent(MainDrawer.this,AddOnsiteDonor.class);
+        startActivity(int0);
+        Toast.makeText(MainDrawer.this, "Add onSite Donor", Toast.LENGTH_SHORT).show();
     }
 }

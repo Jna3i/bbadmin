@@ -72,6 +72,7 @@ public class LoginActivity extends AppCompatActivity  {
         email.setText("de@de.com");
         password.setText("@a123");
 
+        loggedIn();
 
         // TOOLBAR
         Toolbar toolbar = (Toolbar) findViewById(R.id.campInfo_toolbarID);
@@ -166,6 +167,17 @@ public class LoginActivity extends AppCompatActivity  {
             return false;
     }
 
+    public void loggedIn(){
+        SharedPreferences pref1 = getSharedPreferences("bbadmin_profile",MODE_PRIVATE);
+        if(pref1.contains("profile")){
+            Toast.makeText(LoginActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(LoginActivity.this, MainDrawer.class);
+            finish();
+            startActivity(i);
+
+        }
+
+    }
 
 
 
