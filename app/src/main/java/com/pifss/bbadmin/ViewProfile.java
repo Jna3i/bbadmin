@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -20,10 +21,7 @@ public class ViewProfile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_profile);
 
-        SharedPreferences pref1 = getSharedPreferences("bbadmin_profile", MODE_PRIVATE);
-        String S1 = pref1.getString("profile","error");
-        bbadmin profile= new bbadmin();
-        profile= new Gson().fromJson(S1,bbadmin.class);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.viewProfile_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setTitle(getString(R.string.activity_Profile));
@@ -49,68 +47,38 @@ public class ViewProfile extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        TextView name = (TextView) findViewById(R.id.textViewName);
-        TextView gender = (TextView) findViewById(R.id.Gender2);
-        TextView bdate  = (TextView) findViewById(R.id.textViewDate);
-        TextView email = (TextView) findViewById(R.id.textViewEmail);
-        TextView phone = (TextView) findViewById(R.id.textViewPhone);
-        TextView branch = (TextView) findViewById(R.id.textViewBranch);
-        TextView civil = (TextView) findViewById(R.id.textViewID);
 
 
-        //Name
-        name.setText(profile.getFirstName() +" "+profile.getMiddleName()+" "+profile.getLastName());
-        //Gender
-        if(profile.getGender().equals("F")){
-            gender.setText("Female");
-        }
-        else{
-            gender.setText("Male");
-        }
-
-        //bdate
-        bdate.setText(profile.getBirthDate());
-        //email
-        email.setText(profile.getEmail());
-        //phone
-        phone.setText(profile.getPhone());
-        //branch
-        if(profile.getBranchId()== 1){
-            branch.setText("Main Center");
-
-        }
-        else{
-            branch.setText("Hawaly Branch");
-
-        }
-        //civil
-        civil.setText(profile.getCivilId());
-
-
+        setProfileData();
 
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        SharedPreferences pref2 = getSharedPreferences("bbadmin_profile", MODE_PRIVATE);
-        String S2 = pref2.getString("profile","error");
-        bbadmin profile= new bbadmin();
+        setProfileData();
+        
+    }
+    
+    //show user proifle data
+    public void setProfileData(){
 
-        profile= new Gson().fromJson(S2,bbadmin.class);
+        //Get user data
+        SharedPreferences pref1 = getSharedPreferences("bbadmin_profile", MODE_PRIVATE);
+        String S1 = pref1.getString("profile","error");
+        bbadmin profile;
+        profile = new Gson().fromJson(S1,bbadmin.class);
 
-
-        TextView name = (TextView) findViewById(R.id.textViewName);
+        TextView name   = (TextView) findViewById(R.id.textViewName);
         TextView gender = (TextView) findViewById(R.id.Gender2);
         TextView bdate  = (TextView) findViewById(R.id.textViewDate);
-        TextView email = (TextView) findViewById(R.id.textViewEmail);
-        TextView phone = (TextView) findViewById(R.id.textViewPhone);
+        TextView email  = (TextView) findViewById(R.id.textViewEmail);
+        TextView phone  = (TextView) findViewById(R.id.textViewPhone);
         TextView branch = (TextView) findViewById(R.id.textViewBranch);
-        TextView civil = (TextView) findViewById(R.id.textViewID);
-
+        TextView civil  = (TextView) findViewById(R.id.textViewID);
 
         //Name
-        name.setText(profile.getFirstName() +" "+profile.getMiddleName()+" "+profile.getLastName());
+        name.setText(profile.getFirstName() +" "+profile.getLastName());
         //Gender
         if(profile.getGender().equals("F")){
             gender.setText("Female");
@@ -121,23 +89,23 @@ public class ViewProfile extends AppCompatActivity {
 
         //bdate
         bdate.setText(profile.getBirthDate());
+
         //email
         email.setText(profile.getEmail());
+
         //phone
         phone.setText(profile.getPhone());
+
         //branch
         if(profile.getBranchId()== 1){
             branch.setText("Main Center");
-
         }
         else{
             branch.setText("Hawaly Branch");
-
         }
+
         //civil
         civil.setText(profile.getCivilId());
-
-
 
     }
 
