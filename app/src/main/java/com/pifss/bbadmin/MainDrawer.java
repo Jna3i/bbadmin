@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.pifss.bbadmin.BloodRequests.bloodRequest_List;
 
 import com.google.gson.Gson;
 import com.mikepenz.entypo_typeface_library.Entypo;
@@ -158,20 +159,23 @@ public class MainDrawer extends AppCompatActivity
         Drawable notiHistory = new IconicsDrawable(this).icon(FontAwesome.Icon.faw_bell);
         menu.getItem(2).setIcon(notiHistory);
 
+        Drawable bloodRequests = new IconicsDrawable(this).icon(Entypo.Icon.ent_drop);
+        menu.getItem(3).setIcon(bloodRequests);
+
         Drawable addOnSite = new IconicsDrawable(this).icon(Entypo.Icon.ent_drop);
-        menu.getItem(3).setIcon(addOnSite);
+        menu.getItem(4).setIcon(addOnSite);
 
         Drawable addCampaign = new IconicsDrawable(this).icon(Entypo.Icon.ent_blackboard);
-        menu.getItem(4).setIcon(addCampaign);
+        menu.getItem(5).setIcon(addCampaign);
 
         Drawable sendNoti = new IconicsDrawable(this).icon(Entypo.Icon.ent_sound);
-        menu.getItem(5).setIcon(sendNoti);
+        menu.getItem(6).setIcon(sendNoti);
 
         Drawable Settings = new IconicsDrawable(this).icon(FontAwesome.Icon.faw_wrench);
-        menu.getItem(6).setIcon(Settings);
+        menu.getItem(7).setIcon(Settings);
 
         Drawable logout = new IconicsDrawable(this).icon(FontAwesome.Icon.faw_sign_out);
-        menu.getItem(7).setIcon(logout);
+        menu.getItem(8).setIcon(logout);
     }
 
     @Override
@@ -221,6 +225,9 @@ public class MainDrawer extends AppCompatActivity
             startActivity(int0);
         } else if (id == R.id.nav_notificationHistory) {
             Intent int0 = new Intent(MainDrawer.this,Notification_History_List.class);
+            startActivity(int0);
+        } else if (id == R.id.nav_bloodRequests) {
+            Intent int0 = new Intent(MainDrawer.this,bloodRequest_List.class);
             startActivity(int0);
         } else if (id == R.id.nav_addOnSiteDonor) {
             addOnSiteDonor();

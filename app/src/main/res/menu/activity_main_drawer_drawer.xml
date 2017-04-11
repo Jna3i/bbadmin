@@ -14,6 +14,12 @@
             android:id="@+id/nav_notificationHistory"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/activity_notificationHistory" />
+
+        <item
+            android:id="@+id/nav_bloodRequests"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/activity_bloodRequests" />
+
         <item
             android:id="@+id/nav_addOnSiteDonor"
             android:icon="@drawable/ic_menu_manage"

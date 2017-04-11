@@ -14,7 +14,7 @@ public class NetworkRequest {
     private RequestQueue requestQueue;
     private static final NetworkRequest ourInstance = new NetworkRequest();
 
-    static NetworkRequest getInstance() {
+    public static NetworkRequest getInstance() {
         return ourInstance;
     }
 

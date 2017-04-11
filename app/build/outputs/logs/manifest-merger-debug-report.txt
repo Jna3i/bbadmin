@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:2:1-86:12
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:2:1-87:12
 	package
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:4:5-32
 		INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml
@@ -37,7 +37,7 @@ ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifes
 	android:name
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:17:22-76
 application
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:19:5-84:19
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:19:5-85:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /home/ahmed/.android/build-cache/3da8540af98d90ae15c4ef931fb03041293f0a8e/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.2.0] /home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] /home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/AndroidManifest.xml:25:5-20
@@ -79,9 +79,9 @@ MERGED from [com.android.support:support-compat:25.2.0] /home/ahmed/.android/bui
 	android:icon
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:21:9-43
 	android:theme
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:26:9-40
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:25:9-40
 	tools:replace
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:25:9-44
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:26:9-44
 activity#com.pifss.bbadmin.MainActivity
 ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:30:9-50
 	android:name
@@ -159,41 +159,49 @@ ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifes
 	android:name
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:71:13-58
 activity#com.pifss.bbadmin.CampaignInfo
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:74:9-50
+	android:name
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:74:19-47
+activity#com.pifss.bbadmin.CampaignEdit
 ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:75:9-50
 	android:name
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:75:19-47
-activity#com.pifss.bbadmin.CampaignEdit
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:76:9-50
-	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:76:19-47
 activity#com.pifss.bbadmin.Notification_History_List
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:77:10-64
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:76:9-63
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:77:20-61
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:76:19-60
 activity#com.pifss.bbadmin.Notification_Send
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:77:9-55
+	android:name
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:77:19-52
+activity#com.pifss.bbadmin.Notification_View
 ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:78:9-55
 	android:name
 		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:78:19-52
-activity#com.pifss.bbadmin.Notification_View
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:79:9-55
-	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:79:19-52
 activity#com.pifss.bbadmin.PeriodInfo
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:80:9-48
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:79:9-48
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:80:19-45
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:79:19-45
 activity#com.pifss.bbadmin.DonorInfo
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:81:9-47
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:80:9-47
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:81:19-44
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:80:19-44
 activity#com.pifss.bbadmin.AddOnsiteDonor
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:82:9-52
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:81:9-52
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:82:19-49
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:81:19-49
 activity#com.pifss.bbadmin.AddOnsiteDonor2
-ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:83:9-62
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:82:9-53
 	android:name
-		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:83:19-50
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:82:19-50
+activity#com.pifss.bbadmin.BloodRequests.bloodRequest_List
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:83:9-69
+	android:name
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:83:19-66
+activity#com.pifss.bbadmin.BloodRequests.BloodRequestInfo
+ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:84:9-77
+	android:name
+		ADDED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml:84:19-65
 uses-sdk
 INJECTED from /home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /home/ahmed/.android/build-cache/3da8540af98d90ae15c4ef931fb03041293f0a8e/output/AndroidManifest.xml:5:5-7:41

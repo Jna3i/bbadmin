@@ -80,12 +80,12 @@
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/sched_five_periods.xml",
-        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/sched_five_periods.xml"
-    },
-    {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/sched_five_periods.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/sched_five_periods.xml"
     },
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
@@ -244,6 +244,10 @@
         "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/activity_donor_info.xml"
     },
     {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/activity_blood_request__list.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/activity_blood_request__list.xml"
+    },
+    {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/select_dialog_singlechoice_material.xml"
     },
@@ -266,6 +270,10 @@
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
         "source": "/home/ahmed/.android/build-cache/3d4576beda076ab1cafa0c1230bd33b12ace886a/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/activity_blood_request_info.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/activity_blood_request_info.xml"
     },
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/bmb_simple_circle_button.xml",
@@ -338,5 +346,9 @@
     {
         "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/home/ahmed/.android/build-cache/a08d1c6e5b5554624cd8d61cbebf46c29ad57916/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/ahmed/AndroidStudioProjects/bbadmin/app/build/intermediates/res/merged/debug/layout/blood_request_item.xml",
+        "source": "/home/ahmed/AndroidStudioProjects/bbadmin/app/src/main/res/layout/blood_request_item.xml"
     }
 ]

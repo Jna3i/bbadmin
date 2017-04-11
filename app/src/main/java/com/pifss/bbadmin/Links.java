@@ -23,6 +23,11 @@ public class Links {
 
     //onsitedonor
     public static String ONSITEDONOR = BASE + "/onsitedonor";
+
     //OLD
     public static String ONSITEDONOR_OLD = "http://34.196.107.188:8080/mHealthWS/ws/onsitedonor";
+
+    public static String BLOODREQUEST = BASE + "/bloodrequests/pending/";
+
+    public static String BLOODREQUEST_SETSTATUS = BASE + "/bloodrequests/setstatus/";
 }

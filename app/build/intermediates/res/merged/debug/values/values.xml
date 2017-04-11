@@ -1044,6 +1044,7 @@
     <string name="activity_Profile">Profile</string>
     <string name="activity_addCampaign">add Campaign</string>
     <string name="activity_addOnSiteDonor">add OnSite Donor</string>
+    <string name="activity_bloodRequests">Blood Requests</string>
     <string name="activity_campaign">Campaign</string>
     <string name="activity_notificationHistory">Notification History</string>
     <string name="activity_schedule">Schedule</string>

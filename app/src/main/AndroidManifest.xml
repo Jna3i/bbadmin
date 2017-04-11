@@ -22,8 +22,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
-        tools:replace="android:supportsRtl"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:supportsRtl">
 
         <!-- Splash screen -->
 
@@ -59,7 +59,7 @@
             android:exported="true"
             android:label="@string/title_activity_edit_profile"
             android:theme="@style/AppTheme.NoActionBar" />
-         <!--
+        <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
              Note that the API key is linked to the encryption key used to sign the APK.
@@ -71,16 +71,17 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-
         <activity android:name=".CampaignInfo" />
         <activity android:name=".CampaignEdit" />
-         <activity android:name=".Notification_History_List" />
+        <activity android:name=".Notification_History_List" />
         <activity android:name=".Notification_Send" />
         <activity android:name=".Notification_View" />
         <activity android:name=".PeriodInfo" />
         <activity android:name=".DonorInfo" />
         <activity android:name=".AddOnsiteDonor" />
-        <activity android:name=".AddOnsiteDonor2"></activity>
+        <activity android:name=".AddOnsiteDonor2" />
+        <activity android:name=".BloodRequests.bloodRequest_List" />
+        <activity android:name=".BloodRequests.BloodRequestInfo"></activity>
     </application>
 
 </manifest>
