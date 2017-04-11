@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/blood_request_item_Doctor_ID_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="139dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="20dp"
+        android:text="Doctor ID"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/blood_request_item_Doctor_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/blood_request_item_Doctor_ID_2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:text="Doctor ID:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Blood_Request_Item_BloodType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BloodType"
+        android:textSize="18sp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_below="@+id/blood_request_item_Doctor_ID_2"
+        android:layout_toRightOf="@+id/blood_request_item_Doctor_ID_2"
+        android:layout_toEndOf="@+id/blood_request_item_Doctor_ID_2" />
+
+    <TextView
+        android:id="@+id/TimeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Blood_Request_Item_BloodType"
+        android:layout_alignLeft="@+id/blood_request_item_Doctor_ID"
+        android:layout_alignStart="@+id/blood_request_item_Doctor_ID"
+        android:text="Time" />
+
+</RelativeLayout>

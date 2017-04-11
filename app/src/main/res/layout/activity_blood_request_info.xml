@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pifss.bbadmin.BloodRequests.BloodRequestInfo">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/BloodRequestDetails_Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+    <TextView
+        android:id="@+id/lblDrId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="52dp"
+        android:text="Dr. ID:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/requeststatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblstatus"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_toEndOf="@+id/lblstatus"
+        android:layout_toRightOf="@+id/lblstatus"
+        android:text="requeststatus"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lbltime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblstatus"
+        android:layout_alignStart="@+id/lblstatus"
+        android:layout_below="@+id/lblstatus"
+        android:layout_marginTop="30dp"
+        android:text="Time Stamp:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BloodType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TimeStamp"
+        android:layout_alignStart="@+id/TimeStamp"
+        android:layout_below="@+id/TimeStamp"
+        android:layout_marginTop="26dp"
+        android:text="BloodType"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblquantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblbloodType"
+        android:layout_alignStart="@+id/lblbloodType"
+        android:layout_below="@+id/lblbloodType"
+        android:layout_marginTop="28dp"
+        android:text="Quantity:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TimeStamp"
+        android:layout_alignStart="@+id/TimeStamp"
+        android:layout_alignTop="@+id/lblReason"
+        android:text="Reason"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblDrId"
+        android:layout_alignStart="@+id/lblDrId"
+        android:layout_below="@+id/lblDrId"
+        android:layout_marginTop="24dp"
+        android:text="Status:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/docID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblDrId"
+        android:layout_alignBottom="@+id/lblDrId"
+        android:layout_alignLeft="@+id/requeststatus"
+        android:layout_alignStart="@+id/requeststatus"
+        android:text="docID"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblbloodType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/BloodType"
+        android:layout_alignBottom="@+id/BloodType"
+        android:layout_alignLeft="@+id/lbltime"
+        android:layout_alignStart="@+id/lbltime"
+        android:text="Blood Type:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TimeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbltime"
+        android:layout_alignBottom="@+id/lbltime"
+        android:layout_alignLeft="@+id/requeststatus"
+        android:layout_alignStart="@+id/requeststatus"
+        android:text="TimeStamp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblquantity"
+        android:layout_alignStart="@+id/lblquantity"
+        android:layout_below="@+id/lblquantity"
+        android:layout_marginTop="24dp"
+        android:text="Reason:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblquantity"
+        android:layout_alignBottom="@+id/lblquantity"
+        android:layout_alignLeft="@+id/BloodType"
+        android:layout_alignStart="@+id/BloodType"
+        android:text="Quantity"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/AcceptBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblReason"
+        android:layout_alignStart="@+id/lblReason"
+        android:layout_below="@+id/lblReason"
+        android:layout_marginTop="79dp"
+        android:text="Accept" />
+
+    <Button
+        android:id="@+id/DeclineBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Reason"
+        android:layout_alignStart="@+id/Reason"
+        android:layout_alignTop="@+id/AcceptBtn"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:text="Decline" />
+
+    <TextView
+        android:id="@+id/Requestidlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Request ID:"
+        android:textSize="18sp"
+        android:layout_below="@+id/lblReason"
+        android:layout_alignRight="@+id/AcceptBtn"
+        android:layout_alignEnd="@+id/AcceptBtn" />
+
+    <TextView
+        android:id="@+id/requestsid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Requestidlbl"
+        android:layout_centerHorizontal="true"
+        android:text="requestid"
+        android:textSize="18sp" />
+
+</RelativeLayout>
