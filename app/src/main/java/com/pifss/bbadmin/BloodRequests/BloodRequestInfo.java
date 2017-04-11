@@ -1,7 +1,9 @@
 package com.pifss.bbadmin.BloodRequests;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,6 +30,18 @@ public class BloodRequestInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blood_request_info);
+
+        // TOOLBAR
+        Toolbar toolbar = (Toolbar) findViewById(R.id.BloodRequestInfo_toolbarID);
+        toolbar.setNavigationIcon(R.drawable.ic_back);
+        toolbar.setTitle(getString(R.string.Info_BloodRequest));
+        toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         TextView tvdrid = (TextView) findViewById(R.id.docID);
         TextView tvbloodtype = (TextView) findViewById(R.id.BloodType);

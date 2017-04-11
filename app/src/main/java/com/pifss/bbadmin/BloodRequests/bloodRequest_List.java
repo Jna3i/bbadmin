@@ -1,8 +1,10 @@
 package com.pifss.bbadmin.BloodRequests;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -30,6 +32,17 @@ public class bloodRequest_List extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blood_request__list);
 
+        // TOOLBAR
+        Toolbar toolbar = (Toolbar) findViewById(R.id.bloodRequestsList_toolbarID);
+        toolbar.setNavigationIcon(R.drawable.ic_back);
+        toolbar.setTitle(getString(R.string.activity_bloodRequests));
+        toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
     }
 

@@ -17,6 +17,8 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.mikepenz.weather_icons_typeface_library.WeatherIcons;
 import com.pifss.bbadmin.BloodRequests.bloodRequest_List;
 
 import com.google.gson.Gson;
@@ -159,7 +161,7 @@ public class MainDrawer extends AppCompatActivity
         Drawable notiHistory = new IconicsDrawable(this).icon(FontAwesome.Icon.faw_bell);
         menu.getItem(2).setIcon(notiHistory);
 
-        Drawable bloodRequests = new IconicsDrawable(this).icon(Entypo.Icon.ent_drop);
+        Drawable bloodRequests = new IconicsDrawable(this).icon(WeatherIcons.Icon.wic_raindrops);
         menu.getItem(3).setIcon(bloodRequests);
 
         Drawable addOnSite = new IconicsDrawable(this).icon(Entypo.Icon.ent_drop);

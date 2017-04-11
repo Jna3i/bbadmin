@@ -101,6 +101,7 @@
     <string name="activity_Profile">Profile</string>
     <string name="ForgetP_please_enter_civilId">Civil ID</string>
     <string name="activity_bloodRequests">Blood Requests</string>
+    <string name="Info_BloodRequest">Request Information</string>
 
 
 </resources>
