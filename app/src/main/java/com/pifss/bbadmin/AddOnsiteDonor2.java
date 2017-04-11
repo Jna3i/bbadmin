@@ -58,13 +58,13 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
                 DatePickerDialog d = new DatePickerDialog(AddOnsiteDonor2.this, R.style.DialogTheme, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        txtDate.setText(year + "-" + month + "-" + dayOfMonth);
+                        txtDate.setText(year + "-" + (month+1) + "-" + dayOfMonth);
                         String month2 = ""+month;
                         String dayOfMonth2 = ""+dayOfMonth;
                         if (month<10){
-                            month2 = "0"+month;
+                            month2 = "0"+(month+1);
                         }else {
-                            month2 = ""+month;
+                            month2 = ""+(month+1);
                         }
                         if (dayOfMonth<10){
                             dayOfMonth2 = "0"+dayOfMonth;
@@ -81,7 +81,6 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
         });
 
         ArrayList<String> spinnerArr = new ArrayList<>();
-        spinnerArr.add("Select Period");
         spinnerArr.add("Period 1");
         spinnerArr.add("Period 2");
         spinnerArr.add("Period 3");
@@ -133,7 +132,7 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(AddOnsiteDonor2.this, "NO, but added", Toast.LENGTH_LONG).show();
+                        //Toast.makeText(AddOnsiteDonor2.this, "NO, but added", Toast.LENGTH_LONG).show();
 
 
                     }
