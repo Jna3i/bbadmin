@@ -154,10 +154,10 @@ public class PeriodAdapter extends BaseAdapter {
 
 
                 LinearLayout group1 = (LinearLayout) v.findViewById(R.id.group1);
-                RelativeLayout group2 = (RelativeLayout) v.findViewById(R.id.group2);
-                RelativeLayout group3 = (RelativeLayout) v.findViewById(R.id.group3);
-                RelativeLayout group4 = (RelativeLayout) v.findViewById(R.id.group4);
-                RelativeLayout group5 = (RelativeLayout) v.findViewById(R.id.group5);
+                LinearLayout group2 = (LinearLayout) v.findViewById(R.id.group2);
+                LinearLayout group3 = (LinearLayout) v.findViewById(R.id.group3);
+                LinearLayout group4 = (LinearLayout) v.findViewById(R.id.group4);
+                LinearLayout group5 = (LinearLayout) v.findViewById(R.id.group5);
 
 
                 group1.setOnClickListener(new View.OnClickListener() {
