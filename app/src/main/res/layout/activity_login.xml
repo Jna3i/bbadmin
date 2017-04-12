@@ -6,7 +6,8 @@
     android:orientation="vertical"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="com.pifss.bbadmin.LoginActivity">
+    tools:context="com.pifss.bbadmin.LoginActivity"
+    android:id="@+id/activity_login_id">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/campInfo_toolbarID"

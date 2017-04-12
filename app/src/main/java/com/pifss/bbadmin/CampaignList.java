@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.ConnectivityManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -50,6 +51,11 @@ public class CampaignList extends AppCompatActivity {
         // REFERENCING
         listView= (ListView) findViewById(R.id.campList_listViewID);
 
+        //show no internet connection massage
+        View v1 = (View) findViewById(R.id.activity_campaign_list_id);
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(LoginActivity.CONNECTIVITY_SERVICE);
+        checkConnection ch1 = new checkConnection(cm);
+        ch1.showSnackBar(v1);
 
         // FILL THE LIST
         showCampaignList();
