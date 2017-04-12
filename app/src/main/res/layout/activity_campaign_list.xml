@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pifss.bbadmin.CampaignList">
+    tools:context="com.pifss.bbadmin.CampaignList"
+    android:id="@+id/activity_campaign_list_id">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/campList_toolbarID"

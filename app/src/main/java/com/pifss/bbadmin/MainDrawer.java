@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -65,6 +66,7 @@ public class MainDrawer extends AppCompatActivity
                 startActivity(int0);
             }
         });
+
 
 
         getProfileInfo(navigationView);
@@ -266,5 +268,18 @@ public class MainDrawer extends AppCompatActivity
         Intent int0 = new Intent(MainDrawer.this,AddOnsiteDonor.class);
         startActivity(int0);
         Toast.makeText(MainDrawer.this, "Add onSite Donor", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        View v1 = (View) findViewById(R.id.activity_login_id);
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(LoginActivity.CONNECTIVITY_SERVICE);
+        checkConnection ch1 = new checkConnection(cm);
+        ch1.showSnackBar(v1);
+        if (!ch1.haveNetworkConnection()){
+            loggeingOut();
+            finish();
+        }
     }
 }
