@@ -1346,6 +1346,7 @@ int id snap 0x7f0d001e
 int id spacer 0x7f0d00e4
 int id spinner3 0x7f0d01ad
 int id spinner4 0x7f0d01ac
+int id spinnerDates 0x7f0d011e
 int id spinnerPeriods 0x7f0d0120
 int id split_action_bar 0x7f0d0009
 int id src_atop 0x7f0d0022
@@ -1387,7 +1388,6 @@ int id textView5 0x7f0d013e
 int id textView6 0x7f0d0189
 int id textView7 0x7f0d0144
 int id textView8 0x7f0d014b
-int id textView9 0x7f0d011d
 int id textViewBranch 0x7f0d0199
 int id textViewDate 0x7f0d0192
 int id textViewEmail 0x7f0d0194
@@ -1412,7 +1412,7 @@ int id transition_current_scene 0x7f0d000c
 int id transition_scene_layoutid_cache 0x7f0d000d
 int id txtBloodType 0x7f0d0160
 int id txtCivilID 0x7f0d010d
-int id txtDate 0x7f0d011e
+int id txtDate 0x7f0d011d
 int id txtDonorType 0x7f0d01dc
 int id txtEmail 0x7f0d010f
 int id txtGender 0x7f0d0162

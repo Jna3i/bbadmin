@@ -4526,6 +4526,7 @@ containing a value of this type.
         public static final int spacer=0x7f0d00e4;
         public static final int spinner3=0x7f0d01ad;
         public static final int spinner4=0x7f0d01ac;
+        public static final int spinnerDates=0x7f0d011e;
         public static final int spinnerPeriods=0x7f0d0120;
         public static final int split_action_bar=0x7f0d0009;
         public static final int src_atop=0x7f0d0022;
@@ -4567,7 +4568,6 @@ containing a value of this type.
         public static final int textView6=0x7f0d0189;
         public static final int textView7=0x7f0d0144;
         public static final int textView8=0x7f0d014b;
-        public static final int textView9=0x7f0d011d;
         public static final int textViewBranch=0x7f0d0199;
         public static final int textViewDate=0x7f0d0192;
         public static final int textViewEmail=0x7f0d0194;
@@ -4592,7 +4592,7 @@ containing a value of this type.
         public static final int transition_scene_layoutid_cache=0x7f0d000d;
         public static final int txtBloodType=0x7f0d0160;
         public static final int txtCivilID=0x7f0d010d;
-        public static final int txtDate=0x7f0d011e;
+        public static final int txtDate=0x7f0d011d;
         public static final int txtDonorType=0x7f0d01dc;
         public static final int txtEmail=0x7f0d010f;
         public static final int txtGender=0x7f0d0162;
