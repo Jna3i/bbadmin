@@ -136,7 +136,7 @@ public class LoginActivity extends AppCompatActivity  {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                Toast.makeText(LoginActivity.this, "error "+ error , Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "No Internet Connection, please connect to the internet ", Toast.LENGTH_SHORT).show();
 
                     }
                 });
