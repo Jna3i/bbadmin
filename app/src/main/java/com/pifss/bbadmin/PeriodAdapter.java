@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -152,7 +153,7 @@ public class PeriodAdapter extends BaseAdapter {
 
 
 
-                RelativeLayout group1 = (RelativeLayout) v.findViewById(R.id.group1);
+                LinearLayout group1 = (LinearLayout) v.findViewById(R.id.group1);
                 RelativeLayout group2 = (RelativeLayout) v.findViewById(R.id.group2);
                 RelativeLayout group3 = (RelativeLayout) v.findViewById(R.id.group3);
                 RelativeLayout group4 = (RelativeLayout) v.findViewById(R.id.group4);

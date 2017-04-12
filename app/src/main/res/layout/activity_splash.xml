@@ -25,4 +25,12 @@
         android:text="@string/splash_bloodbank"
         android:textSize="50sp"
         android:textColor="@color/colorGREY"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/bkgrey" />
 </RelativeLayout>
