@@ -120,6 +120,10 @@
         "source": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_period.xml",
+        "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\drawable\\btn_period.xml"
+    },
+    {
         "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
         "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
