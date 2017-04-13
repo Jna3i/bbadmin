@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
+        "outputFile": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 162
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 236
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 298
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 366
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 420
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 474
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 534
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 591
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 640
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 727
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 877
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 994
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1102
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1225
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1329
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1438
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1520
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 1621
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 1735
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 1814
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -410,7 +410,7 @@
                     "endOffset": 1893
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -429,7 +429,7 @@
                     "endOffset": 1972
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -448,7 +448,7 @@
                     "endOffset": 2077
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -467,7 +467,7 @@
                     "endOffset": 2178
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -486,7 +486,7 @@
                     "endOffset": 2274
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -505,7 +505,7 @@
                     "endOffset": 2382
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -524,7 +524,7 @@
                     "endOffset": 2485
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -543,7 +543,7 @@
                     "endOffset": 2588
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -562,7 +562,7 @@
                     "endOffset": 2707
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -581,7 +581,7 @@
                     "endOffset": 2804
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -600,7 +600,7 @@
                     "endOffset": 2876
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -619,7 +619,7 @@
                     "endOffset": 2931
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -638,7 +638,7 @@
                     "endOffset": 2988
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 3053
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -676,7 +676,7 @@
                     "endOffset": 3111
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 4,
@@ -695,7 +695,7 @@
                     "endOffset": 3171
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -714,7 +714,7 @@
                     "endOffset": 3246
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -733,7 +733,7 @@
                     "endOffset": 3305
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -752,7 +752,7 @@
                     "endOffset": 3380
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -771,7 +771,7 @@
                     "endOffset": 3440
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -790,7 +790,7 @@
                     "endOffset": 3510
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -809,7 +809,7 @@
                     "endOffset": 3566
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -828,7 +828,7 @@
                     "endOffset": 3608
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 4,
@@ -847,7 +847,7 @@
                     "endOffset": 3654
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
@@ -866,7 +866,7 @@
                     "endOffset": 3705
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 4,
@@ -885,7 +885,7 @@
                     "endOffset": 3754
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 4,
@@ -904,7 +904,7 @@
                     "endOffset": 3793
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 4,
@@ -923,7 +923,7 @@
                     "endOffset": 3850
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 76,
                         "startColumn": 4,
@@ -942,7 +942,7 @@
                     "endOffset": 3890
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 4,
@@ -961,7 +961,7 @@
                     "endOffset": 3944
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -980,7 +980,7 @@
                     "endOffset": 4050
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -999,7 +999,7 @@
                     "endOffset": 4226
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -1018,7 +1018,7 @@
                     "endOffset": 4350
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -1037,7 +1037,7 @@
                     "endOffset": 4457
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -1056,7 +1056,7 @@
                     "endOffset": 4654
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -1075,7 +1075,7 @@
                     "endOffset": 4784
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -1094,7 +1094,7 @@
                     "endOffset": 4915
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -1113,7 +1113,7 @@
                     "endOffset": 5105
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\f3c6e942be6a4ed79347b4b56047c548e55bb858\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\b45c4030c9c6c67046608e94c880fb000894b62b\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1132,7 +1132,7 @@
                     "endOffset": 5301
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -1151,7 +1151,7 @@
                     "endOffset": 5407
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -1170,7 +1170,7 @@
                     "endOffset": 5588
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -1189,7 +1189,7 @@
                     "endOffset": 5712
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -1208,7 +1208,7 @@
                     "endOffset": 5910
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -1227,7 +1227,7 @@
                     "endOffset": 6086
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -1246,7 +1246,7 @@
                     "endOffset": 6180
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -1265,7 +1265,7 @@
                     "endOffset": 6276
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -1284,7 +1284,7 @@
                     "endOffset": 6389
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9ba3a5c5ec42f3491e1d66ad03faef29125732ac\\output\\res\\values-ar\\values.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\56dbf2a66fc3e733b6d7b4a48cfe9a3fbe074237\\output\\res\\values-ar\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -1303,7 +1303,7 @@
                     "endOffset": 6430
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 4,
@@ -1322,7 +1322,7 @@
                     "endOffset": 6476
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 4,
@@ -1341,7 +1341,7 @@
                     "endOffset": 6522
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 4,
@@ -1360,7 +1360,7 @@
                     "endOffset": 6573
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 4,
@@ -1379,7 +1379,7 @@
                     "endOffset": 6622
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 85,
                         "startColumn": 4,
@@ -1398,7 +1398,7 @@
                     "endOffset": 6679
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 83,
                         "startColumn": 4,
@@ -1417,7 +1417,7 @@
                     "endOffset": 6721
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 4,
@@ -1436,7 +1436,7 @@
                     "endOffset": 6793
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1455,7 +1455,7 @@
                     "endOffset": 6873
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1474,7 +1474,7 @@
                     "endOffset": 6951
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1493,7 +1493,7 @@
                     "endOffset": 7029
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1512,7 +1512,7 @@
                     "endOffset": 7099
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1531,7 +1531,7 @@
                     "endOffset": 7143
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 4,
@@ -1550,7 +1550,7 @@
                     "endOffset": 7219
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -1569,7 +1569,7 @@
                     "endOffset": 7293
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1588,7 +1588,7 @@
                     "endOffset": 7359
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 4,
@@ -1607,7 +1607,7 @@
                     "endOffset": 7418
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 4,
@@ -1626,7 +1626,7 @@
                     "endOffset": 7504
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 4,
@@ -1645,7 +1645,7 @@
                     "endOffset": 7564
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 4,
@@ -1664,7 +1664,7 @@
                     "endOffset": 7613
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 4,
@@ -1684,7 +1684,7 @@
                     "endOffset": 7742
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1704,7 +1704,7 @@
                     "endOffset": 7791
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1723,7 +1723,7 @@
                     "endOffset": 7848
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1742,7 +1742,7 @@
                     "endOffset": 7900
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 96,
                         "startColumn": 4,
@@ -1761,7 +1761,7 @@
                     "endOffset": 7951
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 97,
                         "startColumn": 4,
@@ -1780,7 +1780,7 @@
                     "endOffset": 8002
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 4,
@@ -1799,7 +1799,7 @@
                     "endOffset": 8053
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 99,
                         "startColumn": 4,
@@ -1818,7 +1818,7 @@
                     "endOffset": 8104
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 4,
@@ -1837,7 +1837,7 @@
                     "endOffset": 8185
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1856,7 +1856,7 @@
                     "endOffset": 8230
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1875,7 +1875,7 @@
                     "endOffset": 8291
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 4,
@@ -1894,7 +1894,7 @@
                     "endOffset": 8336
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 4,
@@ -1913,7 +1913,7 @@
                     "endOffset": 8399
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
@@ -1932,7 +1932,7 @@
                     "endOffset": 8453
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 4,
@@ -1951,7 +1951,7 @@
                     "endOffset": 8554
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\91f6725c81652de526feeaaa0750231fba9f368a\\output\\res\\values-ar\\values-ar.xml",
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\512f48ac723bd306e55d7df42d9fc10f8a7c4f4f\\output\\res\\values-ar\\values-ar.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1970,7 +1970,7 @@
                     "endOffset": 8596
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 4,
@@ -1989,7 +1989,7 @@
                     "endOffset": 8658
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2008,7 +2008,7 @@
                     "endOffset": 8727
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2027,7 +2027,7 @@
                     "endOffset": 8783
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -2046,7 +2046,7 @@
                     "endOffset": 8850
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -2065,7 +2065,7 @@
                     "endOffset": 8905
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -2084,7 +2084,7 @@
                     "endOffset": 8966
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -2103,7 +2103,7 @@
                     "endOffset": 9030
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -2122,7 +2122,7 @@
                     "endOffset": 9077
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -2141,7 +2141,7 @@
                     "endOffset": 9124
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -2160,7 +2160,7 @@
                     "endOffset": 9173
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -2179,7 +2179,7 @@
                     "endOffset": 9223
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "file": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\src\\main\\res\\values-ar\\strings.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,

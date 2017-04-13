@@ -93,11 +93,11 @@
     <string name="one_cell_period_info_type">Type</string>
     <string name="one_cell_period_info_fnameLname">Fname Lname</string>
 
-    <string name="sched_period1">period 1</string>
-    <string name="sched_period2">period 2</string>
-    <string name="sched_period3">period 3</string>
-    <string name="sched_period4">period 4</string>
-    <string name="sched_period5">period 5</string>
+    <string name="sched_period1">Period 1</string>
+    <string name="sched_period2">Period 2</string>
+    <string name="sched_period3">Period 3</string>
+    <string name="sched_period4">Period 4</string>
+    <string name="sched_period5">Period 5</string>
     <string name="activity_Profile">Profile</string>
     <string name="ForgetP_please_enter_civilId">Civil ID</string>
     <string name="activity_bloodRequests">Blood Requests</string>

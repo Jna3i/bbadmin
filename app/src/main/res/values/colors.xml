@@ -8,8 +8,8 @@
     <color name="colorWHITE">#FFFFFF</color>
     <color name="colorDARKGREY">#a1a1a1</color>
     <color name="colorGREY">#adadad</color>
-    <color name="colorPeriodLight">#e8e8e8</color>
-    <color name="colorPeriodDark">#e2c3c3</color>
+    <color name="colorPeriodLight">#f6f6f6</color>
+    <color name="colorPeriodDark">#19bf6820</color>
 
     <color name="colorDATE">#c6c6c6</color>
     <color name="colorTRANSPARENT">#00ffffff</color>

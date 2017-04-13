@@ -42,6 +42,8 @@
     <color name="colorDARKGREY">#a1a1a1</color>
     <color name="colorDATE">#c6c6c6</color>
     <color name="colorGREY">#adadad</color>
+    <color name="colorPeriodDark">#19bf6820</color>
+    <color name="colorPeriodLight">#f6f6f6</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorRED">#BF202F</color>
@@ -2899,11 +2901,11 @@
     </string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password </string>
-    <string name="sched_period1">period 1</string>
-    <string name="sched_period2">period 2</string>
-    <string name="sched_period3">period 3</string>
-    <string name="sched_period4">period 4</string>
-    <string name="sched_period5">period 5</string>
+    <string name="sched_period1">Period 1</string>
+    <string name="sched_period2">Period 2</string>
+    <string name="sched_period3">Period 3</string>
+    <string name="sched_period4">Period 4</string>
+    <string name="sched_period5">Period 5</string>
     <string name="search_menu_title">Search</string>
     <string name="send_email">Submit</string>
     <string name="sendnotification">Send Notification</string>
