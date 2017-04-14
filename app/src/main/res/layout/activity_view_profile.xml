@@ -61,37 +61,35 @@
 <android.support.v7.widget.FitWindowsLinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <ImageView
-        android:id="@+id/imageButton"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginLeft="10dp"
-        app:srcCompat="@mipmap/ic_genders1" />
+
 
     <TextView
         android:id="@+id/Gender1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/a_minus"
-        android:layout_below="@+id/a_minus"
-        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:drawablePadding="10dp"
+        android:text="@string/EditProfile_Gender1"
+        android:textColor="@color/colorRED"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:drawableLeft="@mipmap/genders"/>
 
-
-        android:text="@string/view_Gender1"
-        android:textSize="16sp" />
 </android.support.v7.widget.FitWindowsLinearLayout>
 
-        <TextView
+        <EditText
             android:id="@+id/Gender2"
-            android:layout_width="wrap_content"
+            android:layout_width="310dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/Gender1"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="30dp"
             android:layout_toEndOf="@+id/Gender1"
             android:text="gender"
+            android:textSize="13dp"
             android:transitionName="@string/faw_male" />
 
-<android.support.v7.widget.FitWindowsLinearLayout
+        <android.support.v7.widget.FitWindowsLinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
@@ -102,8 +100,7 @@
             android:layout_width="15dp"
             android:layout_height="15dp"
             android:layout_marginLeft="10dp"
-
-            app:srcCompat="@mipmap/ic_calendar" />
+            app:srcCompat="@mipmap/calendargrey" />
 
     <TextView
         android:id="@+id/textView35"
@@ -117,12 +114,12 @@
         android:transitionName="@string/view_Date_of_Birth" />
 </android.support.v7.widget.FitWindowsLinearLayout>
 
-        <TextView
+        <EditText
             android:id="@+id/textViewDate"
-            android:layout_width="wrap_content"
+            android:layout_width="310dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView35"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="30dp"
             android:layout_toEndOf="@+id/Gender2"
 
             android:text="YYYY-MM-DD" />
@@ -138,7 +135,7 @@
                 android:layout_width="15dp"
                 android:layout_height="15dp"
                 android:layout_marginLeft="10dp"
-                app:srcCompat="@mipmap/ic_email" />
+                app:srcCompat="@mipmap/envelope" />
 
             <TextView
                 android:id="@+id/textView37"
@@ -153,13 +150,13 @@
                 android:transitionName="@string/view_Email" />
         </android.support.v7.widget.FitWindowsLinearLayout>
 
-        <TextView
+        <EditText
             android:id="@+id/textViewEmail"
-            android:layout_width="wrap_content"
+            android:layout_width="310dp"
             android:layout_height="wrap_content"
             android:layout_alignStart="@+id/textViewPhone"
             android:layout_below="@+id/textView37"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="30dp"
 
             android:text="email@email.com" />
 
@@ -172,7 +169,7 @@
                 android:layout_width="15dp"
                 android:layout_height="15dp"
                 android:layout_marginLeft="10dp"
-                app:srcCompat="@mipmap/ic_phone" />
+                app:srcCompat="@mipmap/phone" />
 
             <TextView
                 android:id="@+id/textView39"
@@ -188,12 +185,12 @@
 
         </android.support.v7.widget.FitWindowsLinearLayout>
 
-        <TextView
+        <EditText
             android:id="@+id/textViewPhone"
-            android:layout_width="wrap_content"
+            android:layout_width="310dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView39"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="30dp"
 
             android:layout_toEndOf="@+id/textView35"
             android:text="00000000" />
@@ -207,7 +204,7 @@
             android:layout_width="15dp"
             android:layout_height="15dp"
             android:layout_marginLeft="10dp"
-            app:srcCompat="@mipmap/ic_placeholder" />
+            app:srcCompat="@mipmap/location" />
 
             <TextView
                 android:id="@+id/textView41"
@@ -222,12 +219,12 @@
                 android:transitionName="@string/view_Branch_Name" />
         </android.support.v7.widget.FitWindowsLinearLayout>
 
-        <TextView
+        <EditText
             android:id="@+id/textViewBranch"
-            android:layout_width="wrap_content"
+            android:layout_width="310dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView41"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="30dp"
 
             android:layout_toEndOf="@+id/textView41"
             android:text="branch" />
@@ -241,7 +238,7 @@
             android:layout_width="15dp"
             android:layout_height="15dp"
             android:layout_marginLeft="10dp"
-            app:srcCompat="@mipmap/ic_id" />
+            app:srcCompat="@mipmap/id" />
 
             <TextView
                 android:id="@+id/textView43"
