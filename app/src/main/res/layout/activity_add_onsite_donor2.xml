@@ -31,7 +31,7 @@
             android:layout_marginBottom="10dp"
             android:drawableLeft="@mipmap/calendargrey"
             android:drawablePadding="10dp"
-            android:text="Date"
+            android:text="@string/date"
             android:textColor="@color/colorRED"
             android:textSize="18dp" />
 
@@ -50,7 +50,7 @@
             android:layout_marginBottom="10dp"
             android:drawableLeft="@mipmap/period"
             android:drawablePadding="10dp"
-            android:text="Period"
+            android:text="@string/period_info"
             android:textColor="@color/colorRED"
             android:textSize="18dp" />
 

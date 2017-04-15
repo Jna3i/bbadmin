@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Blood Bank Admin</string>
+    <string name="app_name">بنك الدم ادمن</string>
     <string name="title_activity_login">تسجيل الدخول</string>
 
     <!-- Strings related to login -->
@@ -10,10 +10,10 @@
     <string name="action_sign_in">تسجيل الدخول </string>
     <string name="action_forget_password">هل نسيت الرم السري؟ </string>
     <string name="action_sign_in_short">"تسجيل الدخول "</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">عنوان البريد غير صحيح</string>
+    <string name="error_invalid_password">هذا الرقم السري قصير جدا</string>
+    <string name="error_incorrect_password">الرقم السري غير صحيح</string>
+    <string name="error_field_required">هذه الخانه مطلوبة</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
@@ -49,7 +49,7 @@
 
     <string name="EditProfile_Save">حفظ</string>
     <string name="EditProfile_Gender1">الجنس</string>
-    <string name="EditProfile_Gender2">Male/female</string>
+    <string name="EditProfile_Gender2">ذكر/انثى</string>
     <string name="EditProfile_Date_of_Birth">تاريخ الميلاد</string>
     <string name="EditProfile_Choose_Date_of_Birth">اختر التاريخ</string>
     <string name="ForgetP_please_enter">من فضلك قم بكتابة ايميلك هنا..</string>
@@ -101,6 +101,17 @@
     <string name="sched_period5">الفترة 5</string>
     <string name="activity_Profile">الملف الشخصي</string>
     <string name="ForgetP_please_enter_civilId">الرقم المدني</string>
+    <string name="Info_BloodRequest">طلب معلومات</string>
+    <string name="activity_bloodRequests">طلبات الدم</string>
+    <string name="title_activity_edit_profile">"تعديل الملف الشخصي "</string>
+    <string name="AddDonor_title">اضافة متبرع</string>
+    <string name="AddCampaign_title">اضافة لغة</string>
+    <string name="SendNotification_title">ارسال تنبيه</string>
+    <string name="Female">انثى</string>
+    <string name="Male">ذكر</string>
+    <string name="Next_button">التالي</string>
+    <string name="Date">التاريخ</string>
+    <string name="Toast_AddDonor_Successfully">تمت اضافة متبرع بنجاح</string>
 
 
 </resources>

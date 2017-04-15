@@ -102,6 +102,14 @@
     <string name="ForgetP_please_enter_civilId">Civil ID</string>
     <string name="activity_bloodRequests">Blood Requests</string>
     <string name="Info_BloodRequest">Request Information</string>
+    <string name="AddDonor_title">Add Donor</string>
+    <string name="AddCampaign_title">Add Campaign</string>
+    <string name="SendNotification_title">Send Notification</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Next_button">Next</string>
+    <string name="Date">Date</string>
+    <string name="Toast_AddDonor_Successfully">Add Donor Successfully!</string>
 
 
 </resources>

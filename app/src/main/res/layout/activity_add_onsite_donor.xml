@@ -41,7 +41,7 @@
                 android:layout_centerHorizontal="true"
                 android:drawableLeft="@mipmap/avatar"
                 android:drawablePadding="10dp"
-                android:hint="First Name and Last Name:" />
+                android:hint="@string/one_cell_period_info_fnameLname" />
         </android.support.design.widget.TextInputLayout>
 
         <!--<EditText-->
@@ -67,7 +67,7 @@
                 android:layout_below="@+id/txtName"
                 android:drawableLeft="@mipmap/id"
                 android:drawablePadding="10dp"
-                android:hint="Civil ID:" />
+                android:hint="@string/view_ID" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -84,7 +84,7 @@
                 android:layout_below="@+id/txtCivilID"
                 android:drawableLeft="@mipmap/phone"
                 android:drawablePadding="10dp"
-                android:hint="Phone Number:" />
+                android:hint="@string/view_Phone" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -101,7 +101,7 @@
                 android:layout_below="@+id/txtPhone"
                 android:drawableLeft="@mipmap/envelope"
                 android:drawablePadding="10dp"
-                android:hint="Email:" />
+                android:hint="@string/view_Email" />
         </android.support.design.widget.TextInputLayout>
 
         <TextView
@@ -111,7 +111,7 @@
             android:layout_marginTop="10dp"
             android:drawableLeft="@mipmap/genders"
             android:drawablePadding="10dp"
-            android:text="Gender:"
+            android:text="@string/view_Gender1"
             android:textColor="@color/colorRED"
             android:textSize="18dp" />
 
@@ -134,7 +134,7 @@
                 android:layout_alignEnd="@+id/o_minus"
                 android:layout_marginRight="25dp"
                 android:buttonTint="@color/colorRED"
-                android:text="Female" />
+                android:text="@string/Female" />
 
             <RadioButton
                 android:id="@+id/radMale"
@@ -145,7 +145,7 @@
                 android:layout_toStartOf="@+id/ab_minus"
                 android:buttonTint="@color/colorRED"
                 android:checked="false"
-                android:text="Male" />
+                android:text="@string/Male" />
         </RadioGroup>
 
 
@@ -269,7 +269,7 @@
         android:layout_alignParentStart="true"
         android:layout_margin="20dp"
         android:background="@drawable/button_grey"
-        android:text="Next"
+        android:text="@string/Next_button"
         android:textColor="@color/colorWHITE"
         android:textSize="18sp"
         android:textStyle="bold" />

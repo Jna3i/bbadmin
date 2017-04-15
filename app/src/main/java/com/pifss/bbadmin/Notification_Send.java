@@ -34,7 +34,7 @@ public class Notification_Send extends AppCompatActivity {
         final EditText etTitle = (EditText) findViewById(R.id.Notification_send_title);
         final EditText etDescrip = (EditText) findViewById(R.id.Notification_send_description);
         Button button = (Button) findViewById(R.id.notification_send_button);
-        toolbar.setTitle("Send Notification");
+        toolbar.setTitle(getString(R.string.SendNotification_title));
         toolbar.setTitleTextColor(Color.WHITE);
 
         toolbar.setNavigationIcon(R.drawable.ic_back);

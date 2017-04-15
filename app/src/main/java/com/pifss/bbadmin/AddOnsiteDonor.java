@@ -41,7 +41,7 @@ public class AddOnsiteDonor extends AppCompatActivity {
 
             Toolbar toolbar = (Toolbar) findViewById(R.id.onsiteAdd_toolbarID);
             toolbar.setNavigationIcon(R.drawable.ic_back);
-            toolbar.setTitle("Add Donor");
+            toolbar.setTitle(getString(R.string.AddDonor_title));
             toolbar.setTitleTextColor(Color.WHITE);
             toolbar.setNavigationOnClickListener(new View.OnClickListener() {
                 @Override
@@ -330,7 +330,7 @@ public class AddOnsiteDonor extends AppCompatActivity {
                 JsonObjectRequest request=new JsonObjectRequest(Request.Method.POST, url, onsiteJson, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        Toast.makeText(AddOnsiteDonor.this, "Donor Added Successfuly!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(AddOnsiteDonor.this, getString((R.string.Toast_AddDonor_Successfully)), Toast.LENGTH_LONG).show();
 
                         OnSiteDonor onsiteDonorInfo = new OnSiteDonor();
                         onsiteDonorInfo = new Gson().fromJson(String.valueOf(response), OnSiteDonor.class);

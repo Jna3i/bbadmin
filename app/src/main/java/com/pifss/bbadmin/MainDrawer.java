@@ -39,6 +39,7 @@ public class MainDrawer extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_drawer);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle(getString((R.string.title_activity_main_drawer)));
         setSupportActionBar(toolbar);
 
 

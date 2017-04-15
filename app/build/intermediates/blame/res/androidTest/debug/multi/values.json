@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\PIFSS\\StudioProjects\\bbadmin\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\83168895001852d7e3bc5439906e9861d1c2811e\\output\\res\\values\\values.xml",
+                    "file": "/Users/YousiffAbdulreheim/.android/build-cache/4e457c3fdf84fe8fcf1e77846bc469222c7192e1/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
