@@ -105,13 +105,17 @@
     <string name="activity_bloodRequests">طلبات الدم</string>
     <string name="title_activity_edit_profile">"تعديل الملف الشخصي "</string>
     <string name="AddDonor_title">اضافة متبرع</string>
-    <string name="AddCampaign_title">اضافة لغة</string>
+    <string name="AddCampaign_title">اضافة حملة</string>
     <string name="SendNotification_title">ارسال تنبيه</string>
     <string name="Female">انثى</string>
     <string name="Male">ذكر</string>
     <string name="Next_button">التالي</string>
     <string name="Date">التاريخ</string>
     <string name="Toast_AddDonor_Successfully">تمت اضافة متبرع بنجاح</string>
+    <string name="Toast_Add_Successfully_ID">"= تمت اضافة المتبرع بنجاح  "</string>
+    <string name="Toast_Camp_Added">تمت اضافة الحملة</string>
+    <string name="Toast_AddOnSiteDonor">اضافة متبرع على الموقع</string>
+    <string name="Toast_welcome">مرحبا</string>
 
 
 </resources>

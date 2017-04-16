@@ -110,6 +110,10 @@
     <string name="Next_button">Next</string>
     <string name="Date">Date</string>
     <string name="Toast_AddDonor_Successfully">Add Donor Successfully!</string>
+    <string name="Toast_Add_Successfully_ID">Add Donor  Successfuly! id =</string>
+    <string name="Toast_Camp_Added">Campaign Added Successfuly!</string>
+    <string name="Toast_AddOnSiteDonor">Add OnSite Donor</string>
+    <string name="Toast_welcome">Welcome</string>
 
 
 </resources>

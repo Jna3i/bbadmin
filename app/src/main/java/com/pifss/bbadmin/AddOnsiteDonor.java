@@ -337,7 +337,7 @@ public class AddOnsiteDonor extends AppCompatActivity {
 
                         Intent i = new Intent(AddOnsiteDonor.this, AddOnsiteDonor2.class);
                         i.putExtra("id", onsiteDonorInfo.getId());
-                        Toast.makeText(AddOnsiteDonor.this, "Donor  Successfuly! id = " +onsiteDonorInfo.getId(), Toast.LENGTH_LONG).show();
+                       // Toast.makeText(AddOnsiteDonor.this,getString((R.string.Toast_Add_Successfully_ID)) +onsiteDonorInfo.getId(), Toast.LENGTH_LONG).show();
                         startActivity(i);
 
 

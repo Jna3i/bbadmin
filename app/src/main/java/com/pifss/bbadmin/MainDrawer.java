@@ -115,7 +115,7 @@ public class MainDrawer extends AppCompatActivity
                             @Override
                             public void onBoomButtonClick(int index) {
                                 //send notif
-                                Toast.makeText(MainDrawer.this, "Send Notification", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainDrawer.this, getString(R.string.SendNotification_title), Toast.LENGTH_SHORT).show();
                                 Intent int0 = new Intent(MainDrawer.this,Notification_Send.class);
                                 startActivity(int0);
                             }
@@ -268,7 +268,7 @@ public class MainDrawer extends AppCompatActivity
     public void addOnSiteDonor(){
         Intent int0 = new Intent(MainDrawer.this,AddOnsiteDonor.class);
         startActivity(int0);
-        Toast.makeText(MainDrawer.this, "Add onSite Donor", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainDrawer.this, getString(R.string.Toast_AddOnSiteDonor), Toast.LENGTH_SHORT).show();
     }
 
     @Override
