@@ -116,6 +116,7 @@
     <string name="Toast_Camp_Added">تمت اضافة الحملة</string>
     <string name="Toast_AddOnSiteDonor">اضافة متبرع على الموقع</string>
     <string name="Toast_welcome">مرحبا</string>
+    <string name="Enter">ادخل</string>
 
 
 </resources>

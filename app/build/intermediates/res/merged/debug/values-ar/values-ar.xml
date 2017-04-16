@@ -13,6 +13,7 @@
     <string name="EditProfile_Phone">رقم الهاتف</string>
     <string name="EditProfile_Save">حفظ</string>
     <string name="EditProfile_title_activity_edit_profile">تعديل الملف الشخصي</string>
+    <string name="Enter">ادخل</string>
     <string name="Female">انثى</string>
     <string name="ForgetP_please_enter">من فضلك قم بكتابة ايميلك هنا..</string>
     <string name="ForgetP_please_enter_civilId">الرقم المدني</string>

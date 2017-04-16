@@ -142,10 +142,46 @@ public class CampaignAdd extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/";
-                final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignAdd.this);
+                String url = "http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/";
+                final RequestQueue queue = NetworkRequest.getInstance().getRequestQueue(CampaignAdd.this);
 
-                JSONObject campaignJson=new JSONObject();
+                //checking for empty textfields
+                String name = txtCampName.getText().toString().trim();
+                String descrition = txtDescription.getText().toString().trim();
+                String location = txtLocation.getText().toString().trim();
+                String dateTo = txtDateTo.getText().toString().trim();
+                String dateFrom = txtDateFrom.getText().toString().trim();
+
+                if (name.isEmpty() || name.length() == 0 || name.equals("") || name == null) {
+                    Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.edit_campaignName) , Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                if (descrition.isEmpty() || descrition.length() == 0 || descrition.equals("") || descrition == null) {
+                    Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.description) , Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                if (location.isEmpty() || location.length() == 0 || location.equals("") || location == null) {
+                    Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.edit_Location) , Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                if (dateTo.isEmpty() || dateTo.length() == 0 || dateTo.equals("") || dateTo == null) {
+                    Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.edit_Date) , Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                if (dateFrom.isEmpty() || dateFrom.length() == 0 || dateFrom.equals("") || dateFrom == null) {
+                    Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.edit_Date) , Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                else {
+                    //EditText is not empty
+
+
+                JSONObject campaignJson = new JSONObject();
                 try {
                     campaignJson.put("CFDId", 0);
                     campaignJson.put("LLat", llat);
@@ -160,12 +196,11 @@ public class CampaignAdd extends AppCompatActivity {
                     campaignJson.put("status", "Active");
 
 
-
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
 
-                JsonObjectRequest request=new JsonObjectRequest(Request.Method.POST, url, campaignJson, new Response.Listener<JSONObject>() {
+                JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, url, campaignJson, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         Toast.makeText(CampaignAdd.this, (getString(R.string.Toast_Camp_Added)), Toast.LENGTH_LONG).show();
@@ -175,7 +210,7 @@ public class CampaignAdd extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(CampaignAdd.this, "NO, but added", Toast.LENGTH_LONG).show();
                         clearAll();
-                         finish();
+                        finish();
 
                     }
                 });
@@ -183,7 +218,9 @@ public class CampaignAdd extends AppCompatActivity {
                 queue.add(request);
 
             }
-        });
+        }
+        }
+    );
 
     }
 

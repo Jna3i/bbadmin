@@ -98,34 +98,34 @@ public class LoginActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 JSONObject o = new JSONObject();
-                try {
-                    o.put("username",email.getText().toString());
-                    o.put("password",password.getText().toString());
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
+                if (isValidEmail(email.getText().toString()) == true){
+                    try {
+                        o.put("username", email.getText().toString());
+                        o.put("password", password.getText().toString());
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
 
-                String url="http://34.196.107.188:8081/MhealthWeb/webresources/bbadmin/login";
+                String url = "http://34.196.107.188:8081/MhealthWeb/webresources/bbadmin/login";
                 RequestQueue queue = NetworkRequest.getInstance().getRequestQueue(LoginActivity.this);
 
-                JsonObjectRequest stringRequest = new JsonObjectRequest(Request.Method.POST, url,o, new Response.Listener<JSONObject>() {
+                JsonObjectRequest stringRequest = new JsonObjectRequest(Request.Method.POST, url, o, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            if(response.getInt("errorCode") == 0){
+                            if (response.getInt("errorCode") == 0) {
                                 bbadmin profile = new bbadmin();
-                                profile= new Gson().fromJson(response.getString("items"),bbadmin.class);
-                                SharedPreferences pref1 = getSharedPreferences("bbadmin_profile",MODE_PRIVATE);
+                                profile = new Gson().fromJson(response.getString("items"), bbadmin.class);
+                                SharedPreferences pref1 = getSharedPreferences("bbadmin_profile", MODE_PRIVATE);
                                 SharedPreferences.Editor Ed1 = pref1.edit();
-                                Ed1.putString("profile",profile.toJSONString());
+                                Ed1.putString("profile", profile.toJSONString());
                                 Ed1.commit();
                                 Toast.makeText(LoginActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
                                 //Toast.makeText(LoginActivity.this, "log "+pref1.getString("profile","error"), Toast.LENGTH_SHORT).show();
                                 Intent i = new Intent(LoginActivity.this, MainDrawer.class);
                                 startActivity(i);
-                            }
-                            else{
-                                Toast.makeText(LoginActivity.this, "Username or password is wrong!!" , Toast.LENGTH_LONG).show();
+                            } else {
+                                Toast.makeText(LoginActivity.this, "Username or password is wrong!!", Toast.LENGTH_LONG).show();
 
                             }
                         } catch (JSONException e) {
@@ -136,25 +136,18 @@ public class LoginActivity extends AppCompatActivity  {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                Toast.makeText(LoginActivity.this, "No Internet Connection, please connect to the internet ", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, "No Internet Connection, please connect to the internet ", Toast.LENGTH_SHORT).show();
 
                     }
                 });
-                        queue.add(stringRequest);
-//                /////////
-//                boolean flag =true;
-//                        flag= login(email.getText().toString(),password.getText().toString());
-//                Toast.makeText(LoginActivity.this, "login is "+ flag , Toast.LENGTH_SHORT).show();
-//
-//                if (flag == true) {
-//                    Intent i = new Intent(LoginActivity.this, MainDrawer.class);
-//                    startActivity(i);
-//                }
-//                else {
-//                    Intent i = new Intent(LoginActivity.this, LoginActivity.class);
-//                    startActivity(i);
-//                }
+                queue.add(stringRequest);
             }
+                else {
+                    Toast.makeText(LoginActivity.this, "Invalid email", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+            }
+
         });
 
         forgetPassword.setOnClickListener(new OnClickListener() {
@@ -176,6 +169,11 @@ public class LoginActivity extends AppCompatActivity  {
         }
         else
             return false;
+    }
+
+    //to validate email
+    public final static boolean isValidEmail(CharSequence target) {
+        return !TextUtils.isEmpty(target) && android.util.Patterns.EMAIL_ADDRESS.matcher(target).matches();
     }
 
     public void loggedIn(){

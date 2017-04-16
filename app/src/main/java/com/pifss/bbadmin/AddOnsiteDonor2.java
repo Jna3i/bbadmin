@@ -107,7 +107,7 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
 
                 for (Slots s: freeslots) {
                    String date = s.getDay();
-                    Toast.makeText(AddOnsiteDonor2.this, ""+date, Toast.LENGTH_SHORT).show();
+                 //   Toast.makeText(AddOnsiteDonor2.this, ""+date, Toast.LENGTH_SHORT).show();
                     AllDates.add(date);
                 }
                     System.out.println(AllDates);
@@ -163,7 +163,7 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
                     onsiteSched.put("period", SpinnerPeriods.getSelectedItemPosition());
                     onsiteSched.put("day", SpinnerDates.getSelectedItem().toString()+"T00:00:00Z");
 
-                    Toast.makeText(AddOnsiteDonor2.this, ""+onsiteSched, Toast.LENGTH_SHORT).show();
+                //    Toast.makeText(AddOnsiteDonor2.this, ""+onsiteSched, Toast.LENGTH_SHORT).show();
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

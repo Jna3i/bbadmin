@@ -91,7 +91,7 @@
     <string name="period_info">Period #</string>
     <string name="splash_bloodbank">Blood Bank</string>
     <string name="one_cell_period_info_type">Type</string>
-    <string name="one_cell_period_info_fnameLname">Fname Lname</string>
+    <string name="one_cell_period_info_fnameLname">First name Last name</string>
 
     <string name="sched_period1">Period 1</string>
     <string name="sched_period2">Period 2</string>
@@ -114,6 +114,7 @@
     <string name="Toast_Camp_Added">Campaign Added Successfuly!</string>
     <string name="Toast_AddOnSiteDonor">Add OnSite Donor</string>
     <string name="Toast_welcome">Welcome</string>
+    <string name="Enter">Enter</string>
 
 
 </resources>

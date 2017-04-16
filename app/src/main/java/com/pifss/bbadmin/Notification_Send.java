@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -56,7 +57,19 @@ public class Notification_Send extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String title = etTitle.getText().toString().trim();
+                String description = etDescrip.getText().toString().trim();
 
+                if (title.isEmpty() || title.length() == 0 || title.equals("") || title == null) {
+
+                    Toast.makeText(Notification_Send.this, getString(R.string.Enter) +" "+ getString(R.string.title), Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if (description.isEmpty() || description.length() == 0 || description.equals("") || description == null) {
+
+                    Toast.makeText(Notification_Send.this, getString(R.string.Enter)+" "+ getString(R.string.description), Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 JSONObject jsonObject= new JSONObject();
                 try {
                     jsonObject.put("date",currentdate);
