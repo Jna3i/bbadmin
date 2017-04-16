@@ -131,7 +131,7 @@ public class EditProfile extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
 
-                            Toast.makeText(EditProfile.this, "Saved", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(EditProfile.this, getString((R.string.EditProfile_Save)), Toast.LENGTH_SHORT).show();
 
                         SharedPreferences.Editor Ed1 = pref1.edit();
                         Ed1.putString("profile",profile.toJSONString());

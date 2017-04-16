@@ -48,6 +48,9 @@ public class CampaignAdd extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campaign_add);
 
+        Toast.makeText(CampaignAdd.this, getString(R.string.AddCampaign_title), Toast.LENGTH_SHORT).show();
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.campAdd_toolbarID);
         toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setTitle(getString(R.string.AddCampaign_title));
@@ -165,7 +168,7 @@ public class CampaignAdd extends AppCompatActivity {
                 JsonObjectRequest request=new JsonObjectRequest(Request.Method.POST, url, campaignJson, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        Toast.makeText(CampaignAdd.this, "Campaign Added Successfuly!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(CampaignAdd.this, (getString(R.string.Toast_Camp_Added)), Toast.LENGTH_LONG).show();
                     }
                 }, new Response.ErrorListener() {
                     @Override
