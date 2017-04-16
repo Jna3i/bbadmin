@@ -1,102 +1,102 @@
 [
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_tint_spinner.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_primary_text_material_light.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/2aa408f9a8fe81a3f0fbce8e4fcf9a6d2e7f64e4/output/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_tint_default.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/Macbook/.android/build-cache/e99026d792e28dcf9e5e0824b0d9f71f16e6ad8c/output/res/color/common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_tint_switch_track.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/2aa408f9a8fe81a3f0fbce8e4fcf9a6d2e7f64e4/output/res/color/common_google_signin_btn_tint.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_tint_edittext.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/Macbook/.android/build-cache/e99026d792e28dcf9e5e0824b0d9f71f16e6ad8c/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_tint_switch_thumb.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_secondary_text_material_light.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/switch_thumb_material_dark.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_search_url_text.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_tint_btn_checkable.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/Macbook/.android/build-cache/7682022881c422653851cb7f61a5f369fc4282a5/output/res/color/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/2da66e24dcadcbe036892fd0707d25f755f20b4a/output/res/color/design_tint_password_toggle.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/Macbook/.android/build-cache/7682022881c422653851cb7f61a5f369fc4282a5/output/res/color/design_error.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/switch_thumb_material_light.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/2da66e24dcadcbe036892fd0707d25f755f20b4a/output/res/color/design_error.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_tint_seek_thumb.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/Macbook/.android/build-cache/e99026d792e28dcf9e5e0824b0d9f71f16e6ad8c/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/2aa408f9a8fe81a3f0fbce8e4fcf9a6d2e7f64e4/output/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_hint_foreground_material_dark.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_hint_foreground_material_light.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_btn_colored_text_material.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/res/color/abc_search_url_text.xml"
     }
 ]

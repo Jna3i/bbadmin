@@ -20,6 +20,7 @@
     <string name="Male">ذكر</string>
     <string name="Next_button">التالي</string>
     <string name="SendNotification_title">ارسال تنبيه</string>
+    <string name="Toast_AddDonor_Successfully">تمت اضافة متبرع بنجاح</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
