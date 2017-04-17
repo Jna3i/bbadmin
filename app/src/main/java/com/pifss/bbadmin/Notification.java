@@ -11,6 +11,11 @@ public class Notification implements Serializable {
     String title;
     String description;
     String date;
+    int notifId;
+
+    public int getNotifId() {
+        return notifId;
+    }
 
     public String getTitle() {
         return title;

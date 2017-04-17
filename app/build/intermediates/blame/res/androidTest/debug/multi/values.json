@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/YousiffAbdulreheim/.android/build-cache/4e457c3fdf84fe8fcf1e77846bc469222c7192e1/output/res/values/values.xml",
+                    "file": "/Users/Macbook/.android/build-cache/5fa24ce2117b891ec85129bf09771d4612467e5d/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

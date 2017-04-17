@@ -1,271 +1,271 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:2:1-90:12
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:2:1-90:12
 	package
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:4:5-32
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:7:5-71
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:7:22-68
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:8:5-71
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:8:22-68
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:8:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:9:5-72
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:9:5-72
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:9:22-69
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:9:22-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:10:5-67
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/b7479ce04138cbfa456840a553d51bdf88bed1bf/output/AndroidManifest.xml:20:5-66
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Macbook/.android/build-cache/c6eee12fb1e0450bda4e1cbc0a671e6e5fd25524/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:10:22-64
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:10:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:17:5-79
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:17:5-79
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:17:22-76
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:17:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:20:5-95
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/b7479ce04138cbfa456840a553d51bdf88bed1bf/output/AndroidManifest.xml:19:5-78
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:20:5-95
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Macbook/.android/build-cache/c6eee12fb1e0450bda4e1cbc0a671e6e5fd25524/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:20:22-76
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:20:22-76
 application
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:22:5-88:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /Users/YousiffAbdulreheim/.android/build-cache/d1bd71d92b5c4e6191b8fccf6a11d479cc1d67b4/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/2da66e24dcadcbe036892fd0707d25f755f20b4a/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/bfd2b30d550183fda41d77359b851ae633617067/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/49ff677d988470b0b755591c6983e3929ad77d48/output/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/4f25ff6ce6f97a35c56b261344f9e0140bf8f851/output/AndroidManifest.xml:22:5-20
-MERGED from [com.mikepenz:google-material-typeface:3.0.1.0.original] /Users/YousiffAbdulreheim/.android/build-cache/4cf9a511c267d096d99f33fc07ac18dbd1f17bba/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.2] /Users/YousiffAbdulreheim/.android/build-cache/636d992c42eb6672d1430960aada05db68e6174e/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:octicons-typeface:3.2.0.2] /Users/YousiffAbdulreheim/.android/build-cache/194c0d1920b394650c2d7f1097e5d9090b66e149/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:meteocons-typeface:1.1.0.2] /Users/YousiffAbdulreheim/.android/build-cache/50262015d8e3eadceab0b2224e8709b19a0c6e19/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:community-material-typeface:1.8.36.1] /Users/YousiffAbdulreheim/.android/build-cache/4ca972b3d5666c5bddfa779b44966394e2de77c7/output/AndroidManifest.xml:28:5-20
-MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.2] /Users/YousiffAbdulreheim/.android/build-cache/5641519adf4c058704e92db9d5fece1f74161a17/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:typeicons-typeface:2.0.7.2] /Users/YousiffAbdulreheim/.android/build-cache/02e1259b6cab3972285fbcce60abd2b686a86b7b/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:entypo-typeface:1.0.0.2] /Users/YousiffAbdulreheim/.android/build-cache/7f59b5cc0bdfa9f49575741272a3111edb887c45/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:devicon-typeface:2.0.0.2] /Users/YousiffAbdulreheim/.android/build-cache/c33e3afd53ecade312917402891d00b8d99c5d3c/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.2] /Users/YousiffAbdulreheim/.android/build-cache/ff0240f8c6f1b4a4ed850492d7d59e7267ccfb8f/output/AndroidManifest.xml:27:5-20
-MERGED from [com.mikepenz:ionicons-typeface:2.0.1.2] /Users/YousiffAbdulreheim/.android/build-cache/38b4ec0cf03391258965a146a1abc34faea804b1/output/AndroidManifest.xml:27:5-20
-MERGED from [com.nightonke:boommenu:2.0.7] /Users/YousiffAbdulreheim/.android/build-cache/391320923cff622c43ddb0fb134d0d202d8c8a21/output/AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.volley:volley:1.0.0] /Users/YousiffAbdulreheim/.android/build-cache/69279ecf63bc598de0d2d5cda72959c1905287fc/output/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/b7479ce04138cbfa456840a553d51bdf88bed1bf/output/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/2aa408f9a8fe81a3f0fbce8e4fcf9a6d2e7f64e4/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/ed0b14703a66f71a7f8737cc89b144ade2f4b887/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/5d48a6920d4665f863352c2f849bb1783b07647e/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/334eaa1eeadced5b8b0727e9d74b8b2d00091e31/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/4213c5c8fc0e4811f80aa489cc7f81dbda50ad52/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/293b16809663a0c19099bdf75e035a188da3c8e0/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/d22532b3b33b1947f7772fc152321d145e392b86/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/6d6db198770ac52dfc7296d8598b5466eea0b859/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/10938dd0ce0823de618d00ed3bcb96d8746c3c2f/output/AndroidManifest.xml:25:5-20
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:22:5-88:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /Users/Macbook/.android/build-cache/1cc760cdf036922fa04acd3be9ec1352e75c3f7a/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] /Users/Macbook/.android/build-cache/7682022881c422653851cb7f61a5f369fc4282a5/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/Macbook/.android/build-cache/c69b6ee97683681c4464d8f6e80a725a1aa01bac/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/Macbook/.android/build-cache/60266364be5e87315b88f88fc164dc705ce59110/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/Macbook/.android/build-cache/3e6a27b895c56077ed6cd585bcd06e8ab8999c81/output/AndroidManifest.xml:22:5-20
+MERGED from [com.mikepenz:google-material-typeface:3.0.1.0.original] /Users/Macbook/.android/build-cache/129212ef08f97a26129c6dc34ad5b0be619cc121/output/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.2] /Users/Macbook/.android/build-cache/13f69f6bdfac2c42081e136b6253059e5fe65dcd/output/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:octicons-typeface:3.2.0.2] /Users/Macbook/.android/build-cache/0dc45edd60e642e1cf3731e91f151faec906470b/output/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:meteocons-typeface:1.1.0.2] /Users/Macbook/.android/build-cache/e3b49f52ba0b26fc04a2409b36e47540b93387ac/output/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:community-material-typeface:1.8.36.1] /Users/Macbook/.android/build-cache/5862ff97afe2c2c0b5d22f08182b4abb2056082e/output/AndroidManifest.xml:28:5-20
+MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.2] /Users/Macbook/.android/build-cache/4ab80ddec5b20346c56bd085052ae18f71ef9a5e/output/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:typeicons-typeface:2.0.7.2] /Users/Macbook/.android/build-cache/014857c3aa9e6fe7309fd3a52f8fc3651f82f1a1/output/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:entypo-typeface:1.0.0.2] /Users/Macbook/.android/build-cache/e0ec6f284db591ba8f56f0d4f7fcad8772dc95ad/output/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:devicon-typeface:2.0.0.2] /Users/Macbook/.android/build-cache/537f67444eac74622723334b71021262930bdfa2/output/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.2] /Users/Macbook/.android/build-cache/8c6a87f01dd1f32f8bc898951385af6e0645fa8d/output/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:ionicons-typeface:2.0.1.2] /Users/Macbook/.android/build-cache/dfdacdafcac25dea38dd7a84195c4bfe9dc4eac6/output/AndroidManifest.xml:27:5-20
+MERGED from [com.nightonke:boommenu:2.0.7] /Users/Macbook/.android/build-cache/9e7eed4fb9d9f82b06eddf95ca576696203db7b4/output/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.volley:volley:1.0.0] /Users/Macbook/.android/build-cache/2cab0433997cdba681b950e39c490b96c5b9c6f4/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Macbook/.android/build-cache/c6eee12fb1e0450bda4e1cbc0a671e6e5fd25524/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Macbook/.android/build-cache/e99026d792e28dcf9e5e0824b0d9f71f16e6ad8c/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Macbook/.android/build-cache/57897afd90d49c1a2bbff4b9d91f56a46eca954c/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Macbook/.android/build-cache/a02d0bf9fafc0ec3e491477735614ece82963c9b/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /Users/Macbook/.android/build-cache/48970bd7b2bfb0031a817c82f37ea76e90599834/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/Macbook/.android/build-cache/7d1409c5bff6f622ce31bf3a5ede560c9407ddf1/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/Macbook/.android/build-cache/c0d632a3f068a614c2d14205de633fe2002ef046/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/Macbook/.android/build-cache/72c5fce262620fd7535001d2d4a1165144da8de2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/Macbook/.android/build-cache/2500e6f1224651af39ef674d1529d603b095162e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/Macbook/.android/build-cache/19a50949520201dc4d312ecc94e560666893629e/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:25:9-41
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:25:9-41
 	android:supportsRtl
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:27:9-36
-		REJECTED from [com.nightonke:boommenu:2.0.7] /Users/YousiffAbdulreheim/.android/build-cache/391320923cff622c43ddb0fb134d0d202d8c8a21/output/AndroidManifest.xml:13:9-35
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:27:9-36
+		REJECTED from [com.nightonke:boommenu:2.0.7] /Users/Macbook/.android/build-cache/9e7eed4fb9d9f82b06eddf95ca576696203db7b4/output/AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:26:9-54
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:26:9-54
 	android:allowBackup
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:23:9-35
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:23:9-35
 	android:icon
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:24:9-43
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:24:9-43
 	android:theme
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:28:9-40
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:28:9-40
 	tools:replace
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:29:9-44
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:29:9-44
 activity#com.pifss.bbadmin.MainActivity
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:33:9-50
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:33:9-50
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:33:19-47
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:33:19-47
 activity#com.pifss.bbadmin.SplashActivity
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:34:9-40:20
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:34:9-40:20
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:34:19-49
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:34:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:35:13-39:29
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:36:17-69
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:38:27-74
 activity#com.pifss.bbadmin.LoginActivity
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:41:9-44:60
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:41:9-44:60
 	android:label
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:44:13-57
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:44:13-57
 	android:exported
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:43:13-36
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:42:13-42
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:42:13-42
 activity#com.pifss.bbadmin.ForgetPasswordActivity
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:45:9-47:59
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:45:9-47:59
 	android:theme
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:47:13-56
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:47:13-56
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:46:13-51
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:46:13-51
 activity#com.pifss.bbadmin.MainDrawer
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:48:9-51:59
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:48:9-51:59
 	android:label
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:50:13-63
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:50:13-63
 	android:theme
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:51:13-56
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:51:13-56
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:49:13-39
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:49:13-39
 activity#com.pifss.bbadmin.AppSettings
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:52:9-54:59
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:52:9-54:59
 	android:theme
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:54:13-56
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:54:13-56
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:53:13-40
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:53:13-40
 activity#com.pifss.bbadmin.CampaignList
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:55:9-50
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:55:9-50
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:55:19-47
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:55:19-47
 activity#com.pifss.bbadmin.CampaignAdd
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:56:9-49
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:56:9-49
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:56:19-46
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:56:19-46
 activity#com.pifss.bbadmin.ViewProfile
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:57:9-59:39
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:57:9-59:39
 	android:exported
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:59:13-36
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:59:13-36
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:58:13-40
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:58:13-40
 activity#com.pifss.bbadmin.EditProfile
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:60:9-64:59
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:60:9-64:59
 	android:label
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:63:13-64
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:63:13-64
 	android:exported
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:62:13-36
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:62:13-36
 	android:theme
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:64:13-56
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:64:13-56
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:61:13-40
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:61:13-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:73:9-75:55
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:73:9-75:55
 	android:value
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:75:13-52
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:75:13-52
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:74:13-58
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:74:13-58
 activity#com.pifss.bbadmin.CampaignInfo
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:77:9-50
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:77:9-50
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:77:19-47
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:77:19-47
 activity#com.pifss.bbadmin.CampaignEdit
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:78:9-50
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:78:9-50
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:78:19-47
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:78:19-47
 activity#com.pifss.bbadmin.Notification_History_List
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:79:9-63
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:79:9-63
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:79:19-60
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:79:19-60
 activity#com.pifss.bbadmin.Notification_Send
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:80:9-55
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:80:9-55
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:80:19-52
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:80:19-52
 activity#com.pifss.bbadmin.Notification_View
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:81:9-55
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:81:9-55
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:81:19-52
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:81:19-52
 activity#com.pifss.bbadmin.PeriodInfo
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:82:9-48
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:82:9-48
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:82:19-45
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:82:19-45
 activity#com.pifss.bbadmin.DonorInfo
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:83:9-47
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:83:9-47
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:83:19-44
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:83:19-44
 activity#com.pifss.bbadmin.AddOnsiteDonor
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:84:9-52
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:84:9-52
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:84:19-49
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:84:19-49
 activity#com.pifss.bbadmin.AddOnsiteDonor2
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:85:9-53
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:85:9-53
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:85:19-50
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:85:19-50
 activity#com.pifss.bbadmin.BloodRequests.bloodRequest_List
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:86:9-69
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:86:9-69
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:86:19-66
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:86:19-66
 activity#com.pifss.bbadmin.BloodRequests.BloodRequestInfo
-ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:87:9-77
+ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:87:9-77
 	android:name
-		ADDED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml:87:19-65
+		ADDED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml:87:19-65
 uses-sdk
-INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /Users/YousiffAbdulreheim/.android/build-cache/d1bd71d92b5c4e6191b8fccf6a11d479cc1d67b4/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/2da66e24dcadcbe036892fd0707d25f755f20b4a/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/1a224f945f297be3b06f11321bd03d4b528129a2/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/bfd2b30d550183fda41d77359b851ae633617067/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/49ff677d988470b0b755591c6983e3929ad77d48/output/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/058274e28d45592eab14682c1526a172cfbb2bbc/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/4f25ff6ce6f97a35c56b261344f9e0140bf8f851/output/AndroidManifest.xml:20:5-44
-MERGED from [com.mikepenz:iconics-core:2.8.2] /Users/YousiffAbdulreheim/.android/build-cache/864cf01e3a8e3bdaad43a3b4d1703b0bc0d11a74/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:google-material-typeface:3.0.1.0.original] /Users/YousiffAbdulreheim/.android/build-cache/4cf9a511c267d096d99f33fc07ac18dbd1f17bba/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.2] /Users/YousiffAbdulreheim/.android/build-cache/636d992c42eb6672d1430960aada05db68e6174e/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:fontawesome-typeface:4.7.0.0] /Users/YousiffAbdulreheim/.android/build-cache/763c300b5e4a148f9d57d2ea378be455a835213a/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:octicons-typeface:3.2.0.2] /Users/YousiffAbdulreheim/.android/build-cache/194c0d1920b394650c2d7f1097e5d9090b66e149/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:meteocons-typeface:1.1.0.2] /Users/YousiffAbdulreheim/.android/build-cache/50262015d8e3eadceab0b2224e8709b19a0c6e19/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:community-material-typeface:1.8.36.1] /Users/YousiffAbdulreheim/.android/build-cache/4ca972b3d5666c5bddfa779b44966394e2de77c7/output/AndroidManifest.xml:24:5-26:41
-MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.2] /Users/YousiffAbdulreheim/.android/build-cache/5641519adf4c058704e92db9d5fece1f74161a17/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:typeicons-typeface:2.0.7.2] /Users/YousiffAbdulreheim/.android/build-cache/02e1259b6cab3972285fbcce60abd2b686a86b7b/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:entypo-typeface:1.0.0.2] /Users/YousiffAbdulreheim/.android/build-cache/7f59b5cc0bdfa9f49575741272a3111edb887c45/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:devicon-typeface:2.0.0.2] /Users/YousiffAbdulreheim/.android/build-cache/c33e3afd53ecade312917402891d00b8d99c5d3c/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.2] /Users/YousiffAbdulreheim/.android/build-cache/ff0240f8c6f1b4a4ed850492d7d59e7267ccfb8f/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:ionicons-typeface:2.0.1.2] /Users/YousiffAbdulreheim/.android/build-cache/38b4ec0cf03391258965a146a1abc34faea804b1/output/AndroidManifest.xml:23:5-25:41
-MERGED from [com.nightonke:boommenu:2.0.7] /Users/YousiffAbdulreheim/.android/build-cache/391320923cff622c43ddb0fb134d0d202d8c8a21/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.volley:volley:1.0.0] /Users/YousiffAbdulreheim/.android/build-cache/69279ecf63bc598de0d2d5cda72959c1905287fc/output/AndroidManifest.xml:7:5-43
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/b7479ce04138cbfa456840a553d51bdf88bed1bf/output/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/2aa408f9a8fe81a3f0fbce8e4fcf9a6d2e7f64e4/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/ed0b14703a66f71a7f8737cc89b144ade2f4b887/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/5d48a6920d4665f863352c2f849bb1783b07647e/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/334eaa1eeadced5b8b0727e9d74b8b2d00091e31/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/4213c5c8fc0e4811f80aa489cc7f81dbda50ad52/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/293b16809663a0c19099bdf75e035a188da3c8e0/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/d22532b3b33b1947f7772fc152321d145e392b86/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/6d6db198770ac52dfc7296d8598b5466eea0b859/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/10938dd0ce0823de618d00ed3bcb96d8746c3c2f/output/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] /Users/Macbook/.android/build-cache/1cc760cdf036922fa04acd3be9ec1352e75c3f7a/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] /Users/Macbook/.android/build-cache/7682022881c422653851cb7f61a5f369fc4282a5/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/Macbook/.android/build-cache/303bc88edc53bc3e43974134acc648bbd29dd121/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/Macbook/.android/build-cache/c69b6ee97683681c4464d8f6e80a725a1aa01bac/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/Macbook/.android/build-cache/60266364be5e87315b88f88fc164dc705ce59110/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/Macbook/.android/build-cache/ef5c1ca94f41aa5ca16a7653435f28c6bdf0a754/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /Users/Macbook/.android/build-cache/3e6a27b895c56077ed6cd585bcd06e8ab8999c81/output/AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:iconics-core:2.8.2] /Users/Macbook/.android/build-cache/b0c5943889b3f28ba542482aaab358dc55064ac2/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:google-material-typeface:3.0.1.0.original] /Users/Macbook/.android/build-cache/129212ef08f97a26129c6dc34ad5b0be619cc121/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.2] /Users/Macbook/.android/build-cache/13f69f6bdfac2c42081e136b6253059e5fe65dcd/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:fontawesome-typeface:4.7.0.0] /Users/Macbook/.android/build-cache/ed8b0aaf868afd314fcf7febb24680b66910f588/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:octicons-typeface:3.2.0.2] /Users/Macbook/.android/build-cache/0dc45edd60e642e1cf3731e91f151faec906470b/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:meteocons-typeface:1.1.0.2] /Users/Macbook/.android/build-cache/e3b49f52ba0b26fc04a2409b36e47540b93387ac/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:community-material-typeface:1.8.36.1] /Users/Macbook/.android/build-cache/5862ff97afe2c2c0b5d22f08182b4abb2056082e/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.2] /Users/Macbook/.android/build-cache/4ab80ddec5b20346c56bd085052ae18f71ef9a5e/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:typeicons-typeface:2.0.7.2] /Users/Macbook/.android/build-cache/014857c3aa9e6fe7309fd3a52f8fc3651f82f1a1/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:entypo-typeface:1.0.0.2] /Users/Macbook/.android/build-cache/e0ec6f284db591ba8f56f0d4f7fcad8772dc95ad/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:devicon-typeface:2.0.0.2] /Users/Macbook/.android/build-cache/537f67444eac74622723334b71021262930bdfa2/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.2] /Users/Macbook/.android/build-cache/8c6a87f01dd1f32f8bc898951385af6e0645fa8d/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:ionicons-typeface:2.0.1.2] /Users/Macbook/.android/build-cache/dfdacdafcac25dea38dd7a84195c4bfe9dc4eac6/output/AndroidManifest.xml:23:5-25:41
+MERGED from [com.nightonke:boommenu:2.0.7] /Users/Macbook/.android/build-cache/9e7eed4fb9d9f82b06eddf95ca576696203db7b4/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.0.0] /Users/Macbook/.android/build-cache/2cab0433997cdba681b950e39c490b96c5b9c6f4/output/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Macbook/.android/build-cache/c6eee12fb1e0450bda4e1cbc0a671e6e5fd25524/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Macbook/.android/build-cache/e99026d792e28dcf9e5e0824b0d9f71f16e6ad8c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Macbook/.android/build-cache/57897afd90d49c1a2bbff4b9d91f56a46eca954c/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Macbook/.android/build-cache/a02d0bf9fafc0ec3e491477735614ece82963c9b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /Users/Macbook/.android/build-cache/48970bd7b2bfb0031a817c82f37ea76e90599834/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/Macbook/.android/build-cache/7d1409c5bff6f622ce31bf3a5ede560c9407ddf1/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/Macbook/.android/build-cache/c0d632a3f068a614c2d14205de633fe2002ef046/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/Macbook/.android/build-cache/72c5fce262620fd7535001d2d4a1165144da8de2/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/Macbook/.android/build-cache/2500e6f1224651af39ef674d1529d603b095162e/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/Macbook/.android/build-cache/19a50949520201dc4d312ecc94e560666893629e/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] /Users/YousiffAbdulreheim/.android/build-cache/2da66e24dcadcbe036892fd0707d25f755f20b4a/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] /Users/Macbook/.android/build-cache/7682022881c422653851cb7f61a5f369fc4282a5/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/YousiffAbdulreheim/Downloads/drive-download-20170322T130746Z-001/Day6/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Macbook/Desktop/android/bbadmin/app/src/main/AndroidManifest.xml
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/b7479ce04138cbfa456840a553d51bdf88bed1bf/output/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Macbook/.android/build-cache/c6eee12fb1e0450bda4e1cbc0a671e6e5fd25524/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/b7479ce04138cbfa456840a553d51bdf88bed1bf/output/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Macbook/.android/build-cache/c6eee12fb1e0450bda4e1cbc0a671e6e5fd25524/output/AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/b7479ce04138cbfa456840a553d51bdf88bed1bf/output/AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Macbook/.android/build-cache/c6eee12fb1e0450bda4e1cbc0a671e6e5fd25524/output/AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/2aa408f9a8fe81a3f0fbce8e4fcf9a6d2e7f64e4/output/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/Macbook/.android/build-cache/e99026d792e28dcf9e5e0824b0d9f71f16e6ad8c/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/2aa408f9a8fe81a3f0fbce8e4fcf9a6d2e7f64e4/output/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/Macbook/.android/build-cache/e99026d792e28dcf9e5e0824b0d9f71f16e6ad8c/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/2aa408f9a8fe81a3f0fbce8e4fcf9a6d2e7f64e4/output/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/Macbook/.android/build-cache/e99026d792e28dcf9e5e0824b0d9f71f16e6ad8c/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/2aa408f9a8fe81a3f0fbce8e4fcf9a6d2e7f64e4/output/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/Macbook/.android/build-cache/e99026d792e28dcf9e5e0824b0d9f71f16e6ad8c/output/AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/5d48a6920d4665f863352c2f849bb1783b07647e/output/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Macbook/.android/build-cache/a02d0bf9fafc0ec3e491477735614ece82963c9b/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/5d48a6920d4665f863352c2f849bb1783b07647e/output/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Macbook/.android/build-cache/a02d0bf9fafc0ec3e491477735614ece82963c9b/output/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/YousiffAbdulreheim/.android/build-cache/5d48a6920d4665f863352c2f849bb1783b07647e/output/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Macbook/.android/build-cache/a02d0bf9fafc0ec3e491477735614ece82963c9b/output/AndroidManifest.xml:20:20-65
