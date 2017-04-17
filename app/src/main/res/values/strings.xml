@@ -107,6 +107,7 @@
     <string name="SendNotification_title">Send Notification</string>
     <string name="Male">Male</string>
     <string name="Female">Female</string>
+    <string name="Birthdate">Birthdate</string>
     <string name="Next_button">Next</string>
     <string name="Date">Date</string>
     <string name="Toast_AddDonor_Successfully">Add Donor Successfully!</string>

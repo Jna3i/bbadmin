@@ -1,5 +1,6 @@
 package com.pifss.bbadmin;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +8,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -22,6 +25,7 @@ import com.google.gson.Gson;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 public class AddOnsiteDonor extends AppCompatActivity {
 
@@ -63,6 +67,21 @@ public class AddOnsiteDonor extends AppCompatActivity {
          final TextView txtcivilId = (TextView) findViewById(R.id.txtCivilID);
          final TextView txtphone = (TextView) findViewById(R.id.txtPhone);
          final TextView txtEmail = (TextView) findViewById(R.id.txtEmail);
+
+            final Button btnShowCal = (Button) findViewById(R.id.btnShowCal);
+            btnShowCal.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    DatePickerDialog d=new DatePickerDialog(AddOnsiteDonor.this, R.style.DialogTheme, new DatePickerDialog.OnDateSetListener() {
+                        @Override
+                        public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                            btnShowCal.setText(year+"-"+(month+1)+"-"+dayOfMonth);
+                        }
+                    },2017,1,1);
+
+                    d.show();
+                }
+            });
 
             final RadioButton radMale = (RadioButton) findViewById(R.id.radMale);
             final RadioButton radFemale = (RadioButton) findViewById(R.id.radFemale);
@@ -274,7 +293,7 @@ public class AddOnsiteDonor extends AppCompatActivity {
                 final JSONObject onsiteJson = new JSONObject();
                 try {
                     //onsiteJson.put("bloodType", "B-");
-                    onsiteJson.put("birthDate", "1900-00-00");
+                    onsiteJson.put("birthDate", btnShowCal.getText().toString());
                     onsiteJson.put("name", txtname.getText().toString());
                     onsiteJson.put("civilId", txtcivilId.getText().toString());
                     onsiteJson.put("phone", txtphone.getText().toString());

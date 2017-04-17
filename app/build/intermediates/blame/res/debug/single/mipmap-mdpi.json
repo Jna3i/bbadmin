@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/Macbook/Desktop/android/bbadmin/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/Macbook/Desktop/android/bbadmin/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
-        "source": "/Users/Macbook/Desktop/android/bbadmin/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Macbook\\Desktop\\android\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Macbook\\Desktop\\android\\bbadmin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Macbook\\Desktop\\android\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Macbook\\Desktop\\android\\bbadmin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

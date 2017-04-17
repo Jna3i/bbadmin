@@ -998,6 +998,7 @@
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="AddCampaign_title">Add Campaign</string>
     <string name="AddDonor_title">Add Donor</string>
+    <string name="Birthdate">Birthdate</string>
     <string name="Date">Date</string>
     <string name="EditProfile_Branch_Name">Branch Name</string>
     <string name="EditProfile_Choose_Date_of_Birth">Choose a Date</string>
@@ -1017,6 +1018,10 @@
     <string name="Next_button">Next</string>
     <string name="SendNotification_title">Send Notification</string>
     <string name="Toast_AddDonor_Successfully">Add Donor Successfully!</string>
+    <string name="Toast_AddOnSiteDonor">Add OnSite Donor</string>
+    <string name="Toast_Add_Successfully_ID">Add Donor  Successfuly! id =</string>
+    <string name="Toast_Camp_Added">Campaign Added Successfuly!</string>
+    <string name="Toast_welcome">Welcome</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
