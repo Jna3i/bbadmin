@@ -290,6 +290,39 @@ public class AddOnsiteDonor extends AppCompatActivity {
                 String url = "http://34.196.107.188:8080/mHealthWS/ws/onsitedonor";
                 final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(AddOnsiteDonor.this);
 
+                String name = txtname.getText().toString().trim();
+                String civilID = txtcivilId.getText().toString().trim();
+                String phone = txtphone.getText().toString().trim();
+                String email = txtEmail.getText().toString().trim();
+              //  String gender = txt.getText().toString().trim();
+//                String bloodtype = txt.getText().toString().trim();
+
+                if (name.isEmpty() || name.length() == 0 || name.equals("") || name == null) {
+                    Toast.makeText(AddOnsiteDonor.this, getString(R.string.Enter)+" "+getString(R.string.one_cell_period_info_fnameLname), Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                if (civilID.isEmpty() || civilID.length() == 0 || civilID.equals("") || civilID == null) {
+                    Toast.makeText(AddOnsiteDonor.this, getString(R.string.Enter)+" "+getString((R.string.view_ID)), Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                if (phone.isEmpty() || phone.length() == 0 || phone.equals("") || phone == null) {
+                    Toast.makeText(AddOnsiteDonor.this, getString(R.string.Enter)+" "+ getString((R.string.view_Phone)), Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                if (email.isEmpty() || email.length() == 0 || email.equals("") || email == null) {
+                    Toast.makeText(AddOnsiteDonor.this,getString(R.string.Enter)+" "+ getString((R.string.view_Email)), Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+//                if (gender.isEmpty() || gender.length() == 0 || gender.equals("") || gender == null) {
+//                    return;
+//                }
+//                if (bloodtype.isEmpty() || bloodtype.length() == 0 || bloodtype.equals("") || bloodtype == null) {
+//                    return;
+//                }
                 final JSONObject onsiteJson = new JSONObject();
                 try {
                     //onsiteJson.put("bloodType", "B-");
