@@ -68,7 +68,7 @@ public class AddOnsiteDonor extends AppCompatActivity {
          final TextView txtphone = (TextView) findViewById(R.id.txtPhone);
          final TextView txtEmail = (TextView) findViewById(R.id.txtEmail);
 
-            final Button btnShowCal = (Button) findViewById(R.id.btnShowCal);
+            final TextView btnShowCal = (TextView) findViewById(R.id.btnShowCal);
             btnShowCal.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
