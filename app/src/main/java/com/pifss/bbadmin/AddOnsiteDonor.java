@@ -294,38 +294,30 @@ public class AddOnsiteDonor extends AppCompatActivity {
                 String civilID = txtcivilId.getText().toString().trim();
                 String phone = txtphone.getText().toString().trim();
                 String email = txtEmail.getText().toString().trim();
-              //  String gender = txt.getText().toString().trim();
-//                String bloodtype = txt.getText().toString().trim();
 
-                if (name.isEmpty() || name.length() == 0 || name.equals("") || name == null) {
+                if (name == null || name.length() == 0 ) {
                     Toast.makeText(AddOnsiteDonor.this, getString(R.string.Enter)+" "+getString(R.string.one_cell_period_info_fnameLname), Toast.LENGTH_LONG).show();
 
                     return;
                 }
-                if (civilID.isEmpty() || civilID.length() == 0 || civilID.equals("") || civilID == null) {
-                    Toast.makeText(AddOnsiteDonor.this, getString(R.string.Enter)+" "+getString((R.string.view_ID)), Toast.LENGTH_LONG).show();
-
+                if (civilID == null || civilID.length() != 12 || !civilID.matches("[0-9]+")) {
+                    Toast.makeText(AddOnsiteDonor.this, "Invalid Civil ID", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if (phone.isEmpty() || phone.length() == 0 || phone.equals("") || phone == null) {
-                    Toast.makeText(AddOnsiteDonor.this, getString(R.string.Enter)+" "+ getString((R.string.view_Phone)), Toast.LENGTH_LONG).show();
-
+                if (phone == null || phone.length() != 8 || !phone.matches("[0-9]+")) {
+                    Toast.makeText(AddOnsiteDonor.this, "Invalid Phone Number", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if (email.isEmpty() || email.length() == 0 || email.equals("") || email == null) {
-                    Toast.makeText(AddOnsiteDonor.this,getString(R.string.Enter)+" "+ getString((R.string.view_Email)), Toast.LENGTH_LONG).show();
 
+                String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+                if (email == null || email.length() == 0 ||!email.matches(emailPattern) ) {
+                    Toast.makeText(AddOnsiteDonor.this, "Invalid Email Address", Toast.LENGTH_SHORT).show();
                     return;
                 }
-//                if (gender.isEmpty() || gender.length() == 0 || gender.equals("") || gender == null) {
-//                    return;
-//                }
-//                if (bloodtype.isEmpty() || bloodtype.length() == 0 || bloodtype.equals("") || bloodtype == null) {
-//                    return;
-//                }
+
                 final JSONObject onsiteJson = new JSONObject();
                 try {
-                    //onsiteJson.put("bloodType", "B-");
+
                     onsiteJson.put("birthDate", btnShowCal.getText().toString());
                     onsiteJson.put("name", txtname.getText().toString());
                     onsiteJson.put("civilId", txtcivilId.getText().toString());
@@ -341,8 +333,11 @@ public class AddOnsiteDonor extends AppCompatActivity {
                         radMale.setChecked(false);
                     }
                     else{
-                        onsiteJson.put("gender", "M");
+                        Toast.makeText(AddOnsiteDonor.this, "Please Select a Gender", Toast.LENGTH_SHORT).show();
+                        return;
                     }
+
+
 
 
 
@@ -375,6 +370,8 @@ public class AddOnsiteDonor extends AppCompatActivity {
 
 
 
+
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -389,7 +386,6 @@ public class AddOnsiteDonor extends AppCompatActivity {
 
                         Intent i = new Intent(AddOnsiteDonor.this, AddOnsiteDonor2.class);
                         i.putExtra("id", onsiteDonorInfo.getId());
-                       // Toast.makeText(AddOnsiteDonor.this,getString((R.string.Toast_Add_Successfully_ID)) +onsiteDonorInfo.getId(), Toast.LENGTH_LONG).show();
                         startActivity(i);
 
 
@@ -409,14 +405,12 @@ public class AddOnsiteDonor extends AppCompatActivity {
                 queue.add(request);
 
 
-//                String urlFS = "http://34.196.107.188:8080/mHealthWS/ws/schedule/freeslots/1";
-//                final RequestQueue queueFS= NetworkRequest.getInstance().getRequestQueue(AddOnsiteDonor.this);
-              //  JsonObjectRequest
 
 
     }
 });
 
+            img_aMinus.callOnClick();
     }
 }
 
