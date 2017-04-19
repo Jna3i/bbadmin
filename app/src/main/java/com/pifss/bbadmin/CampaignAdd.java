@@ -152,27 +152,27 @@ public class CampaignAdd extends AppCompatActivity {
                 String dateTo = txtDateTo.getText().toString().trim();
                 String dateFrom = txtDateFrom.getText().toString().trim();
 
-                if (name.isEmpty() || name.length() == 0 || name.equals("") || name == null) {
+                if (name == null || name.length() == 0) {
                     Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.edit_campaignName) , Toast.LENGTH_LONG).show();
 
                     return;
                 }
-                if (descrition.isEmpty() || descrition.length() == 0 || descrition.equals("") || descrition == null) {
+                if (descrition == null || descrition.length() == 0) {
                     Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.description) , Toast.LENGTH_LONG).show();
 
                     return;
                 }
-                if (location.isEmpty() || location.length() == 0 || location.equals("") || location == null) {
+                if (location == null || location.length() == 0) {
                     Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.edit_Location) , Toast.LENGTH_LONG).show();
 
                     return;
                 }
-                if (dateTo.isEmpty() || dateTo.length() == 0 || dateTo.equals("") || dateTo == null) {
+                if (dateTo == null || dateTo.length() == 0 ) {
                     Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.edit_Date) , Toast.LENGTH_LONG).show();
 
                     return;
                 }
-                if (dateFrom.isEmpty() || dateFrom.length() == 0 || dateFrom.equals("") || dateFrom == null) {
+                if (dateFrom == null || dateFrom.length() == 0) {
                     Toast.makeText(CampaignAdd.this, getString(R.string.Enter)+" " + getString(R.string.edit_Date) , Toast.LENGTH_LONG).show();
 
                     return;

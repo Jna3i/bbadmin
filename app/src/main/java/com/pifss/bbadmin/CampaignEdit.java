@@ -149,39 +149,73 @@ public class CampaignEdit extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                String name = txtCampName.getText().toString().trim();
+                String descrition = txtDescription.getText().toString().trim();
+                String location = txtLocation.getText().toString().trim();
+                String dateTo = txtDateTo.getText().toString().trim();
+                String dateFrom = txtDateFrom.getText().toString().trim();
 
-                String url="http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/"+campaign.getCFDId();
-                final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(CampaignEdit.this);
+                if (name == null || name.length() == 0) {
+                    Toast.makeText(CampaignEdit.this, getString(R.string.Enter)+" " + getString(R.string.edit_campaignName) , Toast.LENGTH_LONG).show();
 
-                JSONObject campaignJson=new JSONObject();
-                try {
-                    campaignJson.put("CFDId", campaign.getCFDId() );
-                    campaignJson.put("LLat", llat);
-                    campaignJson.put("LLong", llong);
-                    campaignJson.put("bloodTypes", txtDescription.getText().toString());
-                    campaignJson.put("enddate", txtDateTo.getText().toString());
-                    campaignJson.put("locationName", txtLocation.getText().toString());
-                    campaignJson.put("name", txtCampName.getText().toString());
-                    campaignJson.put("startdate", txtDateFrom.getText().toString());
-                    campaignJson.put("status",campaign.getStatus());
-                } catch (JSONException e) {
-                    e.printStackTrace();
+                    return;
                 }
+                if (descrition == null || descrition.length() == 0) {
+                    Toast.makeText(CampaignEdit.this, getString(R.string.Enter)+" " + getString(R.string.description) , Toast.LENGTH_LONG).show();
 
-                JsonObjectRequest request=new JsonObjectRequest(Request.Method.PUT, url, campaignJson, new Response.Listener<JSONObject>() {
-                    @Override
-                    public void onResponse(JSONObject response) {
-                        finish();
+                    return;
+                }
+                if (location == null || location.length() == 0) {
+                    Toast.makeText(CampaignEdit.this, getString(R.string.Enter)+" " + getString(R.string.edit_Location) , Toast.LENGTH_LONG).show();
 
+                    return;
+                }
+                if (dateTo == null || dateTo.length() == 0 ) {
+                    Toast.makeText(CampaignEdit.this, getString(R.string.Enter)+" " + getString(R.string.edit_Date) , Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                if (dateFrom == null || dateFrom.length() == 0) {
+                    Toast.makeText(CampaignEdit.this, getString(R.string.Enter)+" " + getString(R.string.edit_Date) , Toast.LENGTH_LONG).show();
+
+                    return;
+                }
+                else {
+
+
+                    String url = "http://34.196.107.188:8081/MhealthWeb/webresources/callfordonation/" + campaign.getCFDId();
+                    final RequestQueue queue = NetworkRequest.getInstance().getRequestQueue(CampaignEdit.this);
+
+                    JSONObject campaignJson = new JSONObject();
+                    try {
+                        campaignJson.put("CFDId", campaign.getCFDId());
+                        campaignJson.put("LLat", llat);
+                        campaignJson.put("LLong", llong);
+                        campaignJson.put("bloodTypes", txtDescription.getText().toString());
+                        campaignJson.put("enddate", txtDateTo.getText().toString());
+                        campaignJson.put("locationName", txtLocation.getText().toString());
+                        campaignJson.put("name", txtCampName.getText().toString());
+                        campaignJson.put("startdate", txtDateFrom.getText().toString());
+                        campaignJson.put("status", campaign.getStatus());
+                    } catch (JSONException e) {
+                        e.printStackTrace();
                     }
-                }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(CampaignEdit.this,"error",Toast.LENGTH_LONG).show();
-                    }
-                });
 
-                queue.add(request);
+                    JsonObjectRequest request = new JsonObjectRequest(Request.Method.PUT, url, campaignJson, new Response.Listener<JSONObject>() {
+                        @Override
+                        public void onResponse(JSONObject response) {
+                            finish();
+
+                        }
+                    }, new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            Toast.makeText(CampaignEdit.this, "error", Toast.LENGTH_LONG).show();
+                        }
+                    });
+
+                    queue.add(request);
+                }
 
             }
         });
