@@ -6,8 +6,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.StringRequest;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.pifss.bbadmin.Links;
+import com.pifss.bbadmin.NetworkRequest;
 import com.pifss.bbadmin.R;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -46,13 +60,36 @@ public class bloodRequestsListAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         View view = layoutInflater.inflate(R.layout.blood_request_item,null);
-        TextView tvDocId = (TextView) view.findViewById(R.id.blood_request_item_Doctor_ID);
+        final TextView tvDocId = (TextView) view.findViewById(R.id.blood_request_item_Doctor_ID);
         TextView tvtime = (TextView) view.findViewById(R.id.TimeStamp);
         TextView tvBloodType = (TextView) view.findViewById(R.id.Blood_Request_Item_BloodType);
 
         DoctorsHandler doctorsHandler = model.get(position);
 
-        tvDocId.setText("" + doctorsHandler.getDrId());
+        String url = Links.DOCTOR + "/" + doctorsHandler.getDrId();
+
+        final RequestQueue queue= NetworkRequest.getInstance().getRequestQueue(context);
+
+        JsonObjectRequest stringRequest = new JsonObjectRequest(Request.Method.GET, url, new JSONObject(), new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                try {
+                    String name = response.getString("firstName") + " " + response.getString("middleName") + " " + response.getString("lastName");
+                    tvDocId.setText(name);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+            }
+        });
+
+        tvDocId.setText("");
+        queue.add(stringRequest);
+
         tvtime.setText(doctorsHandler.getTimestamp());
         tvBloodType.setText(doctorsHandler.getBloodType());
 
