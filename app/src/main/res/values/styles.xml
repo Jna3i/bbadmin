@@ -31,6 +31,13 @@
     </style>
 
 
+    <style name="NoLineColor" parent="TextAppearance.AppCompat">
+        //Bar Color False And True State
+        <item name="colorControlNormal">@color/colorTRANSPARENT</item>
+        <item name="colorControlActivated">@color/colorTRANSPARENT</item>
+    </style>
+
+
     <style name="CampInfoHint" parent="TextAppearance.AppCompat">
          //Bar Color False And True State
         <item name="colorControlNormal">@color/colorTRANSPARENT</item>

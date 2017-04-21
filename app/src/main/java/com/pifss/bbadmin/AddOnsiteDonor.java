@@ -311,9 +311,11 @@ public class AddOnsiteDonor extends AppCompatActivity {
 
                 String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
                 if (email == null || email.length() == 0 ||!email.matches(emailPattern) ) {
-                    Toast.makeText(AddOnsiteDonor.this, "Invalid Email Address", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddOnsiteDonor.this, "Invalid email", Toast.LENGTH_SHORT).show();
                     return;
                 }
+
+
 
                 final JSONObject onsiteJson = new JSONObject();
                 try {
@@ -389,7 +391,7 @@ public class AddOnsiteDonor extends AppCompatActivity {
                         startActivity(i);
 
 
-                        System.out.print(response);
+                      //  System.out.print(response);
                     }
                 }, new Response.ErrorListener() {
                     @Override

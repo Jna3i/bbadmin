@@ -49,7 +49,8 @@ public class Notification_Send extends AppCompatActivity {
         final RequestQueue requestQueue = NetworkRequest.getInstance().getRequestQueue(this);
         final String url ="http://34.196.107.188:8081/MhealthWeb/webresources/bbnotification/";
         Calendar calendar= Calendar.getInstance();
-        String dateformat = "yyyy-mm-dd";
+        calendar.add(Calendar.DATE,1);
+        String dateformat = "yyyy-MM-dd";
         SimpleDateFormat sdf = new SimpleDateFormat(dateformat);
         final String currentdate = sdf.format(calendar.getTime());
 
@@ -60,12 +61,12 @@ public class Notification_Send extends AppCompatActivity {
                 String title = etTitle.getText().toString().trim();
                 String description = etDescrip.getText().toString().trim();
 
-                if (title.isEmpty() || title.length() == 0 || title.equals("") || title == null) {
+                if (title == null || title.length() == 0) {
 
                     Toast.makeText(Notification_Send.this, getString(R.string.Enter) +" "+ getString(R.string.title), Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if (description.isEmpty() || description.length() == 0 || description.equals("") || description == null) {
+                if (description == null || description.length() == 0) {
 
                     Toast.makeText(Notification_Send.this, getString(R.string.Enter)+" "+ getString(R.string.description), Toast.LENGTH_SHORT).show();
                     return;
@@ -96,6 +97,7 @@ public class Notification_Send extends AppCompatActivity {
 
                 requestQueue.add(objectRequest);
 
+                Toast.makeText(Notification_Send.this, "Sent!", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });

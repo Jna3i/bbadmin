@@ -140,7 +140,7 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
 
         final int id = getIntent().getIntExtra("id",0);
 
-        System.out.print(id);
+
 
         final Spinner SpinnerDates = (Spinner) findViewById(R.id.spinnerDates);
         final Spinner SpinnerPeriods = (Spinner) findViewById(R.id.spinnerPeriods);
@@ -163,7 +163,7 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
                     onsiteSched.put("period", SpinnerPeriods.getSelectedItemPosition());
                     onsiteSched.put("day", SpinnerDates.getSelectedItem().toString()+"T00:00:00Z");
 
-                    Toast.makeText(AddOnsiteDonor2.this, ""+onsiteSched, Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(AddOnsiteDonor2.this, ""+onsiteSched, Toast.LENGTH_SHORT).show();
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -177,7 +177,7 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
                         //Toast.makeText(AddOnsiteDonor2.this, "Donor  Successfuly! id = " +onsiteDonorInfo.getId(), Toast.LENGTH_LONG).show();
 
 
-                        System.out.print(response);
+                       // System.out.print(response);
                     }
                 }, new Response.ErrorListener() {
                     @Override

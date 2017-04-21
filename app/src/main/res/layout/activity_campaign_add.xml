@@ -74,12 +74,12 @@
                 android:id="@+id/campAdd_txtDescriptionID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/add_Description"
                 android:drawableLeft="@mipmap/edit"
                 android:drawablePadding="10dp"
+                android:hint="@string/add_Description"
+                android:isScrollContainer="false"
                 android:lines="2"
-                android:scrollbars="vertical"
-                android:isScrollContainer="false"/>
+                android:scrollbars="vertical" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout

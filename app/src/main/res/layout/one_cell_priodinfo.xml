@@ -6,33 +6,20 @@
     android:weightSum="1"
     android:id="@+id/oneCellLayout">
 
-    <TextView
-        android:id="@+id/txtDonorType"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="61dp"
-        android:layout_marginTop="35dp"
-        android:text="@string/one_cell_period_info_type"
-        android:textSize="12sp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
 
-    <ImageView
-        android:id="@+id/imgGender"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginEnd="12dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:layout_alignTop="@+id/txtName"
-        android:layout_toStartOf="@+id/txtDonorType" />
 
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/linearLayout6">
     <ImageView
         android:id="@+id/imgBloodType"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginStart="26dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
         app:srcCompat="@mipmap/ic_launcher"
-        android:layout_alignTop="@+id/imgGender"
         android:layout_alignParentStart="true" />
 
     <TextView
@@ -40,7 +27,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/one_cell_period_info_fnameLname"
-        android:layout_alignBottom="@+id/txtDonorType"
-        android:layout_toEndOf="@+id/imgBloodType"
-        android:layout_marginStart="15dp" />
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"/>
+   </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgGender"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="0.13"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginBottom="25dp"
+        android:layout_alignBottom="@+id/linearLayout6"
+        android:layout_toStartOf="@+id/txtDonorType"
+        android:layout_marginEnd="13dp" />
+
+    <TextView
+        android:id="@+id/txtDonorType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/one_cell_period_info_type"
+        android:layout_alignTop="@+id/imgGender"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="8dp"/>
 </RelativeLayout>
