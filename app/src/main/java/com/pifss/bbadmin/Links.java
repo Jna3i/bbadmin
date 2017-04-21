@@ -30,4 +30,7 @@ public class Links {
     public static String BLOODREQUEST = BASE + "/bloodrequests/pending/";
 
     public static String BLOODREQUEST_SETSTATUS = BASE + "/bloodrequests/setstatus/";
+
+    public static String DOCTOR = BASE + "/doctor";
+
 }
