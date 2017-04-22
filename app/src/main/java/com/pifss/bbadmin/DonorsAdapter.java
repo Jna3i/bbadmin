@@ -54,7 +54,7 @@ public class DonorsAdapter extends BaseAdapter{
         v = inflater.inflate(R.layout.one_cell_priodinfo, null);
         TextView txtName = (TextView) v.findViewById(R.id.txtName);
         TextView txtType = (TextView) v.findViewById(R.id.txtDonorType);
-        ImageView imgGender = (ImageView) v.findViewById(R.id.imgGender);
+//        ImageView imgGender = (ImageView) v.findViewById(R.id.imgGender);
         ImageView imgBloodType = (ImageView) v.findViewById(R.id.imgBloodType);
 
 
@@ -86,11 +86,11 @@ public class DonorsAdapter extends BaseAdapter{
                 imgBloodType.setImageResource(R.mipmap.a_plus);
             }
 
-            if (donor.getGender().equalsIgnoreCase("F") || donor.getGender().equalsIgnoreCase("f")) {
-                imgGender.setImageResource(R.mipmap.ic_female);
-            } else if (donor.getGender().equalsIgnoreCase("M") || donor.getGender().equalsIgnoreCase("m")) {
-                imgGender.setImageResource(R.mipmap.ic_male);
-            }
+//            if (donor.getGender().equalsIgnoreCase("F") || donor.getGender().equalsIgnoreCase("f")) {
+//                imgGender.setImageResource(R.mipmap.ic_female);
+//            } else if (donor.getGender().equalsIgnoreCase("M") || donor.getGender().equalsIgnoreCase("m")) {
+//                imgGender.setImageResource(R.mipmap.ic_male);
+//            }
         }
         else{
             OnSiteDonor onsite = onSiteList.get(position%onSiteList.size());
@@ -124,12 +124,12 @@ public class DonorsAdapter extends BaseAdapter{
                    imgBloodType.setImageResource(R.mipmap.a_plus);
                }
 
-               if (onsite.getGender().equalsIgnoreCase("F") || onsite.getGender().equalsIgnoreCase("f")){
-                   imgGender.setImageResource(R.mipmap.ic_female);
-               }
-               else if (onsite.getGender().equalsIgnoreCase("M") || onsite.getGender().equalsIgnoreCase("m")){
-                   imgGender.setImageResource(R.mipmap.ic_male);
-               }
+//               if (onsite.getGender().equalsIgnoreCase("F") || onsite.getGender().equalsIgnoreCase("f")){
+//                   imgGender.setImageResource(R.mipmap.ic_female);
+//               }
+//               else if (onsite.getGender().equalsIgnoreCase("M") || onsite.getGender().equalsIgnoreCase("m")){
+//                   imgGender.setImageResource(R.mipmap.ic_male);
+//               }
         }
 
         final int position2 = position;

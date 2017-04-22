@@ -4,51 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pifss.bbadmin.PeriodInfo">
+    tools:context="com.pifss.bbadmin.PeriodInfo"
+   >
 
-
-    <TextView
-        android:id="@+id/txtPeriodName"
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/periodInfo_toolbarID"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="19dp"
-        android:text="@string/period_info" />
+        android:background="@color/colorRED"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
 
-    <ImageView
-        android:id="@+id/imgPeriod"
+
+    <RelativeLayout
+        android:id="@+id/linearTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_below="@+id/periodInfo_toolbarID"
         android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/txtPeriodName"
-        android:layout_marginStart="19dp"
-        app:srcCompat="@mipmap/ic_clock" />
-
-    <ImageView
-        android:id="@+id/imgTotal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="18dp"
-        app:srcCompat="@mipmap/ic_person"
-        android:layout_above="@+id/lstPeriodInfo"
-        android:layout_toStartOf="@+id/txtTotal" />
-
-    <TextView
-        android:id="@+id/txtTotal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0/5"
-        android:layout_alignTop="@+id/imgTotal"
+        android:background="@color/colorGREY"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="29dp" />
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/txtPeriodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/period_info"
+            android:drawableLeft="@mipmap/ic_clock"
+            android:drawablePadding="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorBLACK"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/5"
+            android:drawableLeft="@mipmap/ic_person"
+            android:drawablePadding="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorBLACK"
+            android:layout_below="@+id/txtPeriodName"
+            android:layout_alignStart="@+id/txtPeriodName" />
+    </RelativeLayout>
 
     <ListView
         android:id="@+id/lstPeriodInfo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/imgPeriod"
+        android:layout_below="@id/linearTitle"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="12dp" />
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="0dp"/>
+
 </RelativeLayout>

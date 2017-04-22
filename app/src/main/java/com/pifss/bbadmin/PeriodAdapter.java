@@ -157,7 +157,7 @@ public class PeriodAdapter extends BaseAdapter {
                 LinearLayout group2 = (LinearLayout) v.findViewById(R.id.group2);
                 LinearLayout group3 = (LinearLayout) v.findViewById(R.id.group3);
                 LinearLayout group4 = (LinearLayout) v.findViewById(R.id.group4);
-                LinearLayout group5 = (LinearLayout) v.findViewById(R.id .group5);
+                LinearLayout group5 = (LinearLayout) v.findViewById(R.id  .group5);
 
 
                 group1.setOnClickListener(new View.OnClickListener() {

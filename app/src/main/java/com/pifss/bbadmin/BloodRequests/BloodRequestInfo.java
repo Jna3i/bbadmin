@@ -43,22 +43,16 @@ public class BloodRequestInfo extends AppCompatActivity {
             }
         });
 
-        TextView tvdrid = (TextView) findViewById(R.id.docID);
-        TextView tvbloodtype = (TextView) findViewById(R.id.BloodType);
-        final TextView tvstatus = (TextView) findViewById(R.id.requeststatus);
-        TextView tvtime = (TextView) findViewById(R.id.TimeStamp);
-        TextView tvQuantity = (TextView) findViewById(R.id.Quantity);
-        TextView tvreason = (TextView) findViewById(R.id.Reason);
-        TextView tvreqid = (TextView) findViewById(R.id.requestsid);
+        TextView tvbloodtype = (TextView) findViewById(R.id.tvbloodtype);
+        TextView tvQuantity = (TextView) findViewById(R.id.tvQuantity);
+        TextView tvreason = (TextView) findViewById(R.id.tvreason);
+        TextView tvreqid = (TextView) findViewById(R.id.tvreqid);
 
         Button acceptbtn = (Button) findViewById(R.id.AcceptBtn);
         Button declinebtn = (Button) findViewById(R.id.DeclineBtn);
 
         final DoctorsHandler doctorsHandler = (DoctorsHandler) getIntent().getSerializableExtra("doctorhandler");
-        tvdrid.setText(""+ doctorsHandler.getDrId());
         tvbloodtype.setText(doctorsHandler.getBloodType());
-        tvstatus.setText(""+doctorsHandler.getStatus());
-        tvtime.setText(doctorsHandler.getTimestamp());
         tvQuantity.setText(""+doctorsHandler.getQuantity());
         tvreason.setText(doctorsHandler.getReason());
         int requestid = doctorsHandler.getRequestsId();

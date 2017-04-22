@@ -208,7 +208,7 @@ public class CampaignAdd extends AppCompatActivity {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(CampaignAdd.this, "NO, but added", Toast.LENGTH_LONG).show();
+                        Toast.makeText(CampaignAdd.this, (getString(R.string.Toast_Camp_Added)), Toast.LENGTH_LONG).show();
                         clearAll();
                         finish();
 

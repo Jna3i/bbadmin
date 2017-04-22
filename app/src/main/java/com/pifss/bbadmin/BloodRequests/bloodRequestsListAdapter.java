@@ -1,6 +1,7 @@
 package com.pifss.bbadmin.BloodRequests;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,8 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.pifss.bbadmin.AddOnsiteDonor;
+import com.pifss.bbadmin.AddOnsiteDonor2;
 import com.pifss.bbadmin.Links;
 import com.pifss.bbadmin.NetworkRequest;
 import com.pifss.bbadmin.R;
@@ -33,6 +36,7 @@ public class bloodRequestsListAdapter extends BaseAdapter {
 
     ArrayList<DoctorsHandler> model;
     Activity context;
+    String name;
     private final LayoutInflater layoutInflater;
 
     public bloodRequestsListAdapter(ArrayList<DoctorsHandler> model, Activity context) {
@@ -61,7 +65,6 @@ public class bloodRequestsListAdapter extends BaseAdapter {
 
         View view = layoutInflater.inflate(R.layout.blood_request_item,null);
         final TextView tvDocId = (TextView) view.findViewById(R.id.blood_request_item_Doctor_ID);
-        TextView tvtime = (TextView) view.findViewById(R.id.TimeStamp);
         TextView tvBloodType = (TextView) view.findViewById(R.id.Blood_Request_Item_BloodType);
 
         DoctorsHandler doctorsHandler = model.get(position);
@@ -74,8 +77,9 @@ public class bloodRequestsListAdapter extends BaseAdapter {
             @Override
             public void onResponse(JSONObject response) {
                 try {
-                    String name = response.getString("firstName") + " " + response.getString("middleName") + " " + response.getString("lastName");
-                    tvDocId.setText(name);
+                    name = response.getString("firstName") + " " + response.getString("middleName") + " " + response.getString("lastName");
+                    tvDocId.setText("Dr: "+ name);
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -87,12 +91,12 @@ public class bloodRequestsListAdapter extends BaseAdapter {
             }
         });
 
-        tvDocId.setText("");
         queue.add(stringRequest);
 
-        tvtime.setText(doctorsHandler.getTimestamp());
         tvBloodType.setText(doctorsHandler.getBloodType());
 
         return view;
     }
+
+
 }

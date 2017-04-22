@@ -52,6 +52,10 @@
         "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\calendar.png"
     },
     {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\reason.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\reason.png"
+    },
+    {
         "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\o_plus.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\o_plus.png"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_b.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_b.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\doctor.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\doctor.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_person.png",
@@ -90,6 +98,10 @@
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ab_minus.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\ab_minus.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\quantity.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\src\\main\\res\\mipmap-xhdpi\\quantity.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\bbadmin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\a_minus.png",

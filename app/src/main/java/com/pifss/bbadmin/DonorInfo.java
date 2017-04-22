@@ -44,7 +44,7 @@ public class DonorInfo extends AppCompatActivity {
 
         txtName.setText(Name);
         txtCivilID.setText(CivilID);
-        //txtGender.setText(Gender);
+        txtGender.setText(Gender);
         txtBloodType.setText(BloodType);
         txtPhone.setText(phone);
         txtEmail.setText(Email);

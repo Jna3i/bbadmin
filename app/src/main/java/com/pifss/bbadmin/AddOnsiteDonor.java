@@ -294,6 +294,7 @@ public class AddOnsiteDonor extends AppCompatActivity {
                 String civilID = txtcivilId.getText().toString().trim();
                 String phone = txtphone.getText().toString().trim();
                 String email = txtEmail.getText().toString().trim();
+                String birthdate = btnShowCal.getText().toString().trim();
 
                 if (name == null || name.length() == 0 ) {
                     Toast.makeText(AddOnsiteDonor.this, getString(R.string.Enter)+" "+getString(R.string.one_cell_period_info_fnameLname), Toast.LENGTH_LONG).show();
@@ -314,6 +315,13 @@ public class AddOnsiteDonor extends AppCompatActivity {
                     Toast.makeText(AddOnsiteDonor.this, "Invalid email", Toast.LENGTH_SHORT).show();
                     return;
                 }
+
+                if (birthdate == null || birthdate.length() == 0 ||!email.matches(emailPattern) ) {
+                    Toast.makeText(AddOnsiteDonor.this, "Select birthdate", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+
 
 
 
@@ -396,7 +404,7 @@ public class AddOnsiteDonor extends AppCompatActivity {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(AddOnsiteDonor.this, "NO, but added", Toast.LENGTH_LONG).show();
+                        Toast.makeText(AddOnsiteDonor.this, "added!", Toast.LENGTH_LONG).show();
 
 
 

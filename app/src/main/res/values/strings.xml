@@ -91,7 +91,7 @@
     <string name="period_info">Period #</string>
     <string name="splash_bloodbank">Blood Bank</string>
     <string name="one_cell_period_info_type">Type</string>
-    <string name="one_cell_period_info_fnameLname">First name Last name</string>
+    <string name="one_cell_period_info_fnameLname">Full Name</string>
 
     <string name="sched_period1">Period 1</string>
     <string name="sched_period2">Period 2</string>

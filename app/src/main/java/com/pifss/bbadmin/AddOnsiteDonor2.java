@@ -1,6 +1,7 @@
 package com.pifss.bbadmin;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
@@ -173,18 +174,18 @@ public class AddOnsiteDonor2 extends AppCompatActivity {
                 JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, url, onsiteSched, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        // Toast.makeText(AddOnsiteDonor2.this, "Donor Added Successfuly!", Toast.LENGTH_LONG).show();
-                        //Toast.makeText(AddOnsiteDonor2.this, "Donor  Successfuly! id = " +onsiteDonorInfo.getId(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(AddOnsiteDonor2.this, "Added!", Toast.LENGTH_LONG).show();
+                        finish();
 
-
-                       // System.out.print(response);
                     }
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        //Toast.makeText(AddOnsiteDonor2.this, "NO, but added", Toast.LENGTH_LONG).show();
 
+                        Toast.makeText(AddOnsiteDonor2.this, "Added!", Toast.LENGTH_LONG).show();
 
+                        Intent intent = new Intent(AddOnsiteDonor2.this, MainDrawer .class);
+                        startActivity(intent);
                     }
 
 
